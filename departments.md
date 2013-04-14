@@ -26,7 +26,7 @@ Currently the Coding Department is made up of:
  * Timothy J Fontaine (tjfontaine)
  * Luca Filipozzi (luca)
 
-Others from staff are known to contribute from time to time as well. If you're interested in contributing patches to our code bases please be sure to familiarize yourself with our [CodingStyle](CodingStyle), visit [Subversion](Subversion), and [CodingProjects](CodingProjects).
+Others from staff are known to contribute from time to time as well. If you're interested in contributing patches to our code bases please be sure to familiarize yourself with our [CodingStyle](/CodingStyle), visit [Subversion](/Subversion), and [CodingProjects](/CodingProjects).
 
 ## Documentation in the works ##
 
@@ -34,9 +34,9 @@ This is preminilary documentation, considered to be unstable.
 
 When its stable, we will link it from a more user-prominent place, bear with us!
 
- * [UserModes](UserModes)
- * [ChannelModes](ChannelModes)
- * [NickServ](NickServ)
- * [ChanServ](ChanServ)
- * [GroupServ](GroupServ)
+ * [UserModes](/UserModes)
+ * [ChannelModes](/ChannelModes)
+ * [NickServ](/NickServ)
+ * [ChanServ](/ChanServ)
+ * [GroupServ](/GroupServ)
 
