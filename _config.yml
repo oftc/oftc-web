@@ -2,3 +2,4 @@
 pygments: true
 exclude: published
 markdown: rdiscount
+permalink: pretty

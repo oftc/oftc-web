@@ -1,7 +1,6 @@
 ---
 layout: master
 title: WebChat
-permalink: WebChat
 ---
 ## WebChat ##
 
@@ -23,7 +22,7 @@ We provide a web interface for chatting on our network, it can be accessed via h
 
 [Here](webirc.pem) is the certificate used for `webirc` it is issued by startssl and should be accepted by most modern browsers.
 
-```text
+```
 -----BEGIN CERTIFICATE-----
 MIIHUzCCBjugAwIBAgIDCcShMA0GCSqGSIb3DQEBBQUAMIGMMQswCQYDVQQGEwJJ
 TDEWMBQGA1UEChMNU3RhcnRDb20gTHRkLjErMCkGA1UECxMiU2VjdXJlIERpZ2l0
