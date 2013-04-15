@@ -22,7 +22,7 @@ We provide a web interface for chatting on our network, it can be accessed via h
 
 [Here](webirc.pem) is the certificate used for `webirc` it is issued by startssl and should be accepted by most modern browsers.
 
-```
+{% highlight text %}
 -----BEGIN CERTIFICATE-----
 MIIHUzCCBjugAwIBAgIDCcShMA0GCSqGSIb3DQEBBQUAMIGMMQswCQYDVQQGEwJJ
 TDEWMBQGA1UEChMNU3RhcnRDb20gTHRkLjErMCkGA1UECxMiU2VjdXJlIERpZ2l0
@@ -65,7 +65,7 @@ VOal1bTh35L0fg5yvsfWv8nWuPkI7xBO5i/aDU2y8yBgzPiHw9p+1AGtEYtERAc1
 h2sKECVH08PCdFNe/NW2S6HxOh1TasZGRaqQbrKtE/XxrI+s0yHNkcuagkDSzEK2
 q7djVNwWlg==
 -----END CERTIFICATE-----
-```
+{% endhighlight %}
 
 ## Alternate Clients ##
 
