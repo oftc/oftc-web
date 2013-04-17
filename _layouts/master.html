@@ -6,21 +6,21 @@
     <title>OFTC - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <style>
+    <style type="text/css">
       body 
       {
         padding-top: 60px;
         padding-bottom: 40px;
       }
-      .sidebar-nav 
+      .navbar-inner
       {
-        padding: 9px 0;
       }
+
     </style>
   </head>
 
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -62,16 +62,12 @@
       </div>
     </div>
     <article>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="span4">
-          <div class="well sidebar-nav">
-            <li class="nav-header">
-              Connect to OFTC 
-            </li>
-          </div>
-        </div>
-        <div class="span8">
+    <div class="container">
+<!--      <div class="jumbotron">
+      <iframe src="http://webchat.oftc.net" width="640" height="400"></iframe>
+      </div>-->
+      <div class="row-fluid">
+       <div class="span12">
           {{ content }}
         </div>
       </div>
