@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -6,34 +6,14 @@
     <title>OFTC - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <style type="text/css">
-      body 
-      {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      .navbar-inner
-      {
-      }
-      .navbar-form input[type="text"]
-      {
-        padding-top: 2px; 
-        padding-bottom: 2px;
-      }
-      .navbar-form input { margin-top: 7px; }
-      .btn 
-      { 
-        padding-top: 2px;
-        padding-bottom: 2px;
-      }
-    </style>
+    <link href="/css/main.css" rel="stylesheet">
   </head>
 
   <body>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <form class="navbar-form pull-right" action="http://webchat.oftc.net" method="get" target="_blank">
+          <form class="navbar-form pull-right" action="//webchat.oftc.net" method="get" target="_blank">
             <input name="nick" type="text" data-toggle="tooltip" title="Enter your IRC nickname" class="span2" placeholder="Nickname">
             <input name="channels" type="text" data-toggle="tooltip" title="Enter comma seperated list of channels to join" class="span2" placeholder="#oftc, #moocows">
             <input type="hidden" name"uio" value="d4">

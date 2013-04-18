@@ -1,0 +1,41 @@
+﻿body
+{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.navbar-inner
+{
+}
+
+.navbar-form input[type="text"]
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.navbar-form input
+{
+    margin-top: 7px;
+}
+
+.btn
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h1
+{
+    font-size: 30px;
+}
+
+h2
+{
+    font-size: 24px;
+}
+
+h3
+{
+    font-size: 20px;
+}
