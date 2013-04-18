@@ -23,6 +23,6 @@ If you have support requests regarding the operation of the network please stop 
  * If you need to force IPv4, connect to [irc://irc4.oftc.net:6667](irc://irc4.oftc.net:6667)
  * *-- or alternatively --* connect using our [WebChat](WebChat) or use the boxes at the top of the page
 
-We support SSL on all of our servers.  The certificates are signed, indirectly, by SPI's certification authority.  You can get the root certificate at the SPI website under http://www.spi-inc.org/ca/spi-cacert.crt, and if you care you can verify it using [the pgp-signed fingerprints](http://www.spi-inc.org/ca/spi-cacert.fingerprint.txt). Alternatively, install a certificate collection (ca-certificates or similar names are common) that includes it.
+We support SSL on all of our servers.  The certificates are signed, indirectly, by SPI's certification authority.  You can get the root certificate at the SPI website under [http://www.spi-inc.org/ca/spi-cacert.crt](http://www.spi-inc.org/ca/spi-cacert.crt), and if you care you can verify it using [the pgp-signed fingerprints](http://www.spi-inc.org/ca/spi-cacert.fingerprint.txt). Alternatively, install a certificate collection (ca-certificates or similar names are common) that includes it.
 
 <div class='body'>{{ site.posts.first.content }}</div>

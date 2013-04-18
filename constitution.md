@@ -3,7 +3,7 @@ layout: master
 title: Constitution
 ---
 
-## Mission Statement 
+# Mission Statement 
 
 The [Open and Free Technology Community](/) (henceforth referred to as "[OFTC](/)" or "the Network") was founded at the end of 2001 by a group of experienced members of the Open Source and Free Software communities aiming to provide these communities with better communication, development, and support infrastructure. Our goal is to provide stable services to members of the community in any part of the world, while listening closely to their needs and desires.
 
