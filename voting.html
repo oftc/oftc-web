@@ -6,7 +6,7 @@ title: Voting
 <table id="members">
     <thead>
         <tr>
-            <th>Rank</th>
+            <th class='index'>Rank</th>
             <th>Name</th>
             <th>Nick</th>
             <th>Sponsor</th>
@@ -40,15 +40,26 @@ title: Voting
         row.append($("<td>").append($("<input>").attr(attr)));
     }
 
+    updateIndex = function(e, ui) {
+        $('td.index', ui.item.parent()).each(function (i) {
+            $(this).html(i + 1);
+        });
+    };
+
     $.each(voteMembers["members"], function(i, item)
     {
         var newRow = $("<tr>").appendTo("#members");
         
-        addCol(newRow, { type: "text", id: "rank", name: "rank" });
+        newRow.append($("<td class='index'>").append(i + 1));
         addCol(newRow, { type: "text", id: "name", name: "Name", value: item["Name"], readonly: true });
         addCol(newRow, { type: "text", id: "nick", name: "nick", value: item["Nick"], readonly: true });
-        addCol(newRow, { type: "checkbox", id: "sponsor", name: "sponsor", value: item["Sponsor"], readonly: true });
+        addCol(newRow, { type: "checkbox", id: "sponsor", name: "sponsor", value: item["Sponsor"], disabled: "disabled" });
         addCol(newRow, { type: "checkbox", id: "ombudsman", name: "ombudsman" });
         addCol(newRow, { type: "checkbox", id: "remove", name: "remove" });
+    });
+
+    $("#members tbody").sortable(
+    {
+        stop: updateIndex
     });
 </script>
