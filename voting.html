@@ -50,7 +50,7 @@ title: Voting
     {
         var newRow = $("<tr>").appendTo("#members");
         
-        newRow.append($("<td class='index'>").append(i + 1));
+        newRow.append($("<td class='index'>").append(i + 1)).append("<i class='handle icon-cog'>");
         addCol(newRow, { type: "text", id: "name", name: "Name", value: item["Name"], readonly: true });
         addCol(newRow, { type: "text", id: "nick", name: "nick", value: item["Nick"], readonly: true });
         addCol(newRow, { type: "checkbox", id: "sponsor", name: "sponsor", value: item["Sponsor"], disabled: "disabled" });
@@ -60,6 +60,7 @@ title: Voting
 
     $("#members tbody").sortable(
     {
+        handle: '.handle',
         stop: updateIndex
     });
 </script>
