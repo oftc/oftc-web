@@ -35,75 +35,20 @@ title: Voting
         ]
 	};
 
+    function addCol(row, attr)
+    {
+        row.append($("<td>").append($("<input>").attr(attr)));
+    }
+
     $.each(voteMembers["members"], function(i, item)
     {
         var newRow = $("<tr>").appendTo("#members");
         
-        newRow.append($("<td>")
-            .append($("<input>")
-                .attr(
-                {
-                    type: "text",
-                    id: "rank",
-                    name: "rank"
-                })
-            )
-        );
-        newRow.append($("<td>")
-            .append($("<input>")
-                .attr(
-                {
-                    type: "text",
-                    id: "name",
-                    name: "Name",
-                    value: item["Name"],
-                    readonly: true
-                })
-            )
-        );
-        newRow.append($("<td>")
-            .append($("<input>")
-                .attr(
-                {
-                    type: "text",
-                    id: "nick",
-                    name: "nick",
-                    value: item["Nick"],
-                    readonly: true
-                })
-            )
-        );
-        newRow.append($("<td>")
-            .append($("<input>")
-                .attr(
-                {
-                    type: "checkbox",
-                    id: "sponsor",
-                    name: "sponsor",
-                    value: item["Sponsor"],
-                    readonly: true
-                })
-            )
-        );
-        newRow.append($("<td>")
-            .append($("<input>")
-                .attr(
-                {
-                    type: "checkbox",
-                    id: "ombudsman",
-                    name: "ombudsman"
-                })
-            )
-        );
-        newRow.append($("<td>")
-            .append($("<input>")
-                .attr(
-                {
-                    type: "checkbox",
-                    id: "remove",
-                    name: "remove"
-                })
-            )
-        );
+        addCol(newRow, { type: "text", id: "rank", name: "rank" });
+        addCol(newRow, { type: "text", id: "name", name: "Name", value: item["Name"], readonly: true });
+        addCol(newRow, { type: "text", id: "nick", name: "nick", value: item["Nick"], readonly: true });
+        addCol(newRow, { type: "checkbox", id: "sponsor", name: "sponsor", value: item["Sponsor"], readonly: true });
+        addCol(newRow, { type: "checkbox", id: "ombudsman", name: "ombudsman" });
+        addCol(newRow, { type: "checkbox", id: "remove", name: "remove" });
     });
 </script>
