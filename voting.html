@@ -1,0 +1,109 @@
+---
+layout: master
+title: Voting
+---
+
+<table id="members">
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Nick</th>
+            <th>Sponsor</th>
+            <th>Obmusdman</th>
+            <th>Remove</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<script type="text/javascript">
+	var voteMembers =
+	{
+        "members":
+	    [
+            {
+                "Name": "Alexander Wirt",
+                "Nick": "formorer",
+                "Sponsor": false
+            },
+            {
+                "Name": "Stuart Walsh",
+                "Nick": "cryogen",
+                "Sponsor": false
+            }
+        ]
+	};
+
+    $.each(voteMembers["members"], function(i, item)
+    {
+        var newRow = $("<tr>").appendTo("#members");
+        
+        newRow.append($("<td>")
+            .append($("<input>")
+                .attr(
+                {
+                    type: "text",
+                    id: "rank",
+                    name: "rank"
+                })
+            )
+        );
+        newRow.append($("<td>")
+            .append($("<input>")
+                .attr(
+                {
+                    type: "text",
+                    id: "name",
+                    name: "Name",
+                    value: item["Name"],
+                    readonly: true
+                })
+            )
+        );
+        newRow.append($("<td>")
+            .append($("<input>")
+                .attr(
+                {
+                    type: "text",
+                    id: "nick",
+                    name: "nick",
+                    value: item["Nick"],
+                    readonly: true
+                })
+            )
+        );
+        newRow.append($("<td>")
+            .append($("<input>")
+                .attr(
+                {
+                    type: "checkbox",
+                    id: "sponsor",
+                    name: "sponsor",
+                    value: item["Sponsor"],
+                    readonly: true
+                })
+            )
+        );
+        newRow.append($("<td>")
+            .append($("<input>")
+                .attr(
+                {
+                    type: "checkbox",
+                    id: "ombudsman",
+                    name: "ombudsman"
+                })
+            )
+        );
+        newRow.append($("<td>")
+            .append($("<input>")
+                .attr(
+                {
+                    type: "checkbox",
+                    id: "remove",
+                    name: "remove"
+                })
+            )
+        );
+    });
+</script>
