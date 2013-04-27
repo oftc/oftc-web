@@ -7,6 +7,7 @@ title: Voting
     <thead>
         <tr>
             <th class='index'>Rank</th>
+            <th></th>
             <th>Name</th>
             <th>Nick</th>
             <th>Sponsor</th>
@@ -50,7 +51,10 @@ title: Voting
     {
         var newRow = $("<tr>").appendTo("#members");
         
-        newRow.append($("<td class='index'>").append(i + 1)).append("<i class='handle icon-cog'>");
+        var col = $("<td class='index'>").appendTo(newRow);
+        col.append(i + 1)
+        col = $("<td>").appendTo(newRow);
+        col.append("<i class='handle icon-cog'>");
         addCol(newRow, { type: "text", id: "name", name: "Name", value: item["Name"], readonly: true });
         addCol(newRow, { type: "text", id: "nick", name: "nick", value: item["Nick"], readonly: true });
         addCol(newRow, { type: "checkbox", id: "sponsor", name: "sponsor", value: item["Sponsor"], disabled: "disabled" });
