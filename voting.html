@@ -33,9 +33,11 @@ title: Voting
 var voteMembers = $.getJSON('/staff.json', function(data)
 {
     var index = 0;
-    $.each(data["staff"], function(i, item)
+    $.each(data["staff"], function(i, root)
     {
-        var newRow = $("<tr>").appendTo("#members");
+      $.each(root, function(j, item)
+      {
+        var newRow = $("<tr class='item'>").appendTo("#members");
         
         var col = $("<td class='index'>").appendTo(newRow);
         col.append(index + 1)
@@ -48,6 +50,7 @@ var voteMembers = $.getJSON('/staff.json', function(data)
         addCol(newRow, { type: "checkbox", id: "remove" + index, name: "remove" });
 
         index++;
+      });
     });
 });
 
@@ -70,20 +73,23 @@ $("#members tbody").sortable(
     stop: updateIndex
 });
 
-    $("#rawballot").click(function()
-    {
-        $.get('/ballot', function (tmpl) 
-        { 
-            var ballot = Hogan.compile(tmpl);
-            $.getJSON('/staff.json', function (staff) 
-            {
-                $('#overlay-content').html(ballot.render(staff));
-                $('#overlay').modal({keyboard: true});
-            })
-        });
+$("#rawballot").click(function()
+{
+    $.get('/ballot', function (tmpl) 
+    { 
+        var ballot = Hogan.compile(tmpl);
+        $.getJSON('/staff.json', function (staff) 
+        {
+            $('#overlay-content').html(ballot.render(staff));
+            $('#overlay').modal({keyboard: true});
+        })
     });
+});
 
-    $("#submit").click(function()
-    {
-    });
+$("#submit").click(function()
+{
+   $("tr.item").each(function()
+   {
+   });
+});
 </script>

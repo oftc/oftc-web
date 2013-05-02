@@ -1,137 +1,137 @@
 {
   "staff":
-  {
+  [{
     "formorer": 
     {
       "Name": "Alexander Wirt",
       "Nick": "formorer",
       "Sponsor": false
-    },
-    "andy":
+    }},
+    {"andy":
     {
       "Name": "Andre Guibert de Bruet",
       "Nick": "andy",
       "Sponsor": true
-    },
-    "bzed":
+    }},
+    {"bzed":
     {
       "Name": "Bernd Zeimetz",
       "Nick": "bzed",
       "Sponsor": false
-    },
-    "Myon":
+    }},
+    {"Myon":
     {
       "Name": "Chrisoph Berg",
       "Nick": "Myon",
       "Sponsor": false
-    },
-    "yang":
+    }},
+    {"yang":
     {
       "Name": "Jan Prunk",
       "Nick": "yang",
       "Sponsor": false
-    },
-    "Hydroxide":
+    }},
+    {"Hydroxide":
     {
       "Name": "Jimmy Kaplowitz",
       "Nick": "Hydroxide",
       "Sponsor": false
-    },
-    "Ganneff":
+    }},
+    {"Ganneff":
     {
       "Name": "Joerg Jaspert",
       "Nick": "Ganneff",
       "Sponsor": true
-    },
-    "mwalling":
+    }},
+    {"mwalling":
     {
       "Name": "Mark Walling",
       "Nick": "mwalling",
       "Sponsor": false
-    },
-    "zobel":
+    }},
+    {"zobel":
     {
       "Name": "Martin Zobel-Helas",
       "Nick": "zobel",
       "Sponsor": false
-    },
-    "Matt":
+    }},
+    {"Matt":
     {
       "Name": "Matt London",
       "Nick": "Matt",
       "Sponsor": false
-    },
-    "mikegrb":
+    }},
+    {"mikegrb":
     {
       "Name": "Michael Greb",
       "Nick": "mikegrb",
       "Sponsor": false
-    },
-    "Maulkin":
+    }},
+    {"Maulkin":
     {
       "Name": "Neil McGovern",
       "Nick": "Maulkin",
       "Sponsor": false
-    },
-    "RichiH":
+    }},
+    {"RichiH":
     {
       "Name": "Richard Hartmann",
       "Nick": "RichiH",
       "Sponsor": false
-    },
-    "mc":
+    }},
+    {"mc":
     {
       "Name": "Rico Gloeckner",
       "Nick": "mc",
       "Sponsor": true
-    },
-    "rik":
+    }},
+    {"rik":
     {
       "Name": "Rik Rose",
       "Nick": "rik",
       "Sponsor": false
-    },
-    "rnowak":
+    }},
+    {"rnowak":
     {
       "Name": "Robert A. Nowak",
       "Nick": "rnowak",
       "Sponsor": false
-    },
-    "scott":
+    }},
+    {"scott":
     {
       "Name": "Scott Bender",
       "Nick": "scott",
       "Sponsor": false
-    },
-    "wladek":
+    }},
+    {"wladek":
     {
       "Name": "Sean Glover",
       "Nick": "wladek",
       "Sponsor": false
-    },
-    "cryogen":
+    }},
+    {"cryogen":
     {
       "Name": "Stuart Walsh",
       "Nick": "cryogen",
       "Sponsor": false
-    },
-    "tjfontaine":
+    }},
+    {"tjfontaine":
     {
       "Name": "Timothy J. Fontaine",
       "Nick": "tjfontaine",
       "Sponsor": false
-    },
-    "tomaw":
+    }},
+    {"tomaw":
     {
       "Name": "Tom Wesley",
       "Nick": "tomaw",
       "Sponsor": false
-    },
-    "youam":
+    }},
+    {"youam":
     {
       "Name": "Uli Martens",
       "Nick": "youam",
       "Spondor": false
-    }
-  }
+    }}
+  ]
 }
