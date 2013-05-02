@@ -1,31 +1,36 @@
 {
 "staff":
-[
   {
-    "Name": "Alexander Wirt",
-    "Nick": "formorer",
-    "Sponsor": false
-  },
-  {
-    "Name": "Andre Guibert de Bruet",
-    "Nick": "andy",
-    "Sponsor": true
-  },
-  {
-    "Name": "Bernd Zeimetz",
-    "Nick": "bzed",
-    "Sponsor": false
-  },
-  {
-    "Name": "Chrisoph Berg",
-    "Nick": "Myon",
-    "Sponsor": false
-  },
-  {
-    "Name": "Jan Prunk",
-    "Nick": "yang",
-    "Sponsor": false
-  },
+    "formorer": 
+    {
+      "Name": "Alexander Wirt",
+      "Nick": "formorer",
+      "Sponsor": false
+    },
+    "andy":
+    {
+      "Name": "Andre Guibert de Bruet",
+      "Nick": "andy",
+      "Sponsor": true
+    },
+    "bzed":
+    {
+      "Name": "Bernd Zeimetz",
+      "Nick": "bzed",
+      "Sponsor": false
+    },
+    "Myon":
+    {
+      "Name": "Chrisoph Berg",
+      "Nick": "Myon",
+      "Sponsor": false
+    },
+    "yang":
+    {
+      "Name": "Jan Prunk",
+      "Nick": "yang",
+      "Sponsor": false
+    },
   {
     "Name": "Jimmy Kaplowitz",
     "Nick": "Hydroxide",
@@ -111,4 +116,4 @@
     "Nick": "youam",
     "Spondor": false
   }
-]}
+}
