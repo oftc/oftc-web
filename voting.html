@@ -2,7 +2,7 @@
 layout: master
 title: Voting
 ---
-
+<input type="button" class="btn" id="rawballot" value="Get Raw Ballot" />
 <table id="members">
     <thead>
         <tr>
@@ -20,6 +20,15 @@ title: Voting
 </table>
 
 <input type="button" class="btn" id="submit" value="Process" />
+
+<div id="overlay" class="modal hide fade" style='max-height: 550px;overflow-y: auto;width: 750px;margin-left: -375px;'>
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="myModalLabel">Your Ballot</h3>
+  </div>
+  <div id="overlay-content">
+  </div>
+</div>
 <script type="text/javascript">
 	var voteMembers = $.getJSON('/staff.json', function(data)
     {
@@ -54,6 +63,19 @@ title: Voting
     {
         handle: '.handle',
         stop: updateIndex
+    });
+
+    $("#rawballot").click(function()
+    {
+        $.get('/ballot', function (tmpl) 
+        { 
+            var ballot = Hogan.compile(tmpl);
+            $.getJSON('/staff.json', function (staff) 
+            {
+                $('#overlay-content').html(ballot.render(staff));
+                $('#overlay').modal({keyboard: true});
+            })
+        });
     });
 
     $("#submit").click(function()

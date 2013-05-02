@@ -1,6 +1,7 @@
 ---
 title: Ballot
 ---
+{% raw %}
 <pre>
 -=-=-=-=-=-=-=-=-=-=- Do not delete this line -=-=-=-=-=-=-=-=-=-=-
 Please return this ballot, GPG/PGP-signed, to
@@ -49,16 +50,16 @@ Please rank all staff from 1-22.
             <td>+-----------</td>
             <td>+--------</td>
         </tr>
-        {{#ranking}}
+        {{#staff}}
         <tr>
-            <td style='text-align: center;'>1{{rank}}</td>
-            <td>Stuart Walsh{{name}}</td>
-            <td>cryogen{{nick}}</td>
+            <td style='text-align: center;'>{{rank}}</td>
+            <td>{{Name}}</td>
+            <td>{{Nick}}</td>
             <td style='text-align: center;'>{{sponsor}}</td>
             <td style='text-align: center;'>[{{ombusdman}}]</td>
             <td style='text-align: center;'>[{{remove}}]</td>
         </tr>
-        {{/ranking}}
+        {{/staff}}
     </tbody>
 </table>
 
@@ -105,3 +106,4 @@ YES        Should OFTC remain a member project of Software in the
 
  -=-=-=-=-=-=-=-=-=-=- Do not delete this line -=-=-=-=-=-=-=-=-=-=-
  </pre>
+ {% endraw %}
