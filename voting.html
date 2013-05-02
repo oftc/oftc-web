@@ -22,48 +22,53 @@ title: Voting
 <input type="button" class="btn" id="submit" value="Process" />
 
 <div id="overlay" class="modal hide fade" style='max-height: 550px;overflow-y: auto;width: 750px;margin-left: -375px;'>
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-    <h3 id="myModalLabel">Your Ballot</h3>
-  </div>
-  <div id="overlay-content">
-  </div>
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+        <h3 id="myModalLabel">Your Ballot</h3>
+    </div>
+    <div id="overlay-content">
+    </div>
 </div>
 <script type="text/javascript">
-	var voteMembers = $.getJSON('/staff.json', function(data)
+var voteMembers = $.getJSON('/staff.json', function(data)
+{
+    var index = 0;
+    $.each(data["staff"], function(i, item)
     {
-        $.each(data["staff"], function(i, item)
-        {
-            var newRow = $("<tr>").appendTo("#members");
+        var newRow = $("<tr>").appendTo("#members");
         
-            var col = $("<td class='index'>").appendTo(newRow);
-            col.append(i + 1)
-            col = $("<td>").appendTo(newRow);
-            col.append("<i class='handle icon-cog'>");
-            addCol(newRow, { type: "text", id: "name"+i, name: "Name", value: item["Name"], readonly: true });
-            addCol(newRow, { type: "text", id: "nick"+i, name: "nick", value: item["Nick"], readonly: true });
-            addCol(newRow, { type: "checkbox", id: "sponsor"+i, name: "sponsor", value: item["Sponsor"], disabled: "disabled" });
-            addCol(newRow, { type: "checkbox", id: "ombudsman"+i, name: "ombudsman" });
-            addCol(newRow, { type: "checkbox", id: "remove"+i, name: "remove" });
-        });
+        var col = $("<td class='index'>").appendTo(newRow);
+        col.append(index + 1)
+        col = $("<td>").appendTo(newRow);
+        col.append("<i class='handle icon-cog'>");
+        addCol(newRow, { type: "text", id: "name" + index, name: "Name", value: item["Name"], readonly: true });
+        addCol(newRow, { type: "text", id: "nick" + index, name: "nick", value: item["Nick"], readonly: true });
+        addCol(newRow, { type: "checkbox", id: "sponsor" + index, name: "sponsor", value: item["Sponsor"], disabled: "disabled" });
+        addCol(newRow, { type: "checkbox", id: "ombudsman" + index, name: "ombudsman" });
+        addCol(newRow, { type: "checkbox", id: "remove" + index, name: "remove" });
+
+        index++;
     });
+});
 
-    function addCol(row, attr)
+function addCol(row, attr)
+{
+    row.append($("<td>").append($("<input>").attr(attr)));
+}
+
+updateIndex = function(e, ui) 
+{
+    $('td.index', ui.item.parent()).each(function (i) 
     {
-        row.append($("<td>").append($("<input>").attr(attr)));
-    }
-
-    updateIndex = function(e, ui) {
-        $('td.index', ui.item.parent()).each(function (i) {
-            $(this).html(i + 1);
-        });
-    };
-
-    $("#members tbody").sortable(
-    {
-        handle: '.handle',
-        stop: updateIndex
+        $(this).html(i + 1);
     });
+};
+
+$("#members tbody").sortable(
+{
+    handle: '.handle',
+    stop: updateIndex
+});
 
     $("#rawballot").click(function()
     {

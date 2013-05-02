@@ -1,5 +1,5 @@
 {
-"staff":
+  "staff":
   {
     "formorer": 
     {
@@ -31,89 +31,107 @@
       "Nick": "yang",
       "Sponsor": false
     },
-  {
-    "Name": "Jimmy Kaplowitz",
-    "Nick": "Hydroxide",
-    "Sponsor": false
-  },
-  {
-    "Name": "Joerg Jaspert",
-    "Nick": "Ganneff",
-    "Sponsor": true
-  },
-  {
-    "Name": "Mark Walling",
-    "Nick": "mwalling",
-    "Sponsor": false
-  },
-  {
-    "Name": "Martin Zobel-Helas",
-    "Nick": "zobel",
-    "Sponsor": false
-  },
-  {
-    "Name": "Matt London",
-    "Nick": "Matt",
-    "Sponsor": false
-  },
-  {
-    "Name": "Michael Greb",
-    "Nick": "mikegrb",
-    "Sponsor": false
-  },
-  {
-    "Name": "Neil McGovern",
-    "Nick": "Maulkin",
-    "Sponsor": false
-  },
-  {
-    "Name": "Richard Hartmann",
-    "Nick": "RichiH",
-    "Sponsor": false
-  },
-  {
-    "Name": "Rico Gloeckner",
-    "Nick": "mc",
-    "Sponsor": true
-  },
-  {
-    "Name": "Rik Rose",
-    "Nick": "rik",
-    "Sponsor": false
-  },
-  {
-    "Name": "Robert A. Nowak",
-    "Nick": "rnowak",
-    "Sponsor": false
-  },
-  {
-    "Name": "Scott Bender",
-    "Nick": "scott",
-    "Sponsor": false
-  },
-  {
-    "Name": "Sean Glover",
-    "Nick": "wladek",
-    "Sponsor": false
-  },
-  {
-    "Name": "Stuart Walsh",
-    "Nick": "cryogen",
-    "Sponsor": false
-  },
-  {
-    "Name": "Timothy J. Fontaine",
-    "Nick": "tjfontaine",
-    "Sponsor": false
-  },
-  {
-    "Name": "Tom Wesley",
-    "Nick": "tomaw",
-    "Sponsor": false
-  },
-  {
-    "Name": "Uli Martens",
-    "Nick": "youam",
-    "Spondor": false
+    "Hydroxide":
+    {
+      "Name": "Jimmy Kaplowitz",
+      "Nick": "Hydroxide",
+      "Sponsor": false
+    },
+    "Ganneff":
+    {
+      "Name": "Joerg Jaspert",
+      "Nick": "Ganneff",
+      "Sponsor": true
+    },
+    "mwalling":
+    {
+      "Name": "Mark Walling",
+      "Nick": "mwalling",
+      "Sponsor": false
+    },
+    "zobel":
+    {
+      "Name": "Martin Zobel-Helas",
+      "Nick": "zobel",
+      "Sponsor": false
+    },
+    "Matt":
+    {
+      "Name": "Matt London",
+      "Nick": "Matt",
+      "Sponsor": false
+    },
+    "mikegrb":
+    {
+      "Name": "Michael Greb",
+      "Nick": "mikegrb",
+      "Sponsor": false
+    },
+    "Maulkin":
+    {
+      "Name": "Neil McGovern",
+      "Nick": "Maulkin",
+      "Sponsor": false
+    },
+    "RichiH":
+    {
+      "Name": "Richard Hartmann",
+      "Nick": "RichiH",
+      "Sponsor": false
+    },
+    "mc":
+    {
+      "Name": "Rico Gloeckner",
+      "Nick": "mc",
+      "Sponsor": true
+    },
+    "rik":
+    {
+      "Name": "Rik Rose",
+      "Nick": "rik",
+      "Sponsor": false
+    },
+    "rnowak":
+    {
+      "Name": "Robert A. Nowak",
+      "Nick": "rnowak",
+      "Sponsor": false
+    },
+    "scott":
+    {
+      "Name": "Scott Bender",
+      "Nick": "scott",
+      "Sponsor": false
+    },
+    "wladek":
+    {
+      "Name": "Sean Glover",
+      "Nick": "wladek",
+      "Sponsor": false
+    },
+    "cryogen":
+    {
+      "Name": "Stuart Walsh",
+      "Nick": "cryogen",
+      "Sponsor": false
+    },
+    "tjfontaine":
+    {
+      "Name": "Timothy J. Fontaine",
+      "Nick": "tjfontaine",
+      "Sponsor": false
+    },
+    "tomaw":
+    {
+      "Name": "Tom Wesley",
+      "Nick": "tomaw",
+      "Sponsor": false
+    },
+    "youam":
+    {
+      "Name": "Uli Martens",
+      "Nick": "youam",
+      "Spondor": false
+    }
   }
 }
