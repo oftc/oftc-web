@@ -46,7 +46,7 @@ title: Voting
             staffJSON = data;
             $.each(staffJSON["staff"], function(i, item)
             {
-                staff.staff.push({ Nick: item["Nick"], Name: item["Name"] });
+                staff.staff.push({ Nick: sprintf("%-13s", item["Nick"]), Name: sprintf("%-25s", item["Name"]), rank: sprintf("%'_7s", "") });
             }); 
 
             $.each(staff["staff"], function(i, item)
