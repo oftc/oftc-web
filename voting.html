@@ -30,63 +30,75 @@ title: Voting
     </div>
 </div>
 <script type="text/javascript">
-var voteMembers = $.getJSON('/staff.json', function(data)
-{
-    var index = 0;
-    $.each(data["staff"], function(i, item)
+    var staff = { "staff": [] };
+
+    function ProcessJSON()
     {
-        var newRow = $("<tr>").appendTo("#members");
-        
-        var col = $("<td class='index'>").appendTo(newRow);
-        col.append(index + 1)
-        col = $("<td>").appendTo(newRow);
-        col.append("<i class='handle icon-cog'>");
-        addCol(newRow, { type: "text", id: "name" + index, name: "Name", value: item["Name"], readonly: true });
-        addCol(newRow, { type: "text", id: "nick" + index, name: "nick", value: item["Nick"], readonly: true });
-        addCol(newRow, { type: "checkbox", id: "sponsor" + index, name: "sponsor", value: item["Sponsor"], disabled: "disabled" });
-        addCol(newRow, { type: "checkbox", id: "ombudsman" + index, name: "ombudsman" });
-        addCol(newRow, { type: "checkbox", id: "remove" + index, name: "remove" });
+        $.getJSON("/staff.json", function() {
+        })
+        .error(function() 
+        { 
+            alert("error"); 
+        })
+        .done(function(data) 
+        { 
+            $.each(data["staff"], function(i, item)
+            {
+                staff.staff.push({ Nick: item["Nick"], Name: item["Name"] });
+            }); 
 
-        index++;
-    });
-});
+            $.each(staff["staff"], function(i, item)
+            {
+                var newRow = $("<tr>").appendTo("#members");
+           
+                var col = $("<td class='index'>").appendTo(newRow);
+                col.append(i + 1)
+                col = $("<td>").appendTo(newRow);
+                col.append("<i class='handle icon-cog'>");
+                AddCol(newRow, { type: "text", id: "name" + i, name: "Name", value: item["Name"], readonly: true });
+                AddCol(newRow, { type: "text", id: "nick" + i, name: "nick", value: item["Nick"], readonly: true });
+                AddCol(newRow, { type: "checkbox", id: "sponsor" + i, name: "sponsor", value: item["Sponsor"], disabled: "disabled" });
+                AddCol(newRow, { type: "checkbox", id: "ombudsman" + i, name: "ombudsman" });
+                AddCol(newRow, { type: "checkbox", id: "remove" + i, name: "remove" });
+            });
+        });
+    }
 
-function addCol(row, attr)
-{
-    row.append($("<td>").append($("<input>").attr(attr)));
-}
+    ProcessJSON();
 
-updateIndex = function(e, ui) 
-{
-    $('td.index', ui.item.parent()).each(function (i) 
+    function AddCol(row, attr)
     {
-        $(this).html(i + 1);
-    });
-};
+        row.append($("<td>").append($("<input>").attr(attr)));
+    }
 
-$("#members tbody").sortable(
-{
-    handle: '.handle',
-    stop: updateIndex
-});
-
-$("#rawballot").click(function()
-{
-    $.get('/ballot', function (tmpl) 
-    { 
-        var ballot = Hogan.compile(tmpl);
-        $.getJSON('/staff.json', function (staff) 
+    updateIndex = function(e, ui) 
+    {
+        $('td.index', ui.item.parent()).each(function (i) 
         {
+            $(this).html(i + 1);
+        });
+    };
+
+    $("#members tbody").sortable(
+    {
+        handle: '.handle',
+        stop: updateIndex
+    });
+
+    $("#rawballot").click(function()
+    {
+        $.get('/ballot', function (tmpl) 
+        { 
+            var ballot = Hogan.compile(tmpl);
             $('#overlay-content').html(ballot.render(staff));
             $('#overlay').modal({keyboard: true});
-        })
+        });
     });
-});
 
-$("#submit").click(function()
-{
-   $("tr.item").each(function()
-   {
-   });
-});
+    $("#submit").click(function()
+    {
+       $("tr.item").each(function()
+       {
+       });
+    });
 </script>
