@@ -33,11 +33,9 @@ title: Voting
 var voteMembers = $.getJSON('/staff.json', function(data)
 {
     var index = 0;
-    $.each(data["staff"], function(i, root)
+    $.each(data["staff"], function(i, item)
     {
-      $.each(root, function(j, item)
-      {
-        var newRow = $("<tr class='item'>").appendTo("#members");
+        var newRow = $("<tr>").appendTo("#members");
         
         var col = $("<td class='index'>").appendTo(newRow);
         col.append(index + 1)
@@ -50,7 +48,6 @@ var voteMembers = $.getJSON('/staff.json', function(data)
         addCol(newRow, { type: "checkbox", id: "remove" + index, name: "remove" });
 
         index++;
-      });
     });
 });
 
