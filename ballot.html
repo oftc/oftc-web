@@ -32,36 +32,11 @@ Please rank all staff from 1-22.
    9-16      Network Operators
    17-22     Network Representatives
 
-<table style="table-layout:fixed;border-collapse: collapse;padding: 0">
-    <thead>
-        <th style='width:10%;padding: 0; text-align: left;font-weight: normal;'>Rank</th>
-        <th style='width:32.5%;padding: 0; text-align: left;font-weight: normal;'>Name</th>
-        <th style='width:17.5%;padding: 0; text-align: left;font-weight: normal;'>Nick</th>
-        <th style='width:12.5%;padding: 0; text-align: left;font-weight: normal;'>Sponsor</th>
-        <th style='width:15%;padding: 0; text-align: left;font-weight: normal;'>Ombudsman</th>
-        <th style='width:12.5%;padding: 0; text-align: left;font-weight: normal;'>Remove</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>--------</td>
-            <td>+-------------------------</td>
-            <td>+-------------</td>
-            <td>+---------</td>
-            <td>+-----------</td>
-            <td>+---------</td>
-        </tr>
-        {{#staff}}
-        <tr>
-            <td style='text-align: center;'>{{rank}}</td>
-            <td>{{Name}}</td>
-            <td>{{Nick}}</td>
-            <td style='text-align: center;'>{{sponsor}}</td>
-            <td style='text-align: center;'>[{{ombusdman}}]</td>
-            <td style='text-align: center;'>[{{remove}}]</td>
-        </tr>
-        {{/staff}}
-    </tbody>
-</table>
+Rank    Name                      Nick          Sponsor   Ombudsman   Remove
+--------+-------------------------+-------------+---------+-----------+---------
+{{#staff}}
+{{rank}} {{Name}} {{Nick}} {{sponsor}} [{{ombusdman}}] [{{remove}}]
+{{/staff}}
 
 Section 2: Sponsors
 
