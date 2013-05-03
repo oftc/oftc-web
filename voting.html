@@ -30,6 +30,7 @@ title: Voting
     </div>
 </div>
 <script type="text/javascript">
+    var staffJSON = {};
     var staff = { "staff": [] };
 
     function ProcessJSON()
@@ -42,21 +43,22 @@ title: Voting
         })
         .done(function(data) 
         { 
-            $.each(data["staff"], function(i, item)
+            staffJSON = data;
+            $.each(staffJSON["staff"], function(i, item)
             {
                 staff.staff.push({ Nick: item["Nick"], Name: item["Name"] });
             }); 
 
             $.each(staff["staff"], function(i, item)
             {
-                var newRow = $("<tr>").appendTo("#members");
+                var newRow = $("<tr class='item'>").appendTo("#members");
            
                 var col = $("<td class='index'>").appendTo(newRow);
                 col.append(i + 1)
                 col = $("<td>").appendTo(newRow);
                 col.append("<i class='handle icon-cog'>");
                 AddCol(newRow, { type: "text", id: "name" + i, name: "Name", value: item["Name"], readonly: true });
-                AddCol(newRow, { type: "text", id: "nick" + i, name: "nick", value: item["Nick"], readonly: true });
+                AddCol(newRow, { class: "nick", type: "text", id: "nick" + i, name: "nick", value: item["Nick"], readonly: true });
                 AddCol(newRow, { type: "checkbox", id: "sponsor" + i, name: "sponsor", value: item["Sponsor"], disabled: "disabled" });
                 AddCol(newRow, { type: "checkbox", id: "ombudsman" + i, name: "ombudsman" });
                 AddCol(newRow, { type: "checkbox", id: "remove" + i, name: "remove" });
@@ -97,8 +99,26 @@ title: Voting
 
     $("#submit").click(function()
     {
-       $("tr.item").each(function()
+       $("tr.item").each(function(i, row)
        {
+           var key = $("input.nick", row).val();
+           var rank = $("td.index", row).text();
+
+           staffJSON["staff"][key].rank = rank;
+
+           staff = { "staff": [] };
+
+           $.each(staffJSON["staff"], function(i, item)
+           {
+               staff.staff.push({ Nick: item["Nick"], Name: item["Name"], rank: item["rank"] });
+           });
+
+           $.get('/ballot', function (tmpl) 
+           { 
+               var ballot = Hogan.compile(tmpl);
+               $('#overlay-content').html(ballot.render(staff));
+               $('#overlay').modal({keyboard: true});
+           });
        });
     });
 </script>
