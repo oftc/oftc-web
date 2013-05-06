@@ -3,135 +3,135 @@
   {
     "formorer": 
     {
-      "Name": "Alexander Wirt",
-      "Nick": "formorer",
-      "Sponsor": false
+      "name": "Alexander Wirt",
+      "nick": "formorer",
+      "roles": { "netop": true }
     },
     "andy":
     {
-      "Name": "Andre Guibert de Bruet",
-      "Nick": "andy",
-      "Sponsor": true
+      "name": "Andre Guibert de Bruet",
+      "nick": "andy",
+      "roles": { "sponsor": true }
     },
     "bzed":
     {
-      "Name": "Bernd Zeimetz",
-      "Nick": "bzed",
-      "Sponsor": false
+      "name": "Bernd Zeimetz",
+      "nick": "bzed",
+      "roles": { "netrep": true }
     },
     "Myon":
     {
-      "Name": "Chrisoph Berg",
-      "Nick": "Myon",
-      "Sponsor": false
+      "name": "Chrisoph Berg",
+      "nick": "Myon",
+      "roles": { "noc": true }
     },
     "yang":
     {
-      "Name": "Jan Prunk",
-      "Nick": "yang",
-      "Sponsor": false
+      "name": "Jan Prunk",
+      "nick": "yang",
+      "roles": { "netrep": true }
     },
     "Hydroxide":
     {
-      "Name": "Jimmy Kaplowitz",
-      "Nick": "Hydroxide",
-      "Sponsor": false
+      "name": "Jimmy Kaplowitz",
+      "nick": "Hydroxide",
+      "roles": { "netop": true }
     },
     "Ganneff":
     {
-      "Name": "Joerg Jaspert",
-      "Nick": "Ganneff",
-      "Sponsor": true
+      "name": "Joerg Jaspert",
+      "nick": "Ganneff",
+      "roles": { "chair": true, "noc": true, "sponsor": true }
     },
     "mwalling":
     {
-      "Name": "Mark Walling",
-      "Nick": "mwalling",
-      "Sponsor": false
+      "name": "Mark Walling",
+      "nick": "mwalling",
+      "roles": { "noc": true }
     },
     "zobel":
     {
-      "Name": "Martin Zobel-Helas",
-      "Nick": "zobel",
-      "Sponsor": false
+      "name": "Martin Zobel-Helas",
+      "nick": "zobel",
+      "roles": { "noc": true }
     },
     "Matt":
     {
-      "Name": "Matt London",
-      "Nick": "Matt",
-      "Sponsor": false
+      "name": "Matt London",
+      "nick": "Matt",
+      "roles": { "netop": true }
     },
     "mikegrb":
     {
-      "Name": "Michael Greb",
-      "Nick": "mikegrb",
-      "Sponsor": false
+      "name": "Michael Greb",
+      "nick": "mikegrb",
+      "roles": { "netop": true }
     },
     "Maulkin":
     {
-      "Name": "Neil McGovern",
-      "Nick": "Maulkin",
-      "Sponsor": false
+      "name": "Neil McGovern",
+      "nick": "Maulkin",
+      "roles": { "noc": true }
     },
     "RichiH":
     {
-      "Name": "Richard Hartmann",
-      "Nick": "RichiH",
-      "Sponsor": false
+      "name": "Richard Hartmann",
+      "nick": "RichiH",
+      "roles": { "netop": true }
     },
     "mc":
     {
-      "Name": "Rico Gloeckner",
-      "Nick": "mc",
-      "Sponsor": true
+      "name": "Rico Gloeckner",
+      "nick": "mc",
+      "roles": { "netrep": true, "sponsor": true }
     },
     "rik":
     {
-      "Name": "Rik Rose",
-      "Nick": "rik",
-      "Sponsor": false
+      "name": "Rik Rose",
+      "nick": "rik",
+      "roles": { "netrep": true }
     },
     "rnowak":
     {
-      "Name": "Robert A. Nowak",
-      "Nick": "rnowak",
-      "Sponsor": false
+      "name": "Robert A. Nowak",
+      "nick": "rnowak",
+      "roles": { "netop": true }
     },
     "scott":
     {
-      "Name": "Scott Bender",
-      "Nick": "scott",
-      "Sponsor": false
+      "name": "Scott Bender",
+      "nick": "scott",
+      "roles": { "noc": true }
     },
     "wladek":
     {
-      "Name": "Sean Glover",
-      "Nick": "wladek",
-      "Sponsor": false
+      "name": "Sean Glover",
+      "nick": "wladek",
+      "roles": { "netrep": true }
     },
     "cryogen":
     {
-      "Name": "Stuart Walsh",
-      "Nick": "cryogen",
-      "Sponsor": false
+      "name": "Stuart Walsh",
+      "nick": "cryogen",
+      "roles": { "noc": true }
     },
     "tjfontaine":
     {
-      "Name": "Timothy J. Fontaine",
-      "Nick": "tjfontaine",
-      "Sponsor": false
+      "name": "Timothy J. Fontaine",
+      "nick": "tjfontaine",
+      "roles": { "noc": true, "ombudsman": true }
     },
     "tomaw":
     {
-      "Name": "Tom Wesley",
-      "Nick": "tomaw",
-      "Sponsor": false
+      "name": "Tom Wesley",
+      "nick": "tomaw",
+      "roles": { "netop": true }
     },
     "youam":
     {
-      "Name": "Uli Martens",
-      "Nick": "youam",
-      "Spondor": false
+      "name": "Uli Martens",
+      "nick": "youam",
+      "roles": { "netrep": true }
     }
   }
 }

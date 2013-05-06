@@ -46,7 +46,13 @@ title: Voting
             staffJSON = data;
             $.each(staffJSON["staff"], function(i, item)
             {
-                staff.staff.push({ Nick: sprintf("%-13s", item["Nick"]), Name: sprintf("%-25s", item["Name"]), rank: sprintf("%'_7s", "") });
+                staff.staff.push(
+                { 
+                    nick: sprintf("%-13s", item["nick"]), 
+                    name: sprintf("%-25s", item["name"]), 
+                    rank: sprintf("%'_7s", ""),
+                    sponsor: item["roles"].sponsor ? sprintf("%-10s", "(S)") : sprintf("%10s", "")
+                });
             }); 
 
             $.each(staff["staff"], function(i, item)
@@ -57,9 +63,9 @@ title: Voting
                 col.append(i + 1)
                 col = $("<td>").appendTo(newRow);
                 col.append("<i class='handle icon-cog'>");
-                AddCol(newRow, { type: "text", id: "name" + i, name: "Name", value: item["Name"], readonly: true });
-                AddCol(newRow, { class: "nick", type: "text", id: "nick" + i, name: "nick", value: item["Nick"], readonly: true });
-                AddCol(newRow, { type: "checkbox", id: "sponsor" + i, name: "sponsor", value: item["Sponsor"], disabled: "disabled" });
+                AddCol(newRow, { type: "text", id: "name" + i, name: "Name", value: item["name"], readonly: true });
+                AddCol(newRow, { class: "nick", type: "text", id: "nick" + i, name: "nick", value: item["nick"], readonly: true });
+                AddCol(newRow, { type: "checkbox", id: "sponsor" + i, name: "sponsor", checked: item["sponsor"].trim() !== '' ? "checked" : null, disabled: "disabled" });
                 AddCol(newRow, { type: "checkbox", id: "ombudsman" + i, name: "ombudsman" });
                 AddCol(newRow, { type: "checkbox", id: "remove" + i, name: "remove" });
             });
@@ -110,7 +116,13 @@ title: Voting
 
            $.each(staffJSON["staff"], function(i, item)
            {
-               staff.staff.push({ Nick: sprintf("%-13s", item["Nick"]), Name: sprintf("%-25s", item["Name"]), rank: sprintf("%'_7s", item["rank"]) });
+               staff.staff.push(
+               { 
+                   nick: sprintf("%-13s", item["nick"]), 
+                   name: sprintf("%-25s", item["name"]), 
+                   rank: sprintf("%'_7s", item["rank"]),
+                   sponsor: item["roles"].sponsor ? sprintf("%10s", "(S)") : sprintf("%10s", "")
+               });
            });
 
            $.get('/ballot', function (tmpl) 
