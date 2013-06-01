@@ -1,5 +1,5 @@
 #baseurl: http://www.oftc.net
 pygments: true
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 auto: true

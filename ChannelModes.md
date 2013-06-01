@@ -11,9 +11,11 @@ title: ChannelModes
  * m - moderated
  * n - no external messages (from clients that are not on the channels)
  * p - protected, only channel ops can use /invite
- * s - secret, channel will not show up in /whois unless clients share the channel
+ * s - secret, channel will not show up in /whois unless clients share the
+channel
  * t - only chanops may change Topic
- * z - moderated, messages of clients not voiced or op'd go to channel operators
+ * z - moderated, messages of clients not voiced or op'd go to channel
+operators
  * M - client may speak only when registered and identified to NickServ
  * R - client may join only when registered and identified to NickServ
  * S - client may join only when using SSL Connection
@@ -28,9 +30,11 @@ title: ChannelModes
 #### Channelmodes that take Hostmasks as Parameters ####
 
  * b - ban this hostmask
- * q - quiet this hostmask. Anyone matching this hostmask will be unable to speak on the channel
+ * q - quiet this hostmask. Anyone matching this hostmask will be unable to
+speak on the channel
  * e - exempt this hostmaks from bans and quiets
- * I - clients matching this hostmask may join channel even when the channel is +i(nvite only)
+ * I - clients matching this hostmask may join channel even when the channel is
++i(nvite only)
 
 ## Order of Mode Checks ##
 

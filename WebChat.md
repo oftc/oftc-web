@@ -4,23 +4,35 @@ title: WebChat
 ---
 ## WebChat ##
 
-We provide a web interface for chatting on our network, it can be accessed via http://webchat.oftc.net or https://webchat.oftc.net and is a slightly modified version of [qwebirc](http://qwebirc.org).
+We provide a web interface for chatting on our network, it can be accessed via
+[http://webchat.oftc.net](http://webchat.oftc.net) or
+[https://webchat.oftc.net](https://webchat.oftc.net) and is a slightly modified
+version of [qwebirc](http://qwebirc.org).
 
-`webchat.oftc.net` only serves static files and requires your browser have javascript enabled. This particular client will use [socket.io](http://socket.io) to connect to https://webirc.oftc.net:8443 (only via SSL) and alternate ports will be coming as soon as we can agree on them.
+`webchat.oftc.net` only serves static files and requires your browser have
+javascript enabled. This particular client will use
+[socket.io](http://socket.io) to connect to
+[https://webirc.oftc.net:8443](https://webirc.oftc.net:8443) (only
+via SSL) and alternate ports will be coming as soon as we can agree on them.
 
 ## WebIRC ##
 
-`webirc.oftc.net` is a very thin proxy run directly on our servers which has the following benefits:
+`webirc.oftc.net` is a very thin proxy run directly on our servers which has the
+following benefits:
 
  * No unnecessary third parties between you and OFTC.
  * Your communication with OFTC is always encrypted.
-  - Soon you'll be able to identify with services by installing a client certificate in your browser (see [NickServ/CertFP](NickServ/CertFP))
- * Speaks raw IRC to your browser (negotiated by socket.io) so you're free to write your own client.
- * Your IP will appear on the network, and not the IP of the web server that hosts the client software.
+  - Soon you'll be able to identify with services by installing a client
+certificate in your browser (see [NickServ/CertFP](NickServ/CertFP))
+ * Speaks raw IRC to your browser (negotiated by socket.io) so you're free to
+write your own client.
+ * Your IP will appear on the network, and not the IP of the web server that
+hosts the client software.
   - Allows OFTC and Channels to better manage themselves.
   - Keeps you from being stuck into strict connection limits.
 
-[Here](webirc.pem) is the certificate used for `webirc` it is issued by startssl and should be accepted by most modern browsers.
+[Here](webirc.pem) is the certificate used for `webirc` it is issued by startssl
+and should be accepted by most modern browsers.
 
 {% highlight text %}
 -----BEGIN CERTIFICATE-----
@@ -69,9 +81,15 @@ q7djVNwWlg==
 
 ## Alternate Clients ##
 
-Users are free to implement their own web client that connects to `webirc.oftc.net` with socket.io to port 8443. Alternate clients do not need to be hosted on `oftc.net` to allow connections, our usage of socket.io means that if the client supports websockets or jsonp they can use cross domain communication.
+Users are free to implement their own web client that connects to
+`webirc.oftc.net` with socket.io to port 8443. Alternate clients do not need to
+be hosted on `oftc.net` to allow connections, our usage of socket.io means that
+if the client supports websockets or jsonp they can use cross domain
+communication.
 
-***There may come a time when OFTC needs to implement some form of "human detection", if that time comes alternative clients will need to make sure their clients support that mechanism.***
+***There may come a time when OFTC needs to implement some form of "human
+detection", if that time comes alternative clients will need to make sure their
+clients support that mechanism.***
 
 ## List of Alternate Clients ##
 
