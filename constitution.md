@@ -22,6 +22,7 @@ Network will use.  Any action any member of Staff takes as Staff shall be
 recorded in the Network's records as factually as is possible.
 
 The following outlines all Staff positions.
+
 ### Network Operations Committee
 
 The [Network Operations Committee](/Network Operations Committee) (henceforth
