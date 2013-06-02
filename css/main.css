@@ -39,3 +39,16 @@ h3
 {
     font-size: 20px;
 }
+
+.container,
+.navbar-static-top
+.container,
+.navbar-fixed-top
+.container,
+.navbar-fixed-bottom
+.container
+{
+    min-width: 835px;
+    max-width: 940px;
+    width: 100%;
+}
