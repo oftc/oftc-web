@@ -22,7 +22,7 @@ Client](http://en.wikipedia.org/wiki/List_of_IRC_clients) of choice, or by the
 network and chat directly from within your browser.
 
 If you have support requests regarding the operation of the network please stop
-by ``` #oftc ``` or email ``` support@oftc.net ```
+by `#oftc` or email `support@oftc.net`
 
 **Connection Details:**
 
@@ -45,4 +45,15 @@ fingerprints](http://www.spi-inc.org/ca/spi-cacert.fingerprint.txt).
 Alternatively, install a certificate collection (ca-certificates or similar
 names are common) that includes it.
 
-<div class='body'>{{ site.posts.first.content }}</div>
+<div class='body'>
+{% for post in site.posts %}
+
+{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+{% capture month %}{{ post.date | date: "%B" }}{% endcapture %}
+{% ifchanged year %}<h1>{{ year }}</h1>{% endifchanged %}
+{% ifchanged month %}<h2>{{ month }}</h2>{% endifchanged %}
+
+{{ post.content }}
+
+{% endfor %}
+</div>
