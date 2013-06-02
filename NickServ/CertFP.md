@@ -266,6 +266,37 @@ EmacsWiki](http://www.emacswiki.org/emacs/ErcSSL).
 To continue please scroll down to [read how to add your certificates fingerprint
 to NickServ.](#AddCertFPtoNS)
 
+### weechat
+
+Move the certificates you created some where safe, for example ~/.weechat/certs.
+
+{% highlight text %}
+% mkdir ~/.weechat/certs
+% mv nick.{key,cer,pem} ~/.weechat/certs
+{% endhighlight %}
+Grab the root certificate from SPI to verify the OFTC irc servers.
+
+{% highlight %}
+% wget http://www.spi-inc.org/ca/spi-cacert.crt -O ~/.weechat/certs/spi.pem
+% ln -s spi.pem ~/.weechat/certs/CAs.pem
+{% endhighlight %}
+
+Now disconnect and remove the current server. Re-add it with the SSL flag, using
+your newly generated certificate. Note that we use the SSL port 6697 to connect.
+
+{% highlight text %}
+/disconnect OFTC
+/server del OFTC
+/server add OFTC irc.oftc.net/6697 -ssl -ssl_verify -autoconnect
+/set irc.server.OFTC.ssl_cert %h/certs/nick.pem
+{% endhighlight %}
+
+Now connect back to the server.
+
+`/connect OFTC`
+
+To continue please scroll down to [read how to add your certificates fingerprint
+to NickServ.](#AddCertFPtoNS)
 
 <a id="AddCertFPtoNS"></a>
 ## Add your Certificate Fingerprint to your Nick in NickServ ##
