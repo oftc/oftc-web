@@ -276,7 +276,7 @@ Move the certificates you created some where safe, for example ~/.weechat/certs.
 {% endhighlight %}
 Grab the root certificate from SPI to verify the OFTC irc servers.
 
-{% highlight %}
+{% highlight text %}
 % wget http://www.spi-inc.org/ca/spi-cacert.crt -O ~/.weechat/certs/spi.pem
 % ln -s spi.pem ~/.weechat/certs/CAs.pem
 {% endhighlight %}
