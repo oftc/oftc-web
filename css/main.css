@@ -40,12 +40,9 @@ h3
 }
 
 .container,
-.navbar-static-top
-.container,
-.navbar-fixed-top
-.container,
-.navbar-fixed-bottom
-.container
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container
 {
     min-width: 835px;
     max-width: 940px;
