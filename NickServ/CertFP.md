@@ -299,6 +299,7 @@ To continue please scroll down to [read how to add your certificates fingerprint
 to NickServ.](#AddCertFPtoNS)
 
 <a id="AddCertFPtoNS"></a>
+
 ## Add your Certificate Fingerprint to your Nick in NickServ ##
 
 If you did everything right you are now using SSL to connect and should see
