@@ -23,7 +23,7 @@ following benefits:
  * No unnecessary third parties between you and OFTC.
  * Your communication with OFTC is always encrypted.
   - Soon you'll be able to identify with services by installing a client
-certificate in your browser (see [NickServ/CertFP](NickServ/CertFP))
+certificate in your browser (see [NickServ/CertFP](/NickServ/CertFP))
  * Speaks raw IRC to your browser (negotiated by socket.io) so you're free to
 write your own client.
  * Your IP will appear on the network, and not the IP of the web server that
@@ -31,7 +31,7 @@ hosts the client software.
   - Allows OFTC and Channels to better manage themselves.
   - Keeps you from being stuck into strict connection limits.
 
-[Here](webirc.pem) is the certificate used for `webirc` it is issued by startssl
+[Here](/webirc.pem) is the certificate used for `webirc` it is issued by startssl
 and should be accepted by most modern browsers.
 
 {% highlight text %}
