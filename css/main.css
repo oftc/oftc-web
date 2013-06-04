@@ -52,6 +52,7 @@ h3
 #markdown-toc li
 {
     list-style-type: none;
+    margin-bottom: 4px;
 }
 
 #markdown-toc ul
