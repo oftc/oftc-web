@@ -9,6 +9,7 @@
     <link href="/css/main.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
     {% for script_src in page.script_srcs %}
     <script src="{{script_src}}"></script>
     {% endfor %}
@@ -71,15 +72,5 @@
       </div>
     </div> <!-- /container -->
     </article>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $("input").tooltip({
-          'selector':
-          '',
-          'placement':
-          'bottom'
-          });
-      });
-    </script>
   </body>
 </html>
