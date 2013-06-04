@@ -22,6 +22,7 @@ function_name(int a, char b)
 {% endhighlight %}
 
  * Braces go on their own line, always.
+
 ### General Coding Rules: ###
  * Always prototype a function.
  * Always declare a local only function as static.
