@@ -62,13 +62,22 @@ h3
     font-size: 0.80rem;
 }
 
-@media screen and (min-width: 1480px)
+@media screen and (min-width: 1400px)
 {
   #markdown-toc
   {
     position: fixed;
     top: 124px;
-    width: 260px;
-    margin-left: -260px;
+    max-width: 200px;
+    margin-left: -210px;
+  }
+}
+
+@media screen and (min-width: 1480px)
+{
+  #markdown-toc
+  {
+    max-width: 270px;
+    margin-left: -280px;
   }
 }
