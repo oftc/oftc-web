@@ -5,4 +5,4 @@ title: NickServ
 
 # NickServ
 
-[CertFP](NickServ/CertFP)
+[CertFP](/NickServ/CertFP)
