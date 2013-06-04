@@ -58,3 +58,14 @@ h3
 {
     margin-left: 16px;
 }
+
+@media screen and (min-width: 1480px)
+{
+  #markdown-toc
+  {
+    position: fixed;
+    top: 124px;
+    width: 260px;
+    margin-left: -260px;
+  }
+}
