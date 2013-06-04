@@ -2,6 +2,9 @@
 layout: master
 title: CodingProjects
 ---
+
+# OFTC Coding Projects #
+
 OFTC currently develops 3 projects for its purposes: [oftc-hybrid](#oftc-hybrid)
 our IRC daemon, [oftc-ircservices](#oftc-ircservices) our IRC services suite,
 and [oftcdns](#oftcdns) a geoip dns responder to handle user distribution across
