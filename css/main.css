@@ -48,3 +48,13 @@ h3
     max-width: 940px;
     width: 100%;
 }
+
+#markdown-toc li
+{
+    list-style-type: none;
+}
+
+#markdown-toc ul
+{
+    margin-left: 16px;
+}
