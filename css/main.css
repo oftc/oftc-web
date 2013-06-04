@@ -57,6 +57,9 @@ h3
 #markdown-toc ul
 {
     margin-left: 16px;
+    margin-bottom: 5px;
+    line-height: 1.25;
+    font-size: 0.80rem;
 }
 
 @media screen and (min-width: 1480px)
