@@ -36,7 +36,8 @@ calling and chairing [NOC](/Network Operations Committee) meetings. The
 appointment of Department Heads, from willing and able members of the
 [NOC](/Network Operations Committee). The [Chair](/Network Operations Committee
 Chair) is responsible for announcing elections, as well as appointing three vote
-counters for said election.  1. Network [Ombudsman](/Ombudsman) is responsible
+counters for said election.
+1. Network [Ombudsman](/Ombudsman) is responsible
 for hearing and acting upon complaints from users or [Staff](/Staff) against any
 member of [Staff](/Staff) or the Network as a whole. The [Ombudsman](/Ombudsman)
 has the power to issue Reprimands against any [Staff](/Staff) member for
