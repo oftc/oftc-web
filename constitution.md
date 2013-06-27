@@ -41,7 +41,7 @@ counters for said election.
 for hearing and acting upon complaints from users or [Staff](/Staff) against any
 member of [Staff](/Staff) or the Network as a whole. The [Ombudsman](/Ombudsman)
 has the power to issue Reprimands against any [Staff](/Staff) member for
-violating any [Network Policy](/Network Policy), any part of the
+violating any [Network Policy](/Network_Policy), any part of the
 [Constitution](/Constitution), or for abusing any of their privileges. This
 reprimand may be turned over by a 3/4 majority vote of the active [NOC](/Network
 Operations Committee) members. The [Ombudsman](/Ombudsman) may also recommend to
@@ -70,7 +70,7 @@ policies set forth by the [NOC](/Network Operations Committee). They shall also
 help any and all users of the Network in any way possible, without prejudice.
 
 Further responsibilities of [NetOps](/Network_Operator), and all privileges will
-be defined in [Network Policy](/Network Policy).
+be defined in [Network Policy](/Network_Policy).
 
 ### Sponsors
 
@@ -159,8 +159,8 @@ that person must resign one of those roles.
 ## Reprimands
 
 How members of [Staff](/Staff) behave in public reflects upon the Network as a
-whole. Therefore, any action which misrepresents [Network Policy](/Network
-Policy) may result in the Reprimand or dismissal of a member of [Staff](/Staff).
+whole. Therefore, any action which misrepresents [Network Policy](/Network_Policy)
+may result in the Reprimand or dismissal of a member of [Staff](/Staff).
 Any Reprimands or dismissals, and the reasons therefore, shall be explained in
 Network records.
 
@@ -262,13 +262,13 @@ the following thirty days.
 ## Network Policy 
 
 In addition to this [Constitution](/Constitution), there also exists a [Network
-Policy](/Network Policy) document. The purpose of this document is to decide the
+Policy](/Network_Policy) document. The purpose of this document is to decide the
 day-to-day operations of the Network. It shall not conflict with any articles in
 this [Constitution](/Constitution).
 
-Any Policy enacted in the [Network Policy](/Network Policy) document shall have
+Any Policy enacted in the [Network Policy](/Network_Policy) document shall have
 the same weight as any article in this [Constitution](/Constitution). The
-[Network Policy](/Network Policy) document may be altered by any standard
+[Network Policy](/Network_Policy) document may be altered by any standard
 [Network Operations Committee](/Network Operations Committee) vote.
 
 ## Amendments 
