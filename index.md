@@ -33,8 +33,9 @@ IPv4 or IPv6
 preference isn't IPv6
  * If you need to force IPv4, connect to
 [irc://irc4.oftc.net:6667](irc://irc4.oftc.net:6667)
- * *-- or alternatively --* connect using our [WebChat](WebChat) or use the
+ * *or alternatively* connect using our [WebChat](WebChat) or use the
 boxes at the top of the page
+ * Use of Tor is permitted is generally [allowed](/Tor).
 
 We support SSL on all of our servers.  The certificates are signed, indirectly,
 by SPI's certification authority.  You can get the root certificate at the SPI
