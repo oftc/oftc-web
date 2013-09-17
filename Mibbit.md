@@ -33,7 +33,7 @@ OFTC, or without having to get permission beforehand.
 
 #### The Client ####
 
-Users are not necessarily forced to use our [WebChat](/Webchat) -- there's just
+Users are not necessarily forced to use our [WebChat](/WebChat) -- there's just
 no other web client available currently. We would sincerely welcome additional clients,
 as this is undoubtly the way forward with regards to web applications, and it 
 would help strengthen the adaptation of the technology throughout the IRC networks.
