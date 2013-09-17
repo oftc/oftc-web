@@ -91,3 +91,6 @@ The only service ready for use is IRC. To use it, use your favourite IRC client
 to log on to `irc.oftc.net`. As more services become available, information will
 be provided about them on our project web site.
 
+## What happened to Mibbit's access to OFTC? ##
+
+Please refer to the [Mibbit document](/Mibbit) that we have prepared that outlines why access via Mibbit is no longer possible.
