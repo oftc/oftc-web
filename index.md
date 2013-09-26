@@ -26,16 +26,16 @@ by `#oftc` or email `support@oftc.net`
 
 **Connection Details:**
 
- * [irc://irc.oftc.net:6667](irc://irc.oftc.net:6667) or port 6697 for SSL,
-IPv4 or IPv6
- * Alternative ports: 6668-6670, 7000. Port 9999 for SSL 
+ * [irc://irc.oftc.net:6667](irc://irc.oftc.net:6667) (alternative ports: 6668-6670, 7000), IPv4 and IPv6
+ * [ircs://irc.oftc.net:6697](ircs://irc.oftc.net:6697) for SSL (alternative port: 9999), IPv4 and IPv6.
+   See [CertFP](NickServ/CertFP/) for how to configure certificate-based NickServ identification
  * For IPv6 connections, supply a flag in your client if your operating system's
 preference isn't IPv6
  * If you need to force IPv4, connect to
 [irc://irc4.oftc.net:6667](irc://irc4.oftc.net:6667)
  * *or alternatively* connect using our [WebChat](WebChat) or use the
 boxes at the top of the page
- * Use of Tor is permitted is generally [allowed](/Tor).
+ * Use of Tor is permitted is generally [allowed](/Tor)
 
 We support SSL on all of our servers.  The certificates are signed, indirectly,
 by SPI's certification authority.  You can get the root certificate at the SPI
