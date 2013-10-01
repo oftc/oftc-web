@@ -112,6 +112,7 @@ voted to this position, can be found [here](/Network_Representative).
  * Bernd Zeimetz (bzed)
  * Richard Rose (rik)
  * Sean Glover (wladek)
+ * Seth Arnold (sarnold)
 
 ## Advisors ##
 

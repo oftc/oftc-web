@@ -109,6 +109,12 @@
       "nick": "wladek",
       "roles": { "netrep": true }
     },
+    "sarnold":
+    {
+    	"name": "Seth Arnold",
+    	"nick": "sarnold",
+    	"roles": { "netrep": true }
+    },
     "cryogen":
     {
       "name": "Stuart Walsh",
