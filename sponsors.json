@@ -1,0 +1,65 @@
+{
+  "sponsors":
+  {
+    "caker":
+    {
+      "name": "Christopher Aker",
+      "nick": "caker",
+      "roles": { "sponsor": true }
+    },
+    "winjer":
+    {
+      "name": "Doug Winter",
+      "nick": "winjer",
+      "roles": { "sponsor": true }
+    },
+    "urandom":
+    {
+      "name": "Eric Evans",
+      "nick": "urandom",
+      "roles": { "sponsor": true }
+    },
+    "ziga":
+    {
+      "name": "Frederic Deletang",
+      "nick": "ziga",
+      "roles": { "sponsor": true }
+    },
+    "Joy":
+    {
+      "name": "Josip Rodin",
+      "nick": "Joy",
+      "roles": { "sponsor": true }
+    },
+    "luca":
+    {
+      "name": "Luca Filipozzi",
+      "nick": "luca",
+      "roles": { "sponsor": true }
+    },
+    "maswan":
+    {
+      "name": "Mattias Wadenstein",
+      "nick": "maswan",
+      "roles": { "sponsor": true }
+    },
+    "bugblue":
+    {
+      "name": "Mendel Mobach",
+      "nick": "bugblue",
+      "roles": { "sponsor": true }
+    },
+    "miro":
+    {
+      "name": "Michael Römer",
+      "nick": "miro",
+      "roles": { "sponsor": true }
+    },
+    "robster":
+    {
+      "name": "Rob Bradford",
+      "nick": "robster",
+      "roles": { "sponsor": true }
+    }
+  }
+}

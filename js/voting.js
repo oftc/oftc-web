@@ -1,5 +1,6 @@
 var staffJSON = {};
-var staff = { "staff": [] };
+var sponsorsJSON = {};
+var staff = { "staff": [], "sponsors": [] };
 $(document).ready(function() {
   function ProcessJSON()
   {
@@ -8,7 +9,7 @@ $(document).ready(function() {
     })
     .error(function()
     {
-      alert("error");
+      alert("error getting staff.json");
     })
     .done(function(data)
     {
@@ -38,6 +39,38 @@ $(document).ready(function() {
         AddCol(newRow, { class: "nick", id: "nick" + i, value: item["nick"].trim() });
         AddCol(newRow, { type: "checkbox", id: "sponsor" + i, name: "sponsor", checked: item["sponsor"].trim() !== '' ? "checked" : null, disabled: "disabled" });
         AddCol(newRow, { class: "ombudsman", type: "checkbox", id: "ombudsman" + i, name: "ombudsman" });
+        AddCol(newRow, { class: "remove", type: "checkbox", id: "remove" + i, name: "remove" });
+      });
+    });
+
+    $.getJSON("/sponsors.json", function()
+    {
+    })
+    .error(function()
+    {
+      alert("error getting sponsors.json");
+    })
+    .done(function(data)
+    {
+      sponsorsJSON = data;
+      $.each(sponsorsJSON["sponsors"], function(i, item)
+      {
+        staff.sponsors.push(
+        {
+          nick: sprintf("%-13s", item["nick"]),
+          name: sprintf("%-25s", item["name"]),
+          sponsor: item["roles"].sponsor ? sprintf("%-10s", "(S)") : sprintf("%10s", ""),
+          remove: item.remove ? sprintf("%-10s", "[X]") : sprintf("%-10s", "[ ]")
+        });
+      });
+
+      $.each(staff["sponsors"], function(i, item)
+      {
+        var newRow = $("<tr class='item'>").appendTo("#sponsors");
+
+        AddCol(newRow, { id: "name" + i, value: item["name"].trim() });
+        AddCol(newRow, { class: "nick", id: "nick" + i, value: item["nick"].trim() });
+        AddCol(newRow, { type: "checkbox", id: "sponsor" + i, name: "sponsor", checked: item["sponsor"].trim() !== '' ? "checked" : null, disabled: "disabled" });
         AddCol(newRow, { class: "remove", type: "checkbox", id: "remove" + i, name: "remove" });
       });
     });
@@ -121,7 +154,7 @@ $(document).ready(function() {
       staffJSON["staff"][key].remove = remove;
     });
 
-    staff = { "staff": [] };
+    staff.staff = [];
 
     $.each(staffJSON["staff"], function(i, item)
     {
@@ -132,6 +165,27 @@ $(document).ready(function() {
         rank: sprintf("%'_4s", item["rank"]),
         sponsor: item["roles"].sponsor ? sprintf("%-9s", "(S)") : sprintf("%9s", ""),
         ombudsman: item.ombudsman ? sprintf("%-11s", "[X]") : sprintf("%-11s", "[ ]"),
+        remove: item.remove ? sprintf("%-8s", "[X]") : sprintf("%-8s", "[ ]")
+      });
+    });
+
+    $('#sponsors tr.item').each(function(i, row)
+    {
+      var key = $('span.nick', row).text();
+      var remove = $('input.remove', row)[0].checked;
+
+      sponsorsJSON['sponsors'][key].remove = remove;
+    });
+
+    staff.sponsors = [];
+
+    $.each(sponsorsJSON['sponsors'], function(i, item)
+    {
+      staff.sponsors.push(
+      {
+        nick: sprintf("%-12s", item["nick"]),
+        name: sprintf("%-24s", item["name"]),
+        sponsor: item["roles"].sponsor ? sprintf("%-9s", "(S)") : sprintf("%9s", ""),
         remove: item.remove ? sprintf("%-8s", "[X]") : sprintf("%-8s", "[ ]")
       });
     });
