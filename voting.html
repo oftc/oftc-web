@@ -69,6 +69,36 @@ script_srcs: ['/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', 
   </tbody>
 </table>
 
+<h3>Section 3: Advisors</h3>
+<select id="advisor0" name="advisor" class="input-small">
+  <option>Yes</option>
+  <option>No</option>
+</select>
+<span class="help-inline">David Graham (cdlu)</span>
+
+<h3>Section 4: Yes/No Questions</h3>
+<table id="questions" class="userlist">
+  <thead>
+    <tr>
+      <th>Yes/No</th>
+      <th>Issue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <select id="question0" name="question" class="input-small">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </td>
+      <td>
+        Should OFTC remain a member project of Software in the Public Interest?
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <input type="button" class="btn" id="submit" value="Process" />
 
 <div id="overlay" class="modal hide fade" aria-labelledby="myModalLabel">

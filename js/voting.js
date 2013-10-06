@@ -1,6 +1,6 @@
 var staffJSON = {};
 var sponsorsJSON = {};
-var staff = { "staff": [], "sponsors": [] };
+var staff = { "staff": [], "sponsors": [], 'advisor': '', 'spi': '' };
 $(document).ready(function() {
   var templateFields = {
     'nick': '%-12s',
@@ -8,7 +8,8 @@ $(document).ready(function() {
     'rank': '%\'_4s',
     'sponsor': '%-9s',
     'ombudsman': '%-11s',
-    'remove': '%-8s'
+    'remove': '%-8s',
+    'yn': '%-3s'
   };
 
   function formatField(field, data)
@@ -166,6 +167,8 @@ $(document).ready(function() {
       {
         item['remove'] = formatField('remove', '[ ]');
       });
+      staff['advisor'] = formatField('yn', '');
+      staff['spi'] = formatField('yn', '');
       var ballot = Hogan.compile(tmpl);
       $('#overlay-content').html(ballot.render(staff));
       $('#overlay').modal({ keyboard: true });
@@ -209,6 +212,14 @@ $(document).ready(function() {
     {
       staff.sponsors.push(formatSponsors(item));
     });
+
+    // Section 3
+    var advisor = $('#advisor0').val();
+    staff.advisor = formatField('yn', advisor);
+
+    // Section 4
+    var spi = $('#question0').val();
+    staff.spi = formatField('yn', spi);
 
     $.get('/ballot', function (tmpl)
     {
