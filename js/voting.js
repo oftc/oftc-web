@@ -168,18 +168,19 @@ $(document).ready(function() {
       });
       var ballot = Hogan.compile(tmpl);
       $('#overlay-content').html(ballot.render(staff));
-      $('#overlay').modal({keyboard: true});
+      $('#overlay').modal({ keyboard: true });
     });
   });
 
   $("#submit").click(function()
   {
+    // Section 1
     $("#members tr.item").each(function(i, row)
     {
       var key = $("span.nick", row).text();
       var rank = $("td.index", row).text();
-      var ombudsman = $("input.ombudsman", row)[0].checked
-      var remove = $("input.remove", row)[0].checked
+      var ombudsman = $("input.ombudsman", row)[0].checked;
+      var remove = $("input.remove", row)[0].checked;
 
       staffJSON["staff"][key].rank = rank;
       staffJSON["staff"][key].ombudsman = ombudsman;
@@ -193,6 +194,7 @@ $(document).ready(function() {
       staff.staff.push(formatStaff(item));
     });
 
+    // Section 2
     $('#sponsors tr.item').each(function(i, row)
     {
       var key = $('span.nick', row).text();
