@@ -97,10 +97,12 @@ $(document).ready(function() {
       $.each(staff['sponsors'], function(i, item)
       {
         var newRow = $('<tr class="item">').appendTo('#sponsors');
+        var checked;
 
         AddCol(newRow, { value: item['name'].trim() });
         AddCol(newRow, { class: 'nick', value: item['nick'].trim() });
-        AddCol(newRow, { type: 'checkbox', name: 'sponsor', checked: item['sponsor'].trim() !== '' ? 'checked' : null, disabled: 'disabled' });
+        checked = item['sponsor'].trim() !== '' ? 'checked' : null;
+        AddCol(newRow, { type: 'checkbox', name: 'sponsor', checked: checked, disabled: 'disabled' });
         AddCol(newRow, { class: 'remove', type: 'checkbox', name: 'remove' });
       });
     });
