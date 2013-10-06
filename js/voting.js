@@ -21,9 +21,9 @@ $(document).ready(function() {
           nick: sprintf("%-13s", item["nick"]),
           name: sprintf("%-25s", item["name"]),
           rank: sprintf("%'_7s", ""),
-          sponsor: item["roles"].sponsor ? sprintf("%-10s", "(S)") : sprintf("%10s", ""),
-          ombudsman: item.ombudsman ? sprintf("%-12s", "[X]") : sprintf("%-12s", "[ ]"),
-          remove: item.remove ? sprintf("%-10s", "[X]") : sprintf("%-10s", "[ ]")
+          sponsor: sprintf("%-10s", item["roles"].sponsor ? "(S)" : ""),
+          ombudsman: sprintf("%-12s", item.ombudsman ? "[X]" : "[ ]"),
+          remove: sprintf("%-10s", item.remove ? "[X]" : "[ ]")
         });
       });
 
@@ -59,8 +59,8 @@ $(document).ready(function() {
         {
           nick: sprintf("%-13s", item["nick"]),
           name: sprintf("%-25s", item["name"]),
-          sponsor: item["roles"].sponsor ? sprintf("%-10s", "(S)") : sprintf("%10s", ""),
-          remove: item.remove ? sprintf("%-10s", "[X]") : sprintf("%-10s", "[ ]")
+          sponsor: sprintf("%-10s", item["roles"].sponsor ? "(S)" : ""),
+          remove: sprintf("%-10s", item.remove ? "[X]" : "[ ]")
         });
       });
 
