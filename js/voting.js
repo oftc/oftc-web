@@ -32,7 +32,7 @@ $(document).ready(function() {
               var col = $("<td class='index'>").appendTo(newRow);
               col.append(i + 1)
               col = $("<td>").appendTo(newRow);
-              col.append("<i class='handle icon-cog'>");
+              col.append("<i class='handle icon-resize-vertical'>");
               AddCol(newRow, { type: "text", id: "name" + i, name: "Name", value: item["name"].trim(), readonly: true });
               AddCol(newRow, { class: "nick", type: "text", id: "nick" + i, name: "nick", value: item["nick"].trim(), readonly: true });
               AddCol(newRow, { type: "checkbox", id: "sponsor" + i, name: "sponsor", checked: item["sponsor"].trim() !== '' ? "checked" : null, disabled: "disabled" });
