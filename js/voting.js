@@ -127,12 +127,12 @@ $(document).ready(function() {
     {
       staff.staff.push(
       {
-        nick: sprintf("%-13s", item["nick"]),
-        name: sprintf("%-25s", item["name"]),
-        rank: sprintf("%'_7s", item["rank"]),
-        sponsor: item["roles"].sponsor ? sprintf("%-10s", "(S)") : sprintf("%10s", ""),
-        ombudsman: item.ombudsman ? sprintf("%-12s", "[X]") : sprintf("%-12s", "[ ]"),
-        remove: item.remove ? sprintf("%-10s", "[X]") : sprintf("%-10s", "[ ]")
+        nick: sprintf("%-12s", item["nick"]),
+        name: sprintf("%-24s", item["name"]),
+        rank: sprintf("%'_4s", item["rank"]),
+        sponsor: item["roles"].sponsor ? sprintf("%-9s", "(S)") : sprintf("%9s", ""),
+        ombudsman: item.ombudsman ? sprintf("%-11s", "[X]") : sprintf("%-11s", "[ ]"),
+        remove: item.remove ? sprintf("%-8s", "[X]") : sprintf("%-8s", "[ ]")
       });
     });
 
