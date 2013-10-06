@@ -70,11 +70,11 @@ $(document).ready(function() {
         col.append(i + 1)
         col = $('<td>').appendTo(newRow);
         col.append('<i class="handle icon-resize-vertical">');
-        AddCol(newRow, { id: 'name' + i, value: item['name'].trim() });
-        AddCol(newRow, { class: 'nick', id: 'nick' + i, value: item['nick'].trim() });
-        AddCol(newRow, { type: 'checkbox', id: 'sponsor' + i, name: 'sponsor', checked: item['sponsor'].trim() !== '' ? 'checked' : null, disabled: 'disabled' });
-        AddCol(newRow, { class: 'ombudsman', type: 'checkbox', id: 'ombudsman' + i, name: 'ombudsman' });
-        AddCol(newRow, { class: 'remove', type: 'checkbox', id: 'remove' + i, name: 'remove' });
+        AddCol(newRow, { value: item['name'].trim() });
+        AddCol(newRow, { class: 'nick', value: item['nick'].trim() });
+        AddCol(newRow, { type: 'checkbox', name: 'sponsor', checked: item['sponsor'].trim() !== '' ? 'checked' : null, disabled: 'disabled' });
+        AddCol(newRow, { class: 'ombudsman', type: 'checkbox', name: 'ombudsman' });
+        AddCol(newRow, { class: 'remove', type: 'checkbox', name: 'remove' });
       });
     });
 
@@ -97,10 +97,10 @@ $(document).ready(function() {
       {
         var newRow = $('<tr class="item">').appendTo('#sponsors');
 
-        AddCol(newRow, { id: 'name' + i, value: item['name'].trim() });
-        AddCol(newRow, { class: 'nick', id: 'nick' + i, value: item['nick'].trim() });
-        AddCol(newRow, { type: 'checkbox', id: 'sponsor' + i, name: 'sponsor', checked: item['sponsor'].trim() !== '' ? 'checked' : null, disabled: 'disabled' });
-        AddCol(newRow, { class: 'remove', type: 'checkbox', id: 'remove' + i, name: 'remove' });
+        AddCol(newRow, { value: item['name'].trim() });
+        AddCol(newRow, { class: 'nick', value: item['nick'].trim() });
+        AddCol(newRow, { type: 'checkbox', name: 'sponsor', checked: item['sponsor'].trim() !== '' ? 'checked' : null, disabled: 'disabled' });
+        AddCol(newRow, { class: 'remove', type: 'checkbox', name: 'remove' });
       });
     });
   }
