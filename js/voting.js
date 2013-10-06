@@ -163,9 +163,9 @@ $(document).ready(function() {
         nick: sprintf("%-12s", item["nick"]),
         name: sprintf("%-24s", item["name"]),
         rank: sprintf("%'_4s", item["rank"]),
-        sponsor: item["roles"].sponsor ? sprintf("%-9s", "(S)") : sprintf("%9s", ""),
-        ombudsman: item.ombudsman ? sprintf("%-11s", "[X]") : sprintf("%-11s", "[ ]"),
-        remove: item.remove ? sprintf("%-8s", "[X]") : sprintf("%-8s", "[ ]")
+        sponsor: sprintf("%-10s", item["roles"].sponsor ? "(S)" : ""),
+        ombudsman: sprintf("%-12s", item.ombudsman ? "[X]" : "[ ]"),
+        remove: sprintf("%-10s", item.remove ? "[X]" : "[ ]")
       });
     });
 
@@ -185,8 +185,8 @@ $(document).ready(function() {
       {
         nick: sprintf("%-12s", item["nick"]),
         name: sprintf("%-24s", item["name"]),
-        sponsor: item["roles"].sponsor ? sprintf("%-9s", "(S)") : sprintf("%9s", ""),
-        remove: item.remove ? sprintf("%-8s", "[X]") : sprintf("%-8s", "[ ]")
+        sponsor: sprintf("%-10s", item["roles"].sponsor ? "(S)" : ""),
+        remove: sprintf("%-10s", item.remove ? "[X]" : "[ ]")
       });
     });
 
