@@ -109,7 +109,7 @@ $(document).ready(function() {
 
   $("#submit").click(function()
   {
-    $("tr.item").each(function(i, row)
+    $("#members tr.item").each(function(i, row)
     {
       var key = $("span.nick", row).text();
       var rank = $("td.index", row).text();

@@ -4,7 +4,7 @@ title: Voting
 script_srcs: ['/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', '/js/voting.js']
 ---
 <style type="text/css">
-  #members {
+  .userlist {
     border-collapse: separate;
     border-spacing: 2px;
   }
@@ -37,7 +37,9 @@ script_srcs: ['/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', 
 </style>
 
 <input type="button" class="btn" id="rawballot" value="Get Raw Ballot" />
-<table id="members">
+
+<h3>Section 1: Staff Rankings</h3>
+<table id="members" class="userlist">
   <thead>
     <tr>
       <th class="index">Rank</th>
