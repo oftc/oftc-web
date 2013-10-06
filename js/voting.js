@@ -33,8 +33,8 @@ $(document).ready(function() {
               col.append(i + 1)
               col = $("<td>").appendTo(newRow);
               col.append("<i class='handle icon-resize-vertical'>");
-              AddCol(newRow, { type: "text", id: "name" + i, name: "Name", value: item["name"].trim(), readonly: true });
-              AddCol(newRow, { class: "nick", type: "text", id: "nick" + i, name: "nick", value: item["nick"].trim(), readonly: true });
+              AddCol(newRow, { id: "name" + i, value: item["name"].trim() });
+              AddCol(newRow, { class: "nick", id: "nick" + i, value: item["nick"].trim() });
               AddCol(newRow, { type: "checkbox", id: "sponsor" + i, name: "sponsor", checked: item["sponsor"].trim() !== '' ? "checked" : null, disabled: "disabled" });
               AddCol(newRow, { class: "ombudsman", type: "checkbox", id: "ombudsman" + i, name: "ombudsman" });
               AddCol(newRow, { class: "remove", type: "checkbox", id: "remove" + i, name: "remove" });
@@ -47,16 +47,21 @@ $(document).ready(function() {
   function AddCol(row, attr)
   {
      var td = $("<td>");
-     var el = $("<input>");
-
-     el.attr(attr);
-     td.append(el);
+     var el;
 
      if(attr.type == "checkbox")
      {
+        el = $("<input>");
         td.addClass('center');
      }
+     else
+     {
+        el = $("<span>");
+        el.text(attr.value);
+     }
 
+     el.attr(attr);
+     td.append(el);
      row.append(td);
   }
 
@@ -105,7 +110,7 @@ $(document).ready(function() {
   {
       $("tr.item").each(function(i, row)
       {
-          var key = $("input.nick", row).val();
+          var key = $("span.nick", row).text();
           var rank = $("td.index", row).text();
           var ombudsman = $("input.ombudsman", row)[0].checked
           var remove = $("input.remove", row)[0].checked
