@@ -4,62 +4,62 @@ title: Voting
 script_srcs: ['/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', '/js/voting.js']
 ---
 <style type="text/css">
-   #members {
-      border-collapse: separate;
-      border-spacing: 2px;
-   }
-   td.center {
-      text-align: center;
-   }
-   .handle {
-      cursor: move;
-   }
-   #overlay {
-      width: 60%;
-      min-height: 80%;
-      margin-left: -30%;
-   }
-   #overlay .modal-body {
-      position: absolute;
-      top: 48px;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      padding: 0;
-      max-height: none;
-      overflow-y: scroll;
-   }
-   #overlay .modal-body pre {
-      border: 0;
-      margin: 0;
-      padding: 10px;
-   }
+  #members {
+    border-collapse: separate;
+    border-spacing: 2px;
+  }
+  td.center {
+    text-align: center;
+  }
+  .handle {
+    cursor: move;
+  }
+  #overlay {
+    width: 60%;
+    min-height: 80%;
+    margin-left: -30%;
+  }
+  #overlay .modal-body {
+    position: absolute;
+    top: 48px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    max-height: none;
+    overflow-y: scroll;
+  }
+  #overlay .modal-body pre {
+    border: 0;
+    margin: 0;
+    padding: 10px;
+  }
 </style>
 
 <input type="button" class="btn" id="rawballot" value="Get Raw Ballot" />
 <table id="members">
-    <thead>
-        <tr>
-            <th class="index">Rank</th>
-            <th></th>
-            <th style="width: 200px;">Name</th>
-            <th style="width: 100px;">Nick</th>
-            <th>Sponsor</th>
-            <th>Ombudsman</th>
-            <th>Remove</th>
-        </tr>
-    </thead>
-    <tbody>
-    </tbody>
+  <thead>
+    <tr>
+      <th class="index">Rank</th>
+      <th></th>
+      <th style="width: 200px;">Name</th>
+      <th style="width: 100px;">Nick</th>
+      <th>Sponsor</th>
+      <th>Ombudsman</th>
+      <th>Remove</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
 </table>
 
 <input type="button" class="btn" id="submit" value="Process" />
 
 <div id="overlay" class="modal hide fade" aria-labelledby="myModalLabel">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-        <h3 id="myModalLabel">Your Ballot</h3>
-    </div>
-    <div id="overlay-content" class="modal-body">
-    </div>
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="myModalLabel">Your Ballot</h3>
+  </div>
+  <div id="overlay-content" class="modal-body">
+  </div>
 </div>
