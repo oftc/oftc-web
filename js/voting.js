@@ -46,7 +46,18 @@ $(document).ready(function() {
 
   function AddCol(row, attr)
   {
-      row.append($("<td>").append($("<input>").attr(attr)));
+     var td = $("<td>");
+     var el = $("<input>");
+
+     el.attr(attr);
+     td.append(el);
+
+     if(attr.type == "checkbox")
+     {
+        td.addClass('center');
+     }
+
+     row.append(td);
   }
 
   updateIndex = function(e, ui) 
