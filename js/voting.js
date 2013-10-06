@@ -2,6 +2,48 @@ var staffJSON = {};
 var sponsorsJSON = {};
 var staff = { "staff": [], "sponsors": [] };
 $(document).ready(function() {
+  var templateFields = {
+    'nick': '%-12s',
+    'name': '%-24s',
+    'rank': '%\'_4s',
+    'sponsor': '%-9s',
+    'ombudsman': '%-11s',
+    'remove': '%-8s'
+  };
+
+  function formatField(field, data)
+  {
+    var fmt = templateFields[field] || '%s';
+
+    return sprintf(fmt, data);
+  }
+
+  function formatStaff(item)
+  {
+    var data = {};
+
+    data['nick'] = formatField('nick', item['nick']);
+    data['name'] = formatField('name', item['name']);
+    data['rank'] = formatField('rank', item['rank']);
+    data['sponsor'] = formatField('sponsor', item['roles'].sponsor ? '(S)' : '');
+    data['ombudsman'] = formatField('ombudsman', item['ombudsman'] ? '[X]' : '[ ]');
+    data['remove'] = formatField('remove', item['remove'] ? '[X]' : '[ ]');
+
+    return data;
+  }
+
+  function formatSponsors(item)
+  {
+    var data = {};
+
+    data['nick'] = formatField('nick', item['nick']);
+    data['name'] = formatField('name', item['name']);
+    data['sponsor'] = formatField('sponsor', item['roles'].sponsor ? '(S)' : '');
+    data['remove'] = formatField('remove', item['remove'] ? '[X]' : '[ ]');
+
+    return data;
+  }
+
   function ProcessJSON()
   {
     $.getJSON("/staff.json", function()
@@ -16,15 +58,7 @@ $(document).ready(function() {
       staffJSON = data;
       $.each(staffJSON["staff"], function(i, item)
       {
-        staff.staff.push(
-        {
-          nick: sprintf("%-13s", item["nick"]),
-          name: sprintf("%-25s", item["name"]),
-          rank: sprintf("%'_7s", ""),
-          sponsor: sprintf("%-10s", item["roles"].sponsor ? "(S)" : ""),
-          ombudsman: sprintf("%-12s", item.ombudsman ? "[X]" : "[ ]"),
-          remove: sprintf("%-10s", item.remove ? "[X]" : "[ ]")
-        });
+        staff.staff.push(formatStaff(item));
       });
 
       $.each(staff["staff"], function(i, item)
@@ -55,13 +89,7 @@ $(document).ready(function() {
       sponsorsJSON = data;
       $.each(sponsorsJSON["sponsors"], function(i, item)
       {
-        staff.sponsors.push(
-        {
-          nick: sprintf("%-13s", item["nick"]),
-          name: sprintf("%-25s", item["name"]),
-          sponsor: sprintf("%-10s", item["roles"].sponsor ? "(S)" : ""),
-          remove: sprintf("%-10s", item.remove ? "[X]" : "[ ]")
-        });
+        staff.sponsors.push(formatSponsors(item));
       });
 
       $.each(staff["sponsors"], function(i, item)
@@ -130,9 +158,9 @@ $(document).ready(function() {
     {
       $.each(staff["staff"], function(i, item)
       {
-        item.rank = sprintf("%'_7s", ""),
-        item.ombudsman = sprintf("%-12s", "[ ]"),
-        item.remove = sprintf("%-10s", "[ ]")
+        item['rank'] = formatField('rank', '');
+        item['ombudsman'] = formatField('ombudsman', '[ ]');
+        item['remove'] = formatField('remove', '[ ]');
       });
       var ballot = Hogan.compile(tmpl);
       $('#overlay-content').html(ballot.render(staff));
@@ -158,15 +186,7 @@ $(document).ready(function() {
 
     $.each(staffJSON["staff"], function(i, item)
     {
-      staff.staff.push(
-      {
-        nick: sprintf("%-12s", item["nick"]),
-        name: sprintf("%-24s", item["name"]),
-        rank: sprintf("%'_4s", item["rank"]),
-        sponsor: sprintf("%-10s", item["roles"].sponsor ? "(S)" : ""),
-        ombudsman: sprintf("%-12s", item.ombudsman ? "[X]" : "[ ]"),
-        remove: sprintf("%-10s", item.remove ? "[X]" : "[ ]")
-      });
+      staff.staff.push(formatStaff(item));
     });
 
     $('#sponsors tr.item').each(function(i, row)
@@ -181,13 +201,7 @@ $(document).ready(function() {
 
     $.each(sponsorsJSON['sponsors'], function(i, item)
     {
-      staff.sponsors.push(
-      {
-        nick: sprintf("%-12s", item["nick"]),
-        name: sprintf("%-24s", item["name"]),
-        sponsor: sprintf("%-10s", item["roles"].sponsor ? "(S)" : ""),
-        remove: sprintf("%-10s", item.remove ? "[X]" : "[ ]")
-      });
+      staff.sponsors.push(formatSponsors(item));
     });
 
     $.get('/ballot', function (tmpl)
