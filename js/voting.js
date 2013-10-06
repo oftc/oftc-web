@@ -15,6 +15,7 @@ $(document).ready(function() {
   function formatField(field, data)
   {
     var fmt = templateFields[field] || '%s';
+    var data = data || '';
 
     return sprintf(fmt, data);
   }
