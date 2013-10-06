@@ -162,6 +162,10 @@ $(document).ready(function() {
         item['ombudsman'] = formatField('ombudsman', '[ ]');
         item['remove'] = formatField('remove', '[ ]');
       });
+      $.each(staff['sponsors'], function(i, item)
+      {
+        item['remove'] = formatField('remove', '[ ]');
+      });
       var ballot = Hogan.compile(tmpl);
       $('#overlay-content').html(ballot.render(staff));
       $('#overlay').modal({keyboard: true});
