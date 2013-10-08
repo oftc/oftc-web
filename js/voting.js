@@ -105,7 +105,38 @@ $(document).ready(function() {
         AddCol(newRow, { type: 'checkbox', name: 'sponsor', checked: checked, disabled: 'disabled' });
         AddCol(newRow, { class: 'remove', type: 'checkbox', name: 'remove' });
       });
+
+      randomizeList();
+      updateIndex();
     });
+  }
+
+  function randomizeList()
+  {
+    function swap(a, b)
+    {
+      var ac = $(a).clone(true);
+      var bc = $(b).clone(true);
+      $(a).replaceWith(bc);
+      $(b).replaceWith(ac);
+    }
+
+    var table
+    var list;
+
+    table = $('#members tbody');
+    list = $('tr', table);
+
+    for(i = 0; i < list.length; i++)
+    {
+      j = Math.floor(Math.random() * i);
+      if(i != j)
+      {
+        swap(list[i], list[j]);
+        // Update the list to avoid stale references.
+        list = $('tr', table);
+      }
+    }
   }
 
   ProcessJSON();
@@ -131,9 +162,9 @@ $(document).ready(function() {
     row.append(td);
   }
 
-  updateIndex = function(e, ui)
+  updateIndex = function()
   {
-    $('td.index', ui.item.parent()).each(function(i)
+    $('#members tbody tr td.index').each(function(i)
     {
       $(this).html(i + 1);
     });
