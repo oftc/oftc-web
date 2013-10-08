@@ -48,7 +48,7 @@ elections, or for various reasons between elections. All staff may vote in
 those elections and all staff are automatically entered to run for all roles, 
 as explained in section 3 of OFTC's constitution, found at:
 
-http://www.oftc.net/policy/constitution/
+http://www.oftc.net/constitution/
 
 Please note that all staff members except for server sponsors are expected to 
 attend monthly staff meetings, regardless of their roles. Attendance is taken
@@ -120,7 +120,7 @@ be appreciated and useful.
         privileges, such as an O-line. If I wish to apply for such a position,
         I will do so in a separate application.
 2.  [ ] I understand and will abide by the Sponsor Guidelines found at
-        http://www.oftc.net/guides/sponsor.txt
+        http://www.oftc.net/Server_Sponsor/
 3.  [ ] I have legitimate administrative access to this server and have the
         right to offer this server's resources to OFTC.
 4.  [ ] The server I am sponsoring can be accessed via SSH.
@@ -173,13 +173,13 @@ Section 5.2: NETREP
 -------------------
 
 1. [ ] I understand and will abide by the Network Representative Guidelines
-       found at http://www.oftc.net/guides/netrep.txt
+       found at http://www.oftc.net/Network_Representative/
 
 Section 5.3: NETOP
 ------------------
 
 1. [ ] I understand and will abide by the Network Operator Guidelines
-       found at http://www.oftc.net/guides/operguide.txt
+       found at http://www.oftc.net/Network_Operator/
 
 2. I am available to cover the network during the following hours:
 

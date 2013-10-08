@@ -74,7 +74,7 @@ be defined in [Network Policy](/Network_Policy).
 
 ### Sponsors
 
-[Sponsors](/Sponsors) are responsible for maintaining the hardware,
+[Server Sponsors](/Server_Sponsor) are responsible for maintaining the hardware,
 connectivity, and operating system installation upon which our communications
 software runs.
 
