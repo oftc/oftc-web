@@ -23,7 +23,7 @@ is a [drop policy](/FAQ/Services/#i-want-to-register-a-nickname-someone-else-alr
    - Off topic channels are those not related to the development/use of free and
 open source software.
    - Off-topic channels are allowed on the basis that they do not cause
-disprution to other network users and get minimal attention from OFTC staff
+disruption to other network users and get minimal attention from OFTC staff
  * Illegal activity is strictly prohibited and offenders will be removed from
 the network without warning
  * Channel disputes are the channel's problem, network staff will not get
