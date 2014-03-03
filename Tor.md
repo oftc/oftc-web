@@ -35,6 +35,16 @@ however a new connection will be refused. Once OFTC takes this measure (which
 we often view as a last resort) new connects will be refused so long as we
 still see the abuse attempts, this duration can range from an hour to day(s).
 
+## Channel ban policies
+
+Some channels may chose to disallow connections from Tor connections. This is
+the choice of the channel, and not a decision by the network. However, it is
+also common for channels to allow an exception for identified Tor users, who
+have turned on their cloak.
+
+If you are having trouble connecting to a channel, try
+"/msg nickserv set cloak on" and re-attempt the join.
+
 ## Future Work
 
 We are working to create a mechanism by which we can allow users who have
