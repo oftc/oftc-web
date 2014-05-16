@@ -291,6 +291,8 @@ your newly generated certificate. Note that we use the SSL port 6697 to connect.
 /set irc.server.OFTC.ssl_cert %h/certs/nick.pem
 {% endhighlight %}
 
+You may need to set the weechat.network.gnutls_ca_file variable.
+
 Now connect back to the server.
 
 `/connect OFTC`
