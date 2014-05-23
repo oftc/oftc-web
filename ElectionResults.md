@@ -11,4 +11,5 @@ title: ElectionResults
 * [2010](/ElectionResults/2010)
 * [2011](/ElectionResults/2011)
 * [2012](/ElectionResults/2012)
+* [2013](/ElectionResults/2013)
 
