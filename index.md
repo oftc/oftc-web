@@ -2,7 +2,7 @@
 layout: master
 title: Home
 ---
-# <center>Welcome to OFTC!</center> #
+# <center><img src="img/oftc-80.png">Welcome to OFTC!</center> #
 
 The Open and Free Technology Community aims to provide stable and effective
 collaboration services to members of the community in any part of the world,
