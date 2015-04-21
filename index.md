@@ -41,7 +41,7 @@ We support SSL on all of our servers.  The certificates are signed, indirectly,
 by SPI's certification authority.  You can get the root certificate at the SPI
 website under
 [http://www.spi-inc.org/ca/spi-cacert.crt](http://www.spi-inc.org/ca/spi-cacert.crt),
-and if you care you can verify it using [the pgp-signed
+and if you care you can verify it using [the pgp-signed certificate
 fingerprints](http://www.spi-inc.org/ca/spi-cacert.fingerprint.txt).
 Alternatively, install a certificate collection (ca-certificates or similar
 names are common) that includes it.
