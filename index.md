@@ -35,7 +35,7 @@ preference isn't IPv6
 [irc://irc4.oftc.net:6667](irc://irc4.oftc.net:6667)
  * *or alternatively* connect using our [WebChat](WebChat) or use the
 boxes at the top of the page
- * Use of Tor is permitted is generally [allowed](/Tor)
+ * Use of [Tor](/Tor) is permitted
 
 We support SSL on all of our servers.  The certificates are signed, indirectly,
 by SPI's certification authority.  You can get the root certificate at the SPI
