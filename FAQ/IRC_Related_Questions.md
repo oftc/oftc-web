@@ -45,7 +45,7 @@ use a firewall.)
  * `<nick>.<role>.oftc.net` is a [Staff](/Staff) member, they have these masks
 to be easily identified as to what role they play. A complete explanation is
 available at [Staff](/Staff)
- * `<nick>.user.oftc.net` is a [UserCloak](/UserCloak). Please see
+ * `<nick>.user.oftc.net` is a user cloak. Please see
 [UserCloaks](/UserCloaks) for more information.
 
 ## How can I sponsor a server or join the project's staff? ##
