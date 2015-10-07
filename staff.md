@@ -67,6 +67,7 @@ approving of new staff members or of servers.
  * Scott Bender (scott)
  * Timothy J. Fontaine (tjfontaine)
  * Martin Zobel-Helas (zobel)
+ * Robert A. Nowak (rnowak)
 
 ## Department Heads ##
 
@@ -94,7 +95,7 @@ voted to this position, can be found [here](/Network_Operator).
  * Richard Hartmann (RichiH)
  * Tom Wesley (tomaw)
  * Alexander Wirt (formorer)
- * Robert A. Nowak (rnowak)
+ * Seth Arnold (sarnold)
 
 ## Network Representatives ##
 
@@ -112,7 +113,6 @@ voted to this position, can be found [here](/Network_Representative).
  * Bernd Zeimetz (bzed)
  * Richard Rose (rik)
  * Sean Glover (wladek)
- * Seth Arnold (sarnold)
 
 ## Advisors ##
 

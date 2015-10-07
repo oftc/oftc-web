@@ -95,7 +95,7 @@
     {
       "name": "Robert A. Nowak",
       "nick": "rnowak",
-      "roles": { "netop": true }
+      "roles": { "noc": true }
     },
     "scott":
     {
@@ -111,9 +111,9 @@
     },
     "sarnold":
     {
-    	"name": "Seth Arnold",
-    	"nick": "sarnold",
-    	"roles": { "netrep": true }
+        "name": "Seth Arnold",
+        "nick": "sarnold",
+        "roles": { "netop": true }
     },
     "cryogen":
     {
