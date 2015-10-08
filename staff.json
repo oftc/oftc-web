@@ -127,6 +127,12 @@
       "nick": "tjfontaine",
       "roles": { "noc": true, "ombudsman": true }
     },
+    "towo":
+    {
+      "name": "Tobias Wolter",
+      "nick": "towo",
+      "roles": { "netrep": true }
+    },
     "tomaw":
     {
       "name": "Tom Wesley",
