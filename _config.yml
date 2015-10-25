@@ -2,4 +2,3 @@
 pygments: true
 markdown: kramdown
 permalink: pretty
-auto: true
