@@ -47,14 +47,9 @@ Alternatively, install a certificate collection (ca-certificates or similar
 names are common) that includes it.
 
 <div class='body'>
+<h1>News</h1>
 {% for post in site.posts %}
-
-{% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% capture month %}{{ post.date | date: "%B" }}{% endcapture %}
-{% ifchanged year %}<h1>{{ year }}</h1>{% endifchanged %}
-{% ifchanged month %}<h2>{{ month }}</h2>{% endifchanged %}
-
+{% ifchanged month %}<h2>{{ post.date | date: "%B %Y" }} </h2>{% endifchanged %}
 {{ post.content }}
-
 {% endfor %}
 </div>
