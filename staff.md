@@ -42,7 +42,7 @@ responsible for chairing [Network Operations Committee](/Network Operations
 Committee) meetings and other communications, calling elections, and assigning
 or reassigning responsibilities to other members of the Committee.
 
- * Chair - Joerg Jaspert (chair@oftc.net)
+ * Chair - Christoph Berg (Myon) <chair -at- oftc.net>
 
 ## Ombudsman ##
 
@@ -50,7 +50,7 @@ The [Ombudsman](/Ombudsman) is the judicial system of the Network and is
 responsible for hearing and acting upon complaints brought against any member of
 the staff or against the network itself.
 
- * Ombudsman - Timothy J. Fontaine (ombudsman@oftc.net)
+ * Ombudsman - Timothy J. Fontaine (tjfontaine) <ombudsman -at- oftc.net>
 
 ## Network Operations Committee ##
 
@@ -61,13 +61,12 @@ approving of new staff members or of servers.
 
  * Stuart Walsh (cryogen)
  * Joerg Jaspert (Ganneff)
- * Neil McGovern (McGovern) (Maulkin)
+ * Neil McGovern (Maulkin)
  * Christoph Berg (Myon)
- * Mark Walling (mwalling)
- * Scott Bender (scott)
+ * Robert A. Nowak (rnowak)
+ * Seth Arnold (sarnold)
  * Timothy J. Fontaine (tjfontaine)
  * Martin Zobel-Helas (zobel)
- * Robert A. Nowak (rnowak)
 
 ## Department Heads ##
 
@@ -87,15 +86,14 @@ assistance from any user of the Network.
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Operator).
 
-
- * Andre Guibert de Bruet (andy)
  * Jimmy Kaplowitz (Hydroxide)
- * Matt London (Matt)
  * Michael Greb (mikegrb)
+ * Mark Walling (mwalling)
  * Richard Hartmann (RichiH)
+ * Scott Bender (scott)
  * Tom Wesley (tomaw)
  * Alexander Wirt (formorer)
- * Seth Arnold (sarnold)
+ * Uli Martens (youam)
 
 ## Network Representatives ##
 
@@ -107,11 +105,13 @@ where they can not.
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Representative).
 
+ * Andre Guibert de Bruet (andy)
+ * Matt London (Matt)
  * Rico Gloeckner (mc)
  * Jan Prunk (yang)
- * Uli Martens (youam)
  * Bernd Zeimetz (bzed)
  * Richard Rose (rik)
+ * Tobias Wolter (towo)
  * Sean Glover (wladek)
 
 ## Advisors ##

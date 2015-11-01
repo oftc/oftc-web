@@ -1,148 +1,127 @@
 {
   "staff":
   {
-    "formorer": 
-    {
-      "name": "Alexander Wirt",
-      "nick": "formorer",
-      "roles": { "netop": true }
-    },
-    "andy":
-    {
-      "name": "Andre Guibert de Bruet",
-      "nick": "andy",
-      "roles": { "sponsor": true }
-    },
-    "bzed":
-    {
-      "name": "Bernd Zeimetz",
-      "nick": "bzed",
-      "roles": { "netrep": true }
-    },
-    "Myon":
-    {
+    "Myon": {
       "name": "Christoph Berg",
       "nick": "Myon",
-      "roles": { "noc": true }
+      "roles": { "chair": true, "noc": true }
     },
-    "yang":
-    {
-      "name": "Jan Prunk",
-      "nick": "yang",
-      "roles": { "netrep": true }
-    },
-    "Hydroxide":
-    {
-      "name": "Jimmy Kaplowitz",
-      "nick": "Hydroxide",
-      "roles": { "netop": true }
-    },
-    "Ganneff":
-    {
-      "name": "Joerg Jaspert",
-      "nick": "Ganneff",
-      "roles": { "chair": true, "noc": true, "sponsor": true }
-    },
-    "mwalling":
-    {
-      "name": "Mark Walling",
-      "nick": "mwalling",
-      "roles": { "noc": true }
-    },
-    "zobel":
-    {
-      "name": "Martin Zobel-Helas",
-      "nick": "zobel",
-      "roles": { "noc": true }
-    },
-    "Matt":
-    {
-      "name": "Matt London",
-      "nick": "Matt",
-      "roles": { "netop": true }
-    },
-    "mikegrb":
-    {
-      "name": "Michael Greb",
-      "nick": "mikegrb",
-      "roles": { "netop": true }
-    },
-    "Maulkin":
-    {
-      "name": "Neil McGovern",
-      "nick": "Maulkin",
-      "roles": { "noc": true }
-    },
-    "RichiH":
-    {
-      "name": "Richard Hartmann",
-      "nick": "RichiH",
-      "roles": { "netop": true }
-    },
-    "mc":
-    {
-      "name": "Rico Gloeckner",
-      "nick": "mc",
-      "roles": { "netrep": true, "sponsor": true }
-    },
-    "rik":
-    {
-      "name": "Rik Rose",
-      "nick": "rik",
-      "roles": { "netrep": true }
-    },
-    "rnowak":
-    {
-      "name": "Robert A. Nowak",
-      "nick": "rnowak",
-      "roles": { "noc": true }
-    },
-    "scott":
-    {
-      "name": "Scott Bender",
-      "nick": "scott",
-      "roles": { "noc": true }
-    },
-    "wladek":
-    {
-      "name": "Sean Glover",
-      "nick": "wladek",
-      "roles": { "netrep": true }
-    },
-    "sarnold":
-    {
-        "name": "Seth Arnold",
-        "nick": "sarnold",
-        "roles": { "netop": true }
-    },
-    "cryogen":
-    {
+
+    "cryogen": {
       "name": "Stuart Walsh",
       "nick": "cryogen",
       "roles": { "noc": true }
     },
-    "tjfontaine":
-    {
+    "Ganneff": {
+      "name": "Joerg Jaspert",
+      "nick": "Ganneff",
+      "roles": { "noc": true, "sponsor": true }
+    },
+    "Maulkin": {
+      "name": "Neil McGovern",
+      "nick": "Maulkin",
+      "roles": { "noc": true }
+    },
+    "rnowak": {
+      "name": "Robert A. Nowak",
+      "nick": "rnowak",
+      "roles": { "noc": true }
+    },
+    "sarnold": {
+      "name": "Seth Arnold",
+      "nick": "sarnold",
+      "roles": { "noc": true }
+    },
+    "tjfontaine": {
       "name": "Timothy J. Fontaine",
       "nick": "tjfontaine",
       "roles": { "noc": true, "ombudsman": true }
     },
-    "towo":
-    {
-      "name": "Tobias Wolter",
-      "nick": "towo",
-      "roles": { "netrep": true }
+    "zobel": {
+      "name": "Martin Zobel-Helas",
+      "nick": "zobel",
+      "roles": { "noc": true }
     },
-    "tomaw":
-    {
+
+    "formorer": {
+      "name": "Alexander Wirt",
+      "nick": "formorer",
+      "roles": { "netop": true }
+    },
+    "Hydroxide": {
+      "name": "Jimmy Kaplowitz",
+      "nick": "Hydroxide",
+      "roles": { "netop": true }
+    },
+    "mikegrb": {
+      "name": "Michael Greb",
+      "nick": "mikegrb",
+      "roles": { "netop": true }
+    },
+    "mwalling": {
+      "name": "Mark Walling",
+      "nick": "mwalling",
+      "roles": { "netop": true }
+    },
+    "RichiH": {
+      "name": "Richard Hartmann",
+      "nick": "RichiH",
+      "roles": { "netop": true }
+    },
+    "scott": {
+      "name": "Scott Bender",
+      "nick": "scott",
+      "roles": { "netop": true }
+    },
+    "tomaw": {
       "name": "Tom Wesley",
       "nick": "tomaw",
       "roles": { "netop": true }
     },
-    "youam":
-    {
+    "youam": {
       "name": "Uli Martens",
       "nick": "youam",
+      "roles": { "netop": true }
+    },
+
+    "andy": {
+      "name": "Andre Guibert de Bruet",
+      "nick": "andy",
+      "roles": { "netrep": true, "sponsor": true }
+    },
+    "bzed": {
+      "name": "Bernd Zeimetz",
+      "nick": "bzed",
+      "roles": { "netrep": true }
+    },
+    "Matt": {
+      "name": "Matt London",
+      "nick": "Matt",
+      "roles": { "netrep": true }
+    },
+    "mc": {
+      "name": "Rico Gloeckner",
+      "nick": "mc",
+      "roles": { "netrep": true, "sponsor": true }
+    },
+    "rik": {
+      "name": "Rik Rose",
+      "nick": "rik",
+      "roles": { "netrep": true }
+    },
+    "wladek": {
+      "name": "Sean Glover",
+      "nick": "wladek",
+      "roles": { "netrep": true }
+    },
+    "towo": {
+      "name": "Tobias Wolter",
+      "nick": "towo",
+      "roles": { "netrep": true }
+    },
+    "yang": {
+      "name": "Jan Prunk",
+      "nick": "yang",
       "roles": { "netrep": true }
     }
   }
