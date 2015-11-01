@@ -106,13 +106,13 @@ A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Representative).
 
  * Andre Guibert de Bruet (andy)
+ * Bernd Zeimetz (bzed)
  * Matt London (Matt)
  * Rico Gloeckner (mc)
- * Jan Prunk (yang)
- * Bernd Zeimetz (bzed)
  * Richard Rose (rik)
  * Tobias Wolter (towo)
  * Sean Glover (wladek)
+ * Jan Prunk (yang)
 
 ## Advisors ##
 
