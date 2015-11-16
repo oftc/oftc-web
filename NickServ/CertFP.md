@@ -109,6 +109,9 @@ to NickServ.](#AddCertFPtoNS)
 
 ### XChat 2.8 ###
 
+**XChat supports SSLv3 only, which is not a modern crypto standard anymore.
+To connect to OFTC, [XChat must be patched](http://sources.debian.net/src/xchat/2.8.8-7.3/debian/patches/68_dont_force_sslv3.patch/). A suggested alternative client is hexchat.**
+
 This is known to work with XChat 2.8.x. It does **NOT** work with prior
 versions!
 
