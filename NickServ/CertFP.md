@@ -306,6 +306,27 @@ Now connect back to the server.
 To continue please scroll down to [read how to add your certificates fingerprint
 to NickServ.](#AddCertFPtoNS)
 
+### Thunderbird
+
+Convert the key to pkcs12:
+
+{% highlight text %}
+openssl pkcs12 -export -out nick.p12 -in nick.pem -name "nick CertFP"
+{% endhighlight %}
+
+Go to the Certificate Manager. You should find that in Edit,
+Preferences, Advanced, Certificates. Select ‘View Certificates’ and
+there you can import the nick.p12 you just generated.
+
+Now connect to OFTC using SSL and Thunderbirds asks, if you want to
+use the certificate for authentication. Say yes. (Note that you will
+have to confirm sending the certificate once for every server you
+connect to. As irc.oftc.net is a rotation it might ask you later again,
+don't be surprised.)
+
+To continue please scroll down to [read how to add your certificates fingerprint
+to NickServ.](#AddCertFPtoNS)
+
 <a id="AddCertFPtoNS"></a>
 
 ## Add your Certificate Fingerprint to your Nick in NickServ ##
