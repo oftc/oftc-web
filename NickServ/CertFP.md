@@ -110,7 +110,8 @@ to NickServ.](#AddCertFPtoNS)
 ### XChat 2.8 ###
 
 **XChat supports SSLv3 only, which is not a modern crypto standard anymore.
-To connect to OFTC, [XChat must be patched](http://sources.debian.net/src/xchat/2.8.8-7.3/debian/patches/68_dont_force_sslv3.patch/). A suggested alternative client is hexchat.**
+To connect to OFTC, [XChat must be patched](http://sources.debian.net/src/xchat/2.8.8-7.3/debian/patches/68_dont_force_sslv3.patch/).
+A suggested alternative client is [HexChat](#hexchat).**
 
 This is known to work with XChat 2.8.x. It does **NOT** work with prior
 versions!
@@ -140,6 +141,27 @@ network' and 'Accept invalid SSL certificate'.
 On Debian or Ubuntu this is as simple as 'sudo apt-get install ca-certificates'.
 For other OS/distributions get
 [http://www.spi-inc.org/ca/spi-cacert.crt](http://www.spi-inc.org/ca/spi-cacert.crt).
+
+To continue please scroll down to [read how to add your certificates fingerprint
+to NickServ.](#AddCertFPtoNS)
+
+### HexChat ###
+
+Hexchat equals XChat very much. The expected cert path is different, though.
+The client certificate must be named after the entry in the HexChat network
+list. In Debian GNU/Linux the preconfigured entry is named "OFTC" (see first
+screenshot).
+
+![HexChat Network List Screenshot](../1_HexChat_Network-List.png)
+
+ 1. mkdir -p ~/.config/hexchat/certs/
+ 1. cat nick.cer nick.key > ~/.config/hexchat/certs/OFTC.pem
+ 1. chmod 400 ~/.config/hexchat/certs/OFTC.pem
+
+In the second screenshot you can see the selected SSL options. "Accept invalid
+SSL certificate" will omit the check of the server certificate (optional).
+
+![HexChat Network Edit Screenshot](../2_HexChat_CertFP.png)
 
 To continue please scroll down to [read how to add your certificates fingerprint
 to NickServ.](#AddCertFPtoNS)
