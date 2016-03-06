@@ -11,7 +11,7 @@ and [oftcdns](#oftcdns) a geoip dns responder to handle user distribution across
 our servers. OFTC uses [GitHub](https://github.com) for its source browsing and
 bug tracking, please see the section below for the url of the project you're
 interested in. You can find tarball releases of our projects at
-[http://www.oftc.net/releases/](http://www.oftc.net/releases/).  Developers
+[https://www.oftc.net/releases/](https://www.oftc.net/releases/).  Developers
 contributing to our code base should read and be familiar with
 [git](http://git-scm.com)
 

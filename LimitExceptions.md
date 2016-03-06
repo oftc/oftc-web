@@ -6,7 +6,7 @@ The OFTC Network limits the number of connections coming from hosts to
 limit the resources that may be used by misconfigured software.
 
 If you receive the message: `No more connections from this host allowed.
-See http://www.oftc.net/oftc/LimitExceptions for more info.` when you
+See https://www.oftc.net/LimitExceptions for more info.` when you
 are not allowed to connect to OFTC, you have hit one of our limits.
 
 If this happens to you, please write to support@oftc.net; include the 
