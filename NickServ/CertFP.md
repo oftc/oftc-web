@@ -291,9 +291,9 @@ EmacsWiki](http://www.emacswiki.org/emacs/ErcSSL).
 To continue please scroll down to [read how to add your certificates fingerprint
 to NickServ.](#AddCertFPtoNS)
 
-### weechat
+### WeeChat
 
-Move the certificates you created some where safe, for example ~/.weechat/certs.
+Move the certificates you created somewhere safe, for example ~/.weechat/certs.
 
 {% highlight text %}
 % mkdir ~/.weechat/certs
@@ -316,12 +316,11 @@ your newly generated certificate. Note that we use the SSL port 6697 to connect.
 /set irc.server.OFTC.ssl_cert %h/certs/nick.pem
 {% endhighlight %}
 
-You may need to set the *weechat.network.gnutls_ca_file* variable.
 On Debian/Ubuntu you can alternatively move *spi-cacert.crt* to
 */usr/local/share/ca-certificates/* and run the *update-ca-certificates*
 command as root.
 
-Now connect back to the server.
+Exit WeeChat and connect back to the OFTC server.
 
 `/connect OFTC`
 
