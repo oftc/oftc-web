@@ -80,20 +80,13 @@ Move the certificates you created some where safe, for example ~/.irssi/certs.
 % mv nick.{key,cer,pem} ~/.irssi/certs
 {% endhighlight %}
 
-Grab the root certificate from SPI to verify the OFTC irc servers.
-
-{% highlight text %}
-% wget http://www.spi-inc.org/ca/spi-cacert.crt -O ~/.irssi/certs/spi.pem
-% ln -s spi.pem ~/.irssi/certs/CAs.pem
-{% endhighlight %}
-
 Now remove the current server and re-add it with the **SSL** flag, using your
 newly generated certificate. Note that we use the SSL port **6697** to connect.
 
 {% highlight text %}
 /server remove irc.oftc.net
 /network add OFTC
-/server add -auto -ssl -ssl_cert ~/.irssi/certs/nick.pem -ssl_cafile ~/.irssi/certs/CAs.pem -ssl_verify -network OFTC irc.oftc.net 6697
+/server add -auto -ssl -ssl_cert ~/.irssi/certs/nick.pem -ssl_verify -network OFTC irc.oftc.net 6697
 {% endhighlight %}
 
 Next we need to disconnect and connect back to the server. (A /reconnect does
@@ -136,11 +129,6 @@ network' and 'Accept invalid SSL certificate'.
  1. Click 'Close' and then click 'Connect'.
 
 ![xchat](../xchat-settings-1.png)
-
-*Note:* Optionally, we can install SPI's root certificates as a trusted source.
-On Debian or Ubuntu this is as simple as 'sudo apt-get install ca-certificates'.
-For other OS/distributions get
-[http://www.spi-inc.org/ca/spi-cacert.crt](http://www.spi-inc.org/ca/spi-cacert.crt).
 
 To continue please scroll down to [read how to add your certificates fingerprint
 to NickServ.](#AddCertFPtoNS)
@@ -254,15 +242,7 @@ to NickServ.](#AddCertFPtoNS)
 
 ### Emacs/ERC ###
 
-Get the root certificate from SPI and move it to a safe place, for example
-~/.ssl. 
-
-{% highlight text %}
-% mkdir ~/.ssl/certs
-% wget http://www.spi-inc.org/ca/spi-cacert.crt -O ~/.ssl/spi_ca.pem
-{% endhighlight %}
-
-Do the same with the certificate you created.
+Move the certificate you created:
 
 {% highlight text %}
 % mv nick.pem ~/.ssl/
@@ -274,13 +254,13 @@ customize-variable" and entering "tls-program").
 In order to connect with gnutls-cli, add the following entry:
 
 {% highlight text %}
-gnutls-cli --priority SECURE256 --x509cafile ~/.ssl/spi_ca.pem --x509certfile ~/.ssl/erc_nick.pem -p %p %h
+gnutls-cli --priority SECURE256 --x509certfile ~/.ssl/erc_nick.pem -p %p %h
 {% endhighlight %}
 
 In order to connect with openssl, add the following entry:
 
 {% highlight text %}
-openssl s_client -connect %h:%p -no_ssl2 -ign_eof -CAfile ~/.ssl/spi_ca.pem -cert ~/.ssl/erc_nick.pem 
+openssl s_client -connect %h:%p -no_ssl2 -ign_eof -cert ~/.ssl/erc_nick.pem 
 {% endhighlight %}
 
 Then call "M-x erc-tls" and connect to irc.oftc.net, port 6697.
@@ -299,12 +279,6 @@ Move the certificates you created somewhere safe, for example ~/.weechat/certs.
 % mkdir ~/.weechat/certs
 % mv nick.{key,cer,pem} ~/.weechat/certs
 {% endhighlight %}
-Grab the root certificate from SPI to verify the OFTC irc servers.
-
-{% highlight text %}
-% wget http://www.spi-inc.org/ca/spi-cacert.crt -O ~/.weechat/certs/spi.pem
-% ln -s spi.pem ~/.weechat/certs/CAs.pem
-{% endhighlight %}
 
 Now disconnect and remove the current server. Re-add it with the SSL flag, using
 your newly generated certificate. Note that we use the SSL port 6697 to connect.
@@ -315,10 +289,6 @@ your newly generated certificate. Note that we use the SSL port 6697 to connect.
 /server add OFTC irc.oftc.net/6697 -ssl -ssl_verify -autoconnect
 /set irc.server.OFTC.ssl_cert %h/certs/nick.pem
 {% endhighlight %}
-
-On Debian/Ubuntu you can alternatively move *spi-cacert.crt* to
-*/usr/local/share/ca-certificates/* and run the *update-ca-certificates*
-command as root.
 
 Exit WeeChat and connect back to the OFTC server.
 
