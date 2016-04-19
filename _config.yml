@@ -1,4 +1,4 @@
 #baseurl: http://www.oftc.net
-pygments: true
+highlighter: pygments
 markdown: kramdown
 permalink: pretty
