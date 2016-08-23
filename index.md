@@ -28,9 +28,9 @@ by `#oftc` or email `support@oftc.net`
 
  * [**ircs://irc.oftc.net:6697**](ircs://irc.oftc.net:6697) for SSL (alternative port: 9999), IPv4 and IPv6.
  * [**irc://irc.oftc.net:6667**](irc://irc.oftc.net:6667) for non-SSL (alternative ports: 6668-6670, 7000), IPv4 and IPv6.
-   See [CertFP](NickServ/CertFP/) for how to configure certificate-based NickServ identification.
- * We support SSL on all of our servers.  The certificates are signed
+ * SSL is supported on all of our servers.  The server certificates are signed
    by the [Let's Encrypt](https://letsencrypt.org/) certification authority.
+ * See [**CertFP**](NickServ/CertFP/) for how to configure client certificate-based NickServ identification.
  * If you need to force IPv4, connect to [ircs://irc4.oftc.net:6697](ircs://irc4.oftc.net:6697).
  * We offer a [**WebChat**](WebChat) service (also via the boxes at the top of this page).
  * Use of [Tor](/Tor) is permitted.
