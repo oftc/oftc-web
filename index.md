@@ -17,12 +17,14 @@ Interest](http://www.spi-inc.org/), a non-profit organization which was founded
 to help organizations develop and distribute open hardware and software.
 
 You can reach the OFTC IRC network by using a traditional [IRC
-Client](http://en.wikipedia.org/wiki/List_of_IRC_clients) of choice, or by the
+Client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) of choice, or by the
 [WebChat](WebChat) that we provide. The webchat enables you to connect to the
 network and chat directly from within your browser.
 
 If you have support requests regarding the operation of the network please stop
-by `#oftc` or email `support@oftc.net`
+by `#oftc` or email `support@oftc.net`. We welcome issues and pull requests on
+our [GitHub projects](https://github.com/oftc), especially on the
+[issue tracking repository](https://github.com/oftc/oftc).
 
 **Connection Details:**
 
