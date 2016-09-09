@@ -107,6 +107,7 @@ voted to this position, can be found [here](/Network_Representative).
 
  * Andre Guibert de Bruet (andy)
  * Bernd Zeimetz (bzed)
+ * Doug Freed (dwfreed)
  * Matt London (Matt)
  * Rico Gloeckner (mc)
  * Richard Rose (rik)
