@@ -43,4 +43,6 @@ our [GitHub projects](https://github.com/oftc), especially on the
 {% ifchanged month %}<h2>{{ post.date | date: "%B %Y" }} </h2>{% endifchanged %}
 {{ post.content }}
 {% endfor %}
+
+<div><em><a href="feed.xml">Atom/RSS news feed</a></em></div>
 </div>
