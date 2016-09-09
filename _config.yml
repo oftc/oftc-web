@@ -1,3 +1,5 @@
 #baseurl: http://www.oftc.net
 markdown: kramdown
 permalink: pretty
+gems:
+  - jekyll-feed
