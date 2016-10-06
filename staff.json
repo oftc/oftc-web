@@ -123,6 +123,11 @@
       "name": "Jan Prunk",
       "nick": "yang",
       "roles": { "netrep": true }
+    },
+    "dwfreed": {
+      "name": "Doug Freed",
+      "nick": "dwfreed",
+      "roles": { "netrep": true }
     }
   }
 }
