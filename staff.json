@@ -40,7 +40,7 @@
     "zobel": {
       "name": "Martin Zobel-Helas",
       "nick": "zobel",
-      "roles": { "noc": true }
+      "roles": { "noc": true, "sponsor": true }
     },
 
     "formorer": {
