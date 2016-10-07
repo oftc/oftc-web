@@ -128,6 +128,21 @@
       "name": "Doug Freed",
       "nick": "dwfreed",
       "roles": { "netrep": true }
+    },
+    "cwningen": {
+      "name": "Rhosyn Celyn",
+      "nick": "cwningen",
+      "roles": { "netrep": true, "sponsor": true }
+    },
+    "jfred": {
+      "name": "Jonathan Frederickson",
+      "nick": "jfred",
+      "roles": { "netrep": true, "sponsor": true }
+    },
+    "avelardi": {
+      "name": "Anthony Velardi",
+      "nick": "avelardi",
+      "roles": { "netrep": true, "sponsor": true }
     }
   }
 }

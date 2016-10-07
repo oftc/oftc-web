@@ -106,8 +106,11 @@ A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Representative).
 
  * Andre Guibert de Bruet (andy)
+ * Anthony Velardi (avelardi)
  * Bernd Zeimetz (bzed)
+ * Rhosyn Celyn (cwningen)
  * Doug Freed (dwfreed)
+ * Jonathan Frederickson (jfred)
  * Matt London (Matt)
  * Rico Gloeckner (mc)
  * Richard Rose (rik)
