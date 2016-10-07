@@ -35,7 +35,7 @@
     "tjfontaine": {
       "name": "Timothy J. Fontaine",
       "nick": "tjfontaine",
-      "roles": { "noc": true, "ombudsman": true }
+      "roles": { "noc": true, "ombudsman": true, "sponsor": true }
     },
     "zobel": {
       "name": "Martin Zobel-Helas",
@@ -97,7 +97,7 @@
     "Matt": {
       "name": "Matt London",
       "nick": "Matt",
-      "roles": { "netrep": true }
+      "roles": { "netrep": true, "sponsor": true }
     },
     "mc": {
       "name": "Rico Gloeckner",
