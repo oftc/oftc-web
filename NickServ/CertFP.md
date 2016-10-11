@@ -168,8 +168,6 @@ to NickServ.](#AddCertFPtoNS)
 
 ### mIRC ###
 
-If mIRC was already running you need to restart it or it wont know about them.
-
  1. Go Main Options Menu -> Connect -> Options
  1. Click on the SSL button
  1. Click on the empty box below 'Private Key File', navigate to where you
