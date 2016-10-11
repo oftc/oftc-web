@@ -166,28 +166,19 @@ it is set to connect to port 6697.
 To continue please scroll down to [read how to add your certificates fingerprint
 to NickServ.](#AddCertFPtoNS)
 
-### mIRC (version 6.14 and later) ###
-
-You need the OpenSSL DLL files to enable SSL functionality in mIRC. You can
-download them pre-compiled or compile your own. You will need libeay32.dll and
-ssleay32.dll of OpenSSL 0.9.7d (or newer), and possibly msvcr70d.dll as well.
-They must be downloaded and placed in the mIRC folder, or in the Windows system
-folder. OpenSSL source is available from http://www.openssl.org/, you may find
-links to pre-compiled DLL files at http://www.openssl.org/related/binaries.html.
+### mIRC ###
 
 If mIRC was already running you need to restart it or it wont know about them.
 
  1. Go Main Options Menu -> Connect -> Options
- 1. Click on the newly appeared SSL button (if it isn't there something is
-wrong with your OpenSSL installation)
+ 1. Click on the SSL button
  1. Click on the empty box below 'Private Key File', navigate to where you
 placed your nick.pem file and select it.
  1. Do the same for 'Certificate Chain File'
 
 ![mirc](../mirc-ssl.png)
 
- 1. Make sure to connect to the network over SSL. This can be done simply now
-that you have the required DLLs. The command is '/server irc.oftc.net +6697' -
+ 1. Make sure to connect to the network over SSL. The command is '/server irc.oftc.net +6697' -
 note the plus sign before the port number. This is what sets mIRC to connect
 over SSL. To save this server with the SSL settings, you can simply add the plus
 sign before the port number in mIRC's server manager.
