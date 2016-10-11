@@ -44,7 +44,7 @@ yourcert.pem` to check.
 
 ## Is there a minimum length for registered nicks? ##
 
-We require a minimum length of 3 characters for new nick registrations.
+We require a minimum length of 2 characters for new nick registrations.
 
 
 # Channels #
