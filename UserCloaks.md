@@ -21,8 +21,6 @@ connections to [OFTC](/).  Default cloaks will appear as:
 verification step to be able to use cloaks. This is being implemented and not
 automated yet; ask on #oftc if your account isn't working for it yet.
 
-Visit the [Staff page](/staff/) to identify staff and their cloaks.
-
 ### (Not) Protecting Your Identity
 
 Cloaks on [OFTC](/) are not a secure means of protecting your identity, and
@@ -53,5 +51,9 @@ lowercase.
 
 Your request with your services info (registered nickname) may be emailed to
 `cloakrequest@oftc.net` and when staff have time to handle it you will be
-notified. (Pressuring staff for an answer will not expedite the process or cast
-favor on your request.)
+notified.
+
+### OFTC Staff
+
+[OFTC staff members](/staff/) wear cloaks identifying their position, e.g.
+`.netop.oftc.net` for network operators.
