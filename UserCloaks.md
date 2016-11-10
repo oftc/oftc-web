@@ -17,6 +17,10 @@ connections to [OFTC](/).  Default cloaks will appear as:
 
 `<uuid>.user.oftc.net`
 
+*Note:* accounts registered **after 2016-11-08** need an additional
+verification step to be able to use cloaks. This is being implemented and not
+automated yet; ask on #oftc if your account isn't working for it yet.
+
 Visit the [Staff page](/staff/) to identify staff and their cloaks.
 
 ### (Not) Protecting Your Identity
