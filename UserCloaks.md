@@ -6,20 +6,23 @@ title: User Cloaks
 ## Cloaks
 
 Cloaks are provided via services; for any cloak to take effect you must identify
-with services first.  You can enable your cloak by simply issuing the following
-command (assuming you are already identified with services)
+with services first.  You can enable your cloak by **verifying your account** in our
+services web frontend at
+
+[**services.oftc.net**](https://services.oftc.net/)
+
+and issuing the following command:
 
 `/msg nickserv SET CLOAK ON`
 
 If no [personalized](#Personalized) cloak has already been set, you will receive
 a cloak that is unique to your account with services and will be the same across
-connections to [OFTC](/).  Default cloaks will appear as:
+connections to [OFTC](/).  Generic cloaks will appear as:
 
 `<uuid>.user.oftc.net`
 
-*Note:* accounts registered **after 2016-11-08** need an additional
-verification step to be able to use cloaks. This is being implemented and not
-automated yet; ask on #oftc if your account isn't working for it yet.
+*Note:* accounts registered before 2016-11-08 do not need to complete the
+verification step and have already been marked as verified.
 
 ### (Not) Protecting Your Identity
 
@@ -28,7 +31,7 @@ sometimes not even your hostname/IP.  Cloaks will mask your hostname or IP while
 you are connected. There are some exceptions however:
 
  * There is a small window between connect and cloak set by services where the
-orignal information is visible in /whois for any user
+original information is visible in /whois for any user
  * If services are down, no cloaks will be set at all
  * Network Operators can see the original information at any time
 
