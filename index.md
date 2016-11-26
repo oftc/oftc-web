@@ -21,11 +21,6 @@ Client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients)
 [WebChat](WebChat) that we provide. The webchat enables you to connect to the
 network and chat directly from within your browser.
 
-If you have support requests regarding the operation of the network please stop
-by `#oftc` or email `support@oftc.net`. We welcome issues and pull requests on
-our [GitHub projects](https://github.com/oftc), especially on the
-[issue tracking repository](https://github.com/oftc/oftc).
-
 **Connection Details:**
 
  * [**ircs://irc.oftc.net:6697**](ircs://irc.oftc.net:6697) for SSL (alternative port: 9999), IPv4 and IPv6.
@@ -36,6 +31,14 @@ our [GitHub projects](https://github.com/oftc), especially on the
  * If you need to force IPv4, connect to [ircs://irc4.oftc.net:6697](ircs://irc4.oftc.net:6697).
  * We offer a [**WebChat**](WebChat) service (also via the boxes at the top of this page).
  * Use of [Tor](/Tor) is permitted.
+
+We offer IRC services (NickServ, ChanServ) for nick and channel registration,
+and a web front end at [**services.oftc.net**](https://services.oftc.net/).
+
+If you have support requests regarding the operation of the network please stop
+by `#oftc` or email `support@oftc.net`. We welcome issues and pull requests on
+our [GitHub projects](https://github.com/oftc), especially on the
+[issue tracking repository](https://github.com/oftc/oftc).
 
 <div class='body'>
 <h1>News</h1>
