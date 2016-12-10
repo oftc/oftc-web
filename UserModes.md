@@ -7,9 +7,8 @@ title: UserModes
 #### Modes Users Can Set
 
  * D - (Deaf) - Client won't see any channel messages/text
- * G - (soft callerid) - Client won't get private message when the source
-doesn't share the same channel as the target
- * g - (callerid) - See [CallerId](/CallerId)
+ * g - (callerid) - Block private messages unless whitelisted, see [CallerId](/CallerId)
+ * G - (soft callerid) - Block private message unless whitelisted or sender and recipient share a channel (overrides +g)
  * i - (invisible) - Client is invisible to /who and /names #channel (unless
 you share the channel)
   - by default users are set +i
