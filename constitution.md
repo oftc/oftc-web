@@ -38,26 +38,26 @@ appointment of Department Heads, from willing and able members of the
 Chair) is responsible for announcing elections, as well as appointing three vote
 counters for said election.
 1. Network [Ombudsman](/Ombudsman) is responsible
-for hearing and acting upon complaints from users or [Staff](/Staff) against any
-member of [Staff](/Staff) or the Network as a whole. The [Ombudsman](/Ombudsman)
-has the power to issue Reprimands against any [Staff](/Staff) member for
+for hearing and acting upon complaints from users or [Staff](/staff) against any
+member of [Staff](/staff) or the Network as a whole. The [Ombudsman](/Ombudsman)
+has the power to issue Reprimands against any [Staff](/staff) member for
 violating any [Network Policy](/Network_Policy), any part of the
 [Constitution](/Constitution), or for abusing any of their privileges. This
 reprimand may be turned over by a 3/4 majority vote of the active [NOC](/Network
 Operations Committee) members. The [Ombudsman](/Ombudsman) may also recommend to
 the [NOC](/Network Operations Committee) that further action be taken against
-the [Staff](/Staff) member. Reprimands against members of [NOC](/Network
+the [Staff](/staff) member. Reprimands against members of [NOC](/Network
 Operations Committe) only take effect after the following [NOC](/Network
 Operations Committee) meeting in order to prevent an [Ombudsman](/Ombudsman)
 from being able to unilaterally dismiss the [NOC](/Network Operations
 Committee). The [Ombudsman](/Ombudsman) is also responsible for issuing
-[Commendations](/Commendations) to [Staff](/Staff) members and volunteers who
+[Commendations](/Commendations) to [Staff](/staff) members and volunteers who
 are performing exemplary service to the network, which will be reflected on the
 Network's records.
  1. [Department Heads](/Department Heads) responsibilities are to be set by the
 Chair at the time of their appointment, as explicitly as is reasonable. The
 [Department Heads](/Departments) shall be required to recruit [Department
-Staff](/Department Staff) from willing and capable [Network Staff](/Staff).
+Staff](/Department Staff) from willing and capable [Network Staff](/staff).
 [Department Heads](/Departments) are strongly recommended to recruit at least
 one [Deputy Head](/Deputy Head). That [Deputy Head](/Deputy Head) must be a
 member of the [NOC](/Network Operations Committee).
@@ -89,33 +89,33 @@ privileged intervention.
 
 ## Inter-Election Staff Changes
 
-A member of [Staff](/Staff) who is inactive for sixty days without notice of
-their absence shall be removed from [Staff](/Staff). Any member of
-[Staff](/Staff) who announces their resignation shall have their privileges and
+A member of [Staff](/staff) who is inactive for sixty days without notice of
+their absence shall be removed from [Staff](/staff). Any member of
+[Staff](/staff) who announces their resignation shall have their privileges and
 access removed.
 
-Any vacancies in [Staff](/Staff) positions shall be filled at the earliest
+Any vacancies in [Staff](/staff) positions shall be filled at the earliest
 possible time by a standard vote of the [NOC](/Network Operations Committee),
 based on candidates put forward by [NOC](/Network Operations Committee) members
 and/or [NetOps](/Network_Operator). Candidates who are volunteers or who are
-already on [Staff](/Staff), and Candidates who have Commendations, shall be
+already on [Staff](/staff), and Candidates who have Commendations, shall be
 favoured to fill any vacancies.
 
 ## Active and Inactive Staff
 
-A [Staff](/Staff) member who has not logged any activity in seven days will be
+A [Staff](/staff) member who has not logged any activity in seven days will be
 considered an [Inactive Staff](/Inactive Staff) member.
 
-A [Staff](/Staff) member who is Inactive for a period of sixty days will be
-removed from [Staff](/Staff), unless prior notice of their absence was given
+A [Staff](/staff) member who is Inactive for a period of sixty days will be
+removed from [Staff](/staff), unless prior notice of their absence was given
 including an estimated time of return which has not yet arrived.
 
-An [Active Staff](/Staff) member is any [Staff](/Staff) member who is not
+An [Active Staff](/staff) member is any [Staff](/staff) member who is not
 Inactive.
 
 ## Change in Staff positions
 
-Any proposed change in any member of [Staff's](/Staff) position or privileges
+Any proposed change in any member of [Staff's](/staff) position or privileges
 shall be approved by a standard [NOC](/Network Operations Committee) vote.
 
 ## Impeachment ##
@@ -158,17 +158,17 @@ that person must resign one of those roles.
 
 ## Reprimands
 
-How members of [Staff](/Staff) behave in public reflects upon the Network as a
+How members of [Staff](/staff) behave in public reflects upon the Network as a
 whole. Therefore, any action which misrepresents [Network Policy](/Network_Policy)
-may result in the Reprimand or dismissal of a member of [Staff](/Staff).
+may result in the Reprimand or dismissal of a member of [Staff](/staff).
 Any Reprimands or dismissals, and the reasons therefore, shall be explained in
 Network records.
 
 A Reprimand carries the following weight:
 
- 1. Active Reprimands: 7 day suspension from [Staff](/Staff).
- 1. Active Reprimands: 30 day suspension from [Staff](/Staff).
- 1. Active Reprimands: Dismissal from [Staff](/Staff).
+ 1. Active Reprimands: 7 day suspension from [Staff](/staff).
+ 1. Active Reprimands: 30 day suspension from [Staff](/staff).
+ 1. Active Reprimands: Dismissal from [Staff](/staff).
 
 Appeals shall be handled by the [NOC](/Network Operations Committee) on a
 case-by-case basis. The Ombudsman, who issued the reprimand, may only serve as a
@@ -185,7 +185,7 @@ All voters shall also be candidates. There are no nominations. Any voter may
 elect any other voter for any position. A voter must also vote themselves into
 some position.
 
-In the event that an [Active Staff](/Staff) member can not vote during the
+In the event that an [Active Staff](/staff) member can not vote during the
 scheduled voting window, provisions must be made to allow them to vote in
 advance.
 
@@ -211,7 +211,7 @@ which voter, while at the same time ensuring that no voter votes twice.
 
 ### Election Structure 
 
-Elections must be held in a digital medium which allows all [Staff](/Staff)
+Elections must be held in a digital medium which allows all [Staff](/staff)
 members to participate if they so choose. No voter may submit ballots by proxy.
 
  * Any outstanding issues which need to be voted on shall be listed on the
@@ -226,11 +226,11 @@ used.
  * The individuals with the first through to eighth rankings lowest will be the
 [NOC](/Network Operations Committee).
  * Each voter will be given a blank area within which they can specify a
-[Staff](/Staff) member as [Ombudsman](/Ombudsman). The [Staff](/Staff) member
+[Staff](/staff) member as [Ombudsman](/Ombudsman). The [Staff](/staff) member
 with the most votes shall be the [Ombudsman](/Ombudsman).
  * In the event of a tie that affects the role of
 [Chair](/Network Operations Committee Chair), if no affected candidates agree to
-resign to allow only one [Staff](/Staff) member to be the [Chair](/Network
+resign to allow only one [Staff](/staff) member to be the [Chair](/Network
 Operations Committee Chair), the highest and lowest ballot rankings of each
 candidate will be removed and a new tally taken affecting all candidates. If
 there is still no resolution, a first-past-the-poll run-off vote must be held

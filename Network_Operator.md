@@ -30,9 +30,9 @@ to all [Network Operators](/Network_Operator) by other
 [Network Operators](/Network_Operator).
 
 While you will have these abilities, you may not use them without being able to
-justify their use to other network [staff](/Staff), especially the
+justify their use to other network [staff](/staff), especially the
 [Ombudsman](/Ombudsman), if such justification is requested. As a member of the
-[staff](/Staff), you are a representative of the Network and anything you do can
+[staff](/staff), you are a representative of the Network and anything you do can
 and will be taken to be in the name of the Network. As a result, things which
 you do which may have been innocuous as a user may reflect poorly on your record
 as a [Network_Operator](/Network_Operator).

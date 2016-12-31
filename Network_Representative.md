@@ -19,12 +19,12 @@ technical merit. Between elections, the [NOC](/Network Operations Committee)
 selects members of the staff to be [Network
 Representatives](/Network_Representative) based on a number of factors,
 including previous record on the Network, social skills, and the ability to
-learn from, listen to, and cooperate with other [staff](/Staff) and interact
+learn from, listen to, and cooperate with other [staff](/staff) and interact
 with the users of the Network.
 
 [Network Representatives](/Network_Representative) are not granted any special
 abilities by default, with the exception of access to the Network's private
-[staff](/Staff) channel.
+[staff](/staff) channel.
 
 As a [Network_Representative](/Network_Representative), your primary task is to
 assist users in any way you can, or to seek the assistance of
@@ -45,7 +45,7 @@ Network, and as such, anything you say in public can be interpreted as the
 position of the Network. Misrepresenting the Network or the position of the
 Network may result in a review by the [Ombudsman](/Ombudsman) or by the
 [NOC](/Network Operations Committee), potentially resulting in disciplinary
-action ranging from a note on your record to expulsion from [staff](/Staff).
+action ranging from a note on your record to expulsion from [staff](/staff).
 
 If you have questions, suggestions, or comments about your role, feel free to
-contact other members of the [staff](/Staff).
+contact other members of the [staff](/staff).
