@@ -83,12 +83,12 @@
       "nick": "youam",
       "roles": { "netop": true }
     },
-
     "dwfreed": {
       "name": "Doug Freed",
       "nick": "dwfreed",
-      "roles": { "netrep": true }
+      "roles": { "netop": true }
     },
+
     "bzed": {
       "name": "Bernd Zeimetz",
       "nick": "bzed",
