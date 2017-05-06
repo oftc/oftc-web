@@ -143,6 +143,11 @@
       "name": "Jan Prunk",
       "nick": "yang",
       "roles": { "netrep": true }
+    },
+    "mcintosh": {
+      "name": "Rich McIntosh",
+      "nick": "mcintosh",
+      "roles": { "netrep": true }
     }
   }
 }

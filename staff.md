@@ -21,7 +21,7 @@ OFTC's constitution is enforced by resolution
 of [Software in the Public Interest's](http://www.spi-inc.org/) Board of
 Directors.
 
-When connected to our IRC network, staff are identifyable by their hostmasks:
+When connected to our IRC network, staff are identifiable by their hostmasks:
 `<staffmember>.<role>.oftc.net`. Users may also request a cloaked hostmask,for
 information see [UserCloaks](/UserCloaks).
 
@@ -113,6 +113,7 @@ voted to this position, can be found [here](/Network_Representative).
  * Jonathan Frederickson (jfred)
  * Matt London (Matt)
  * Rico Gloeckner (mc)
+ * Rich McIntosh (mcintosh)
  * Richard Rose (rik)
  * Tobias Wolter (towo)
  * Sean Glover (wladek)
@@ -120,7 +121,7 @@ voted to this position, can be found [here](/Network_Representative).
 
 ## Advisors ##
 
-Being an [Advisor](/Advisor) is an honourary and not an administrative position.
+Being an [Advisor](/Advisor) is an honorary and not an administrative position.
 
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Advisor).
