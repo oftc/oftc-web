@@ -155,6 +155,7 @@ you are using ipv6. This will take you to an active server.
  * Eric Evans (urandom) (osmotic - Grapevine, TX, USA)
  * Doug Winter (winjer) (kinetic - Brighton, UK)
  * Martin-Zobel Helas (zobel) (magnet - Darmstadt, DE)
+ * AS6453 (reflection - Montréal, Quebec, CA)
  * [mythic beasts](https://www.mythic-beasts.com/) (charon - London, UK)
  * [Linode](http://www.linode.com/), Christopher S. Aker (caker)
 (strange, weber, resistance - Fremont, CA, US)
