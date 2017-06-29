@@ -22,10 +22,10 @@ operators
 
 #### Channelmodes with Parameters ####
 
- * v <nick> - <nick> may speak even when channel is moderated
- * o <nick> - <nick> will get Operator status on the channel
- * l <limit> - channel is limited to <limit> people
- * k <key> - channel may only be joined when passing the appropriate key
+ * v &lt;nick&gt; - &lt;nick&gt; may speak even when channel is moderated
+ * o &lt;nick&gt; - &lt;nick&gt; will get Operator status on the channel
+ * l &lt;limit&gt; - channel is limited to &lt;limit&gt; people
+ * k &lt;key&gt; - channel may only be joined when passing the appropriate key
 
 #### Channelmodes that take Hostmasks as Parameters ####
 
