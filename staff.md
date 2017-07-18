@@ -15,7 +15,7 @@ Staff are assigned to their roles during annual staff-wide elections from the
 8th to the 11th of every October. Between elections, staff may be promoted,
 demoted, added, or removed by the [Network Operations Committee](/Network
 Operations Committee), as outlined in the Network's
-[Constitution](/Constitution), which also outlines the rules for the elections.
+[Constitution](/constitution), which also outlines the rules for the elections.
 OFTC's constitution is enforced by resolution
 [2002-07-02.iwj.5](http://www.spi-inc.org/corporate/resolutions/2002/2002-07-02.iwj.5/)
 of [Software in the Public Interest's](http://www.spi-inc.org/) Board of
