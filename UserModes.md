@@ -14,6 +14,7 @@ you share the channel)
   - by default users are set +i
   - this does not hide your channels in /whois (that is dependent on [Channel
 Modes](/ChannelModes))
+ * j - (regcallerid) - Block private message unless sender is registered or whitelisted. If the user has +Gj set, they can only receive messages from registered users who also share a channel.
  * w - (wallop) - Client may receive wallops
 
 #### Modes Not Set By Users
