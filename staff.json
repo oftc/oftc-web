@@ -42,6 +42,11 @@
       "nick": "sarnold",
       "roles": { "noc": true }
     },
+    "dwfreed": {
+      "name": "Doug Freed",
+      "nick": "dwfreed",
+      "roles": { "netop": true }
+    },
 
     "Hydroxide": {
       "name": "Jimmy Kaplowitz",
@@ -81,11 +86,6 @@
     "youam": {
       "name": "Uli Martens",
       "nick": "youam",
-      "roles": { "netop": true }
-    },
-    "dwfreed": {
-      "name": "Doug Freed",
-      "nick": "dwfreed",
       "roles": { "netop": true }
     },
 

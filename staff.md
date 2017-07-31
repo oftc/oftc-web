@@ -67,6 +67,7 @@ approving of new staff members or of servers.
  * Seth Arnold (sarnold)
  * Timothy J. Fontaine (tjfontaine)
  * Martin Zobel-Helas (zobel)
+ * Doug Freed (dwfreed)
 
 ## Department Heads ##
 
@@ -86,7 +87,6 @@ assistance from any user of the Network.
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Operator).
 
- * Doug Freed (dwfreed)
  * Jimmy Kaplowitz (Hydroxide)
  * Michael Greb (mikegrb)
  * Mark Walling (mwalling)
