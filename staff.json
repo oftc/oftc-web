@@ -148,6 +148,11 @@
       "name": "Rich McIntosh",
       "nick": "mcintosh",
       "roles": { "netrep": true }
+    },
+    "arlen": {
+      "name": "JT Allison",
+      "nick": "arlen",
+      "roles": { "netrep": true }
     }
   }
 }
