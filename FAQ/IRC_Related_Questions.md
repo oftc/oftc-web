@@ -42,9 +42,9 @@ use a firewall.)
 
 ## Who are all these users with the host-mask nick.something.oftc.net? ##
 
- * `<nick>.<role>.oftc.net` is a [Staff](/Staff) member, they have these masks
+ * `<nick>.<role>.oftc.net` is a [Staff](/staff) member, they have these masks
 to be easily identified as to what role they play. A complete explanation is
-available at [Staff](/Staff)
+available at [Staff](/staff)
  * `<nick>.user.oftc.net` is a user cloak. Please see
 [UserCloaks](/UserCloaks) for more information.
 
