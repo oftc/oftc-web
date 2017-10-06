@@ -59,7 +59,7 @@ legislative body at the heart of the Network's administration and is responsible
 for making all decisions related to the operation of the network, including
 approving of new staff members or of servers.
 
- * Stuart Walsh (cryogen)
+ * Doug Freed (dwfreed)
  * Joerg Jaspert (Ganneff)
  * Neil McGovern (Maulkin)
  * Christoph Berg (Myon)
@@ -67,7 +67,6 @@ approving of new staff members or of servers.
  * Seth Arnold (sarnold)
  * Timothy J. Fontaine (tjfontaine)
  * Martin Zobel-Helas (zobel)
- * Doug Freed (dwfreed)
 
 ## Department Heads ##
 
