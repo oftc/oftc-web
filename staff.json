@@ -40,7 +40,7 @@
     "dwfreed": {
       "name": "Doug Freed",
       "nick": "dwfreed",
-      "roles": { "netop": true }
+      "roles": { "noc": true }
     },
 
     "Hydroxide": {
