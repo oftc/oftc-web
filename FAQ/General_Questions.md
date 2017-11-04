@@ -56,7 +56,7 @@ administer such a project.
 
 ## I have a question, request, or comment. Who do I go to? ##
 
-All active staff members can be found on the the [Staff](/Staff) page. You may
+All active staff members can be found on the the [Staff](/staff) page. You may
 contact them directly on our IRC servers, or you may wish to contact us through
 email at support.
 
