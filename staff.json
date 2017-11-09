@@ -12,29 +12,29 @@
       "nick": "zobel",
       "roles": { "noc": true, "sponsor": true }
     },
+    "rnowak": {
+      "name": "Robert A. Nowak",
+      "nick": "rnowak",
+      "roles": { "noc": true, "ombudsman": true }
+    },
     "Maulkin": {
       "name": "Neil McGovern",
       "nick": "Maulkin",
       "roles": { "noc": true }
     },
-    "rnowak": {
-      "name": "Robert A. Nowak",
-      "nick": "rnowak",
+    "sarnold": {
+      "name": "Seth Arnold",
+      "nick": "sarnold",
       "roles": { "noc": true }
-    },
-    "tjfontaine": {
-      "name": "Timothy J. Fontaine",
-      "nick": "tjfontaine",
-      "roles": { "noc": true, "ombudsman": true, "sponsor": true }
     },
     "Ganneff": {
       "name": "Joerg Jaspert",
       "nick": "Ganneff",
       "roles": { "noc": true, "sponsor": true }
     },
-    "sarnold": {
-      "name": "Seth Arnold",
-      "nick": "sarnold",
+    "Hydroxide": {
+      "name": "Jimmy Kaplowitz",
+      "nick": "Hydroxide",
       "roles": { "noc": true }
     },
     "dwfreed": {
@@ -42,25 +42,25 @@
       "nick": "dwfreed",
       "roles": { "noc": true }
     },
-
-    "Hydroxide": {
-      "name": "Jimmy Kaplowitz",
-      "nick": "Hydroxide",
-      "roles": { "netop": true }
+    "tomaw": {
+      "name": "Tom Wesley",
+      "nick": "tomaw",
+      "roles": { "noc": true }
     },
+
     "scott": {
       "name": "Scott Bender",
       "nick": "scott",
       "roles": { "netop": true }
     },
-    "tomaw": {
-      "name": "Tom Wesley",
-      "nick": "tomaw",
-      "roles": { "netop": true }
-    },
     "mikegrb": {
       "name": "Michael Greb",
       "nick": "mikegrb",
+      "roles": { "netop": true }
+    },
+    "youam": {
+      "name": "Uli Martens",
+      "nick": "youam",
       "roles": { "netop": true }
     },
     "formorer": {
@@ -73,35 +73,50 @@
       "nick": "mwalling",
       "roles": { "netop": true }
     },
-    "RichiH": {
-      "name": "Richard Hartmann",
-      "nick": "RichiH",
+    "mcintosh": {
+      "name": "Rich McIntosh",
+      "nick": "mcintosh",
       "roles": { "netop": true }
     },
-    "youam": {
-      "name": "Uli Martens",
-      "nick": "youam",
-      "roles": { "netop": true }
-    },
-
     "bzed": {
       "name": "Bernd Zeimetz",
       "nick": "bzed",
-      "roles": { "netrep": true }
+      "roles": { "netop": true }
     },
+
     "mc": {
       "name": "Rico Gloeckner",
       "nick": "mc",
       "roles": { "netrep": true, "sponsor": true }
     },
-    "andy": {
-      "name": "Andre Guibert de Bruet",
-      "nick": "andy",
+    "avelardi": {
+      "name": "Anthony Velardi",
+      "nick": "avelardi",
       "roles": { "netrep": true, "sponsor": true }
+    },
+    "jfred": {
+      "name": "Jonathan Frederickson",
+      "nick": "jfred",
+      "roles": { "netrep": true, "sponsor": true }
+    },
+    "RichiH": {
+      "name": "Richard Hartmann",
+      "nick": "RichiH",
+      "roles": { "netrep": true }
     },
     "Matt": {
       "name": "Matt London",
       "nick": "Matt",
+      "roles": { "netrep": true, "sponsor": true }
+    },
+    "cwningen": {
+      "name": "Rhosyn Celyn",
+      "nick": "cwningen",
+      "roles": { "netrep": true, "sponsor": true }
+    },
+    "andy": {
+      "name": "Andre Guibert de Bruet",
+      "nick": "andy",
       "roles": { "netrep": true, "sponsor": true }
     },
     "wladek": {
@@ -114,34 +129,14 @@
       "nick": "rik",
       "roles": { "netrep": true }
     },
-    "cwningen": {
-      "name": "Rhosyn Celyn",
-      "nick": "cwningen",
-      "roles": { "netrep": true, "sponsor": true }
-    },
     "towo": {
       "name": "Tobias Wolter",
       "nick": "towo",
       "roles": { "netrep": true }
     },
-    "avelardi": {
-      "name": "Anthony Velardi",
-      "nick": "avelardi",
-      "roles": { "netrep": true, "sponsor": true }
-    },
-    "jfred": {
-      "name": "Jonathan Frederickson",
-      "nick": "jfred",
-      "roles": { "netrep": true, "sponsor": true }
-    },
     "yang": {
       "name": "Jan Prunk",
       "nick": "yang",
-      "roles": { "netrep": true }
-    },
-    "mcintosh": {
-      "name": "Rich McIntosh",
-      "nick": "mcintosh",
       "roles": { "netrep": true }
     }
   }

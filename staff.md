@@ -50,7 +50,7 @@ The [Ombudsman](/Ombudsman) is the judicial system of the Network and is
 responsible for hearing and acting upon complaints brought against any member of
 the staff or against the network itself.
 
- * Ombudsman - Timothy J. Fontaine (tjfontaine) <ombudsman -at- oftc.net>
+ * Ombudsman - Robert A. Nowak (rnowak) <ombudsman -at- oftc.net>
 
 ## Network Operations Committee ##
 
@@ -61,11 +61,12 @@ approving of new staff members or of servers.
 
  * Doug Freed (dwfreed)
  * Joerg Jaspert (Ganneff)
+ * Jimmy Kaplowitz (Hydroxide)
  * Neil McGovern (Maulkin)
  * Christoph Berg (Myon)
  * Robert A. Nowak (rnowak)
  * Seth Arnold (sarnold)
- * Timothy J. Fontaine (tjfontaine)
+ * Tom Wesley (tomaw)
  * Martin Zobel-Helas (zobel)
 
 ## Department Heads ##
@@ -86,12 +87,11 @@ assistance from any user of the Network.
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Operator).
 
- * Jimmy Kaplowitz (Hydroxide)
+ * Bernd Zeimetz (bzed)
+ * Rich McIntosh (mcintosh)
  * Michael Greb (mikegrb)
  * Mark Walling (mwalling)
- * Richard Hartmann (RichiH)
  * Scott Bender (scott)
- * Tom Wesley (tomaw)
  * Alexander Wirt (formorer)
  * Uli Martens (youam)
 
@@ -107,12 +107,11 @@ voted to this position, can be found [here](/Network_Representative).
 
  * Andre Guibert de Bruet (andy)
  * Anthony Velardi (avelardi)
- * Bernd Zeimetz (bzed)
  * Rhosyn Celyn (cwningen)
  * Jonathan Frederickson (jfred)
  * Matt London (Matt)
  * Rico Gloeckner (mc)
- * Rich McIntosh (mcintosh)
+ * Richard Hartmann (RichiH)
  * Richard Rose (rik)
  * Tobias Wolter (towo)
  * Sean Glover (wladek)
@@ -126,6 +125,7 @@ A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Advisor).
 
  * David Graham (cdlu)
+ * Timothy J. Fontaine (tjfontaine)
 
 ## Server Sponsors ##
 
