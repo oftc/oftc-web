@@ -248,8 +248,10 @@ $(document).ready(function() {
     });
 
     // Section 3
-    var advisor = $('#advisor0').val();
-    staff.advisor = formatField('yn', advisor);
+    var advisor0 = $('#advisor0').val();
+    staff.advisor0 = formatField('yn', advisor0);
+    var advisor1 = $('#advisor1').val();
+    staff.advisor1 = formatField('yn', advisor1);
 
     // Section 4
     var spi = $('#question0').val();
