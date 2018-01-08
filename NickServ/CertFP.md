@@ -200,8 +200,8 @@ to NickServ.](#AddCertFPtoNS)
 
 ### ZNC ###
 
- 1. Follow the instructions found on http://en.znc.in/wiki/Cert
-  * This should not be confused with http://en.znc.in/wiki/Certauth which is
+ 1. Follow the instructions found on https://wiki.znc.in/Cert
+  * This should not be confused with https://wiki.znc.in/Certauth which is
 used to authenticate your remote client to your instance of znc. You're trying
 to authenticate your znc instance with OFTC.
 
