@@ -27,14 +27,14 @@ that crop up in stock code.
 
 Currently the Coding Department is made up of:
 
- * Stuart Walsh (cryogen)
- * Timothy J Fontaine (tjfontaine)
  * Luca Filipozzi (luca)
 
-Others from staff are known to contribute from time to time as well. If you're
-interested in contributing patches to our code bases please be sure to
-familiarize yourself with our [CodingStyle](/CodingStyle), visit
-[Subversion](/Subversion), and [CodingProjects](/CodingProjects).
+Others from staff are known to contribute from time to time as well.
+
+OFTC [maintains repositories on github](https://github.com/oftc) where you can
+file issues or merge requests. If you're interested in contributing patches to
+our code bases please be sure to familiarize yourself with our
+[CodingStyle](/CodingStyle) and visit [CodingProjects](/CodingProjects).
 
 ## Documentation in the works ##
 
