@@ -8,9 +8,7 @@ title: OFTC and Tor
 # OFTC and Tor
 
 OFTC also works hard to allow legitimate use of Tor on our network, where and
-when appropriate. There is even a hidden service onion address that someone has
-taken upon themselves to maintain, it is however not supported in any official
-capacity by OFTC.
+when appropriate.
 
 OFTC does **not** require users to first connect in the clear and register with
 services to allow connecting via Tor, however we reserve the right to disable
