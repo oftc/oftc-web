@@ -138,6 +138,11 @@
       "name": "Jan Prunk",
       "nick": "yang",
       "roles": { "netrep": true }
+    },
+    "pastly": {
+      "name": "Matt Traudt",
+      "nick": "pastly",
+      "roles": { "netrep": true }
     }
   }
 }

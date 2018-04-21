@@ -110,6 +110,7 @@ voted to this position, can be found [here](/Network_Representative).
  * Rhosyn Celyn (cwningen)
  * Jonathan Frederickson (jfred)
  * Matt London (Matt)
+ * Matt Traudt (pastly)
  * Rico Gloeckner (mc)
  * Richard Hartmann (RichiH)
  * Richard Rose (rik)
