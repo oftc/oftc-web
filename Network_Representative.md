@@ -33,7 +33,7 @@ you don't have the necessary priveleges, and to pass on concerns expressed about
 the running of the network to [NOC](/Network Operations Committee) members for
 discussion, so that the network may continue to run in a free and open manner.
 [Network Representatives](/Network_Representative) may also be asked by
-[department heads](/Departments) to assist in their operations as their skills
+department heads to assist in their operations as their skills
 allow.
 
 Any time there is an event which you find needs to be logged, send an email to

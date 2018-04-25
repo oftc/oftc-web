@@ -72,7 +72,7 @@ approving of new staff members or of servers.
 ## Department Heads ##
 
 The Chair reserves the right to assign and if necessary reassign
-[Departments](/departments) to members of the [NOC](/Network Operations
+departments to members of the [NOC](/Network Operations
 Committee) to run different aspects of the network and its associated services.
 These departments may contain staff from among all members of the Network's
 staff.

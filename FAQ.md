@@ -13,5 +13,4 @@ including its structure, its purposes, and its goals
 OFTC's IRC network
  * [Services Questions](/FAQ/Services) -- Questions about OFTC's IRC network
 services, that is NickServ and ChanServ for nickname and channel registration
- * [SVN Questions](/CodingProjects) -- Questions about OFTC's SVN server
 

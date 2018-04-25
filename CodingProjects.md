@@ -5,15 +5,18 @@ title: CodingProjects
 
 # OFTC Coding Projects #
 
-OFTC currently develops 3 projects for its purposes: [oftc-hybrid](#oftc-hybrid)
-our IRC daemon, [oftc-ircservices](#oftc-ircservices) our IRC services suite,
-and [oftcdns](#oftcdns) a geoip dns responder to handle user distribution across
-our servers. OFTC uses [GitHub](https://github.com) for its source browsing and
+OFTC develops projects for its purposes: [oftc-hybrid](#oftc-hybrid)
+our IRC daemon, and [oftc-ircservices](#oftc-ircservices) our IRC services suite,
+OFTC uses [GitHub](https://github.com) for its source browsing and
 bug tracking, please see the section below for the url of the project you're
 interested in. You can find tarball releases of our projects at
 [https://www.oftc.net/releases/](https://www.oftc.net/releases/).  Developers
 contributing to our code base should read and be familiar with
 [git](http://git-scm.com)
+
+If you're interested in contributing patches to our code bases please be sure
+to familiarize yourself with our [CodingStyle](/CodingStyle) and visit
+[CodingProjects](/CodingProjects).
 
 Projects:
 
@@ -29,8 +32,6 @@ be found in /branches/oftc-hybrid-1.6. Please submit feature requests and bug
 reports to the github project.
 
  * browse source, submit, and view bugs https://github.com/oftc/oftc-hybrid
- * anonymous access: git clone git://github.com/oftc/oftc-hybrid.git
- * developer access: git clone ssh://git@git.oftc.net/oftc-hybrid.git
 
 ## Services ##
 
@@ -41,16 +42,10 @@ the repository, /trunk tracks our new features, while
 network. Please submit feature requests and bug reports to the github project.
 
  * browse source, submit, and view bugs https://github.com/oftc/oftc-ircservices
- * anonymous access: git clone git://github.com/oftc/oftc-ircservices.git
- * developer access: git clone ssh://git@git.oftc.net/oftc-ircservices.git
 
-## DNS ##
+## Other Repositories ##
 
-OFTC uses a system based on python and twistd-names to manage even distribution
-among its IRC network based on geoip location and server and network statistics.
-Please submit feature requests and bug reports to the github project.
+OFTC maintains other repositories for operating its infrastructure.
 
- * browse source, submit, and view bugs https://github.com/oftc/oftc-tools
- * anonymous access: git clone git://github.com/oftc/oftc-tools.git
- * developer access: git clone ssh://git@git.oftc.net/oftc-tools.git
+ * OFTC GitHub organization: https://github.com/oftc
 

@@ -43,7 +43,7 @@ a channel or between users that cannot be resolved without the intervention of
 someone from outside. You will also be charged with reconnecting split servers,
 if possible, and removing problem users. You may also be called upon by a member
 of the [NOC](/Network_Operations_Committee) to help in a
-[department](/Departments), in which case other skills, such as technical
+department, in which case other skills, such as technical
 skills, may become relevant. Examples of such would be joining the coding staff,
 or the infrastructure maintenance staff.
 
