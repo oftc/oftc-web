@@ -17,7 +17,8 @@ OFTC collects and uses certain information about users in order to provide
 services and enable certain functions.
 
 OFTC may collect the following information:
-* Nickname/handle on the OFTC network
+* Nickname/account on the OFTC network
+* Last time an account was used
 * IP address/hostname
 * Name and E-mail address
 * IRC channels created
@@ -31,12 +32,11 @@ Specifically, OFTC may use data:
 * To respond to a specific enquiry made via e-mail or the support system.
 * To analyze traffic for illegal and illegitimate activity (e.g. botnets, spam).
 
-OFTC retains data for the purpose of debugging and restoration for a maximum of
-90 days. This means that any data OFTC holds, will be purged 90 days after the
-date at which you last connected to the OFTC network. Your OFTC services
-account will be retained until you delete it.
+Your OFTC account is kept until you delete it, or it is deleted for inactivity.
+OFTC retains logs of IRC events for the purpose of debugging and restoration
+for a maximum of 90 days. OFTC's backups are on encrypted storage.
 
-OFTC does not log any IRC traffic, neither from public channels, nor from
+OFTC does not log any IRC traffic content, neither from public channels, nor from
 private messages. Individual users connected to the network are able to log
 traffic they receive, but we ask all users to act responsibly with that data.
 Specifically, publishing IRC channel log files must not be done without consent
