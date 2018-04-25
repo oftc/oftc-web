@@ -13,4 +13,5 @@ title: Documentation
 # OFTC Constitution and Policies #
 
  * [Constitution](/constitution/)
+ * [Network Policy](/Network_Policy/)
  * [Privacy Policy](/Privacy_Policy/)
