@@ -47,12 +47,12 @@ websites, and OFTC has no control of websites outside of the OFTC.net domain.
 If you provide information to a website or service to which OFTC links, OFTC
 shall not be responsible for its protection and privacy.
 
-This policy was last updated on: 18 May 2018.
-
 If you have any questions about OFTC policies, or about your data at OFTC,
 please e-mail <a href="mail:support@oftc.net">support@oftc.net</a>.
 Specifically, you can ask OFTC which data we have stored about you, and you may
-demand this data to be deleted.
+demand this data be deleted.
+
+This policy was last updated on: 19 May 2018.
 
 *This Privacy Policy was adapted from the freenode.net Privacy Policy
 (licensed under CC BY-SA-NC 4.0).*
