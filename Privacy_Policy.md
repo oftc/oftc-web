@@ -42,6 +42,16 @@ traffic they receive, but we ask all users to act responsibly with that data.
 Specifically, publishing IRC channel log files must not be done without consent
 of the channel owners.
 
+OFTC uses DNS blacklists to check for well-known sources of illegal and
+illegitimate activity. IP addresses of incoming connections are forwarded to
+the blacklist nameserver. Addresses that we have found to be sources of such
+activity are submitted for inclusion in these blacklists. Blacklists currently
+in use at OFTC are:
+* dnsbl.dronebl.org
+* dnsbl.incredibl.org
+We regularly evaluate new blacklists. The above list will be updated if the
+blacklist is permanently included after an evaluation period of 30 days.
+
 Please note that the OFTC website and network may contain links to other
 websites, and OFTC has no control of websites outside of the OFTC.net domain.
 If you provide information to a website or service to which OFTC links, OFTC
@@ -52,7 +62,7 @@ please e-mail <a href="mail:support@oftc.net">support@oftc.net</a>.
 Specifically, you can ask OFTC which data we have stored about you, and you may
 demand this data be deleted.
 
-This policy was last updated on: 19 May 2018.
+This policy was last updated on: 21 May 2018.
 
 *This Privacy Policy was adapted from the freenode.net Privacy Policy
 (licensed under CC BY-SA-NC 4.0).*
