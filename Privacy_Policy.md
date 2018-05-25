@@ -48,7 +48,6 @@ the blacklist nameserver. Addresses that we have found to be sources of such
 activity are submitted for inclusion in these blacklists. Blacklists currently
 in use at OFTC are:
 * dnsbl.dronebl.org
-* dnsbl.incredibl.org
 
 We regularly evaluate new blacklists. The above list will be updated if the
 blacklist is permanently included after an evaluation period of 30 days.
@@ -63,7 +62,7 @@ please e-mail <a href="mail:support@oftc.net">support@oftc.net</a>.
 Specifically, you can ask OFTC which data we have stored about you, and you may
 demand this data be deleted.
 
-This policy was last updated on: 21 May 2018.
+This policy was last updated on: 25 May 2018.
 
 *This Privacy Policy was adapted from the freenode.net Privacy Policy
 (licensed under CC BY-SA-NC 4.0).*
