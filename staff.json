@@ -143,6 +143,11 @@
       "name": "Matt Traudt",
       "nick": "pastly",
       "roles": { "netrep": true }
+    },
+    "Unit193": {
+      "name": "Unit 193",
+      "nick": "Unit193",
+      "roles": { "netrep": true }
     }
   }
 }

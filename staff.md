@@ -115,6 +115,7 @@ voted to this position, can be found [here](/Network_Representative).
  * Richard Hartmann (RichiH)
  * Richard Rose (rik)
  * Tobias Wolter (towo)
+ * Unit 193 (Unit193)
  * Sean Glover (wladek)
  * Jan Prunk (yang)
 
