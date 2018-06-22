@@ -14,8 +14,7 @@ title: ChannelModes
  * s - secret, channel will not show up in /whois unless clients share the
 channel
  * t - only chanops may change Topic
- * z - moderated, messages of clients not voiced or op'd go to channel
-operators
+ * z - messages that would otherwise be blocked (banned, quieted, channel moderation) go to channel operators
  * M - client may speak only when registered and identified to NickServ
  * R - client may join only when registered and identified to NickServ
  * S - client may join only when using SSL Connection
