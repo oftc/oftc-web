@@ -146,13 +146,10 @@ you are using ipv6. This will take you to an active server.
  * Mendel Mobach (BugBlue) (galapagos - The Netherlands)
  * Joerg Jaspert (Ganneff) (reticulum - Berlin, DE)
  * Anton Lundin (glance) (solenoid - Umeå, Sweden)
- * Josip Rodin (Joy), [CARNet](http://www.carnet.hr/) (kilo - Zagreb, HR)
  * Luca Filipozzi (luca) (graviton - Vancouver, BC, CA)
  * Mattias Wadenstein (maswan) (solenoid - Umeå, Sweden)
  * Rico Gloeckner (mc) (venus - Nuremberg, DE)
- * Michael Römer (miro) (unununium - Karlsruhe, Baden Württemberg, DE) ?
  * Rob Bradford (robster) (charon - London, United Kingdom)
- * (xenon - CA, US)
  * Eric Evans (urandom) (osmotic - Grapevine, TX, USA)
  * Doug Winter (winjer) (kinetic - Brighton, UK)
  * Martin-Zobel Helas (zobel) (magnet - Darmstadt, DE)
