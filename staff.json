@@ -83,6 +83,16 @@
       "nick": "bzed",
       "roles": { "netop": true }
     },
+    "pastly": {
+      "name": "Matt Traudt",
+      "nick": "pastly",
+      "roles": { "netop": true }
+    },
+    "Unit193": {
+      "name": "Unit 193",
+      "nick": "Unit193",
+      "roles": { "netop": true }
+    },
 
     "mc": {
       "name": "Rico Gloeckner",
@@ -137,16 +147,6 @@
     "yang": {
       "name": "Jan Prunk",
       "nick": "yang",
-      "roles": { "netrep": true }
-    },
-    "pastly": {
-      "name": "Matt Traudt",
-      "nick": "pastly",
-      "roles": { "netrep": true }
-    },
-    "Unit193": {
-      "name": "Unit 193",
-      "nick": "Unit193",
       "roles": { "netrep": true }
     }
   }

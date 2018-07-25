@@ -94,6 +94,8 @@ voted to this position, can be found [here](/Network_Operator).
  * Scott Bender (scott)
  * Alexander Wirt (formorer)
  * Uli Martens (youam)
+ * Unit 193 (Unit193)
+ * Matt Traudt (pastly)
 
 ## Network Representatives ##
 
@@ -110,12 +112,10 @@ voted to this position, can be found [here](/Network_Representative).
  * Rhosyn Celyn (cwningen)
  * Jonathan Frederickson (jfred)
  * Matt London (Matt)
- * Matt Traudt (pastly)
  * Rico Gloeckner (mc)
  * Richard Hartmann (RichiH)
  * Richard Rose (rik)
  * Tobias Wolter (towo)
- * Unit 193 (Unit193)
  * Sean Glover (wladek)
  * Jan Prunk (yang)
 
