@@ -9,6 +9,7 @@ title: Documentation
  * [NickServ](/NickServ/)
  * [ChanServ](/ChanServ/)
  * [GroupServ](/GroupServ/)
+ * [UserCloaks](/UserCloaks/)
 
 # OFTC Constitution and Policies #
 
