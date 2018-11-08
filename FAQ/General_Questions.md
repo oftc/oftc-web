@@ -32,7 +32,7 @@ Yes. As more services are added, sections for each of those services will be
 added to this FAQ, and it may also be updated to reflect policy changes or
 simple corrections.
 
-## Why does OFTC exist? OPN already provides IRC for this community. ##
+## Why does OFTC exist? Freenode already provides IRC for this community. ##
 
 OFTC aims to provide many services to the community, including but not limited
 to mailing lists, project web pages, NNTP, and ultimately CVS. IRC is a logical
