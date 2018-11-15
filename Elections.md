@@ -17,6 +17,7 @@ up having much more free time than before.
 
 ## Results of past elections
 
+ * [2018](/ElectionResults/2018)
  * [2017](/ElectionResults/2017)
  * [2016](/ElectionResults/2016)
  * [2015](/ElectionResults/2015)
