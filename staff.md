@@ -61,9 +61,9 @@ approving of new staff members or of servers.
 
  * Doug Freed (dwfreed)
  * Joerg Jaspert (Ganneff)
- * Jimmy Kaplowitz (Hydroxide)
- * Neil McGovern (Maulkin)
+ * Rich McIntosh (mcintosh)
  * Christoph Berg (Myon)
+ * Matt Traudt (pastly)
  * Robert A. Nowak (rnowak)
  * Seth Arnold (sarnold)
  * Tom Wesley (tomaw)
@@ -87,15 +87,15 @@ assistance from any user of the Network.
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Operator).
 
- * Bernd Zeimetz (bzed)
- * Rich McIntosh (mcintosh)
+ * Jimmy Kaplowitz (Hydroxide)
+ * Matt London (Matt)
+ * Neil McGovern (Maulkin)
  * Michael Greb (mikegrb)
  * Mark Walling (mwalling)
  * Scott Bender (scott)
  * Alexander Wirt (formorer)
  * Uli Martens (youam)
  * Unit 193 (Unit193)
- * Matt Traudt (pastly)
 
 ## Network Representatives ##
 
@@ -109,9 +109,9 @@ voted to this position, can be found [here](/Network_Representative).
 
  * Andre Guibert de Bruet (andy)
  * Anthony Velardi (avelardi)
+ * Bernd Zeimetz (bzed)
  * Rhosyn Celyn (cwningen)
  * Jonathan Frederickson (jfred)
- * Matt London (Matt)
  * Rico Gloeckner (mc)
  * Richard Hartmann (RichiH)
  * Richard Rose (rik)
