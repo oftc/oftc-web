@@ -61,7 +61,7 @@ approving of new staff members or of servers.
 
  * Doug Freed (dwfreed)
  * Joerg Jaspert (Ganneff)
- * Rich McIntosh (mcintosh)
+ * Richie McIntosh (mcintosh)
  * Christoph Berg (Myon)
  * Matt Traudt (pastly)
  * Robert A. Nowak (rnowak)
