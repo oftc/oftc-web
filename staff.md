@@ -158,4 +158,5 @@ you are using ipv6. This will take you to an active server.
  * [Linode](http://www.linode.com/), Christopher S. Aker (caker)
 (strange, weber, resistance - Fremont, CA, US)
  * [OSUOSL](http://osuosl.org/) (larich - Corvalis, OR, US)
+ * [RCS&RDS](https://www.digiromania.ro) (getic - Pitești, RO)
 
