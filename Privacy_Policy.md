@@ -31,6 +31,7 @@ Specifically, OFTC may use data:
 * To contact you in relation to nickname and channel registrations with OFTC services.
 * To respond to a specific enquiry made via e-mail or the support system.
 * To analyze traffic for illegal and illegitimate activity (e.g. botnets, spam).
+* To scan connecting hosts for well-know vulnerabilities and open proxies.
 
 Your OFTC account is kept until you delete it, or it is deleted for inactivity.
 OFTC retains logs of IRC events for the purpose of debugging and restoration
@@ -48,6 +49,7 @@ the blacklist nameserver. Addresses that we have found to be sources of such
 activity are submitted for inclusion in these blacklists. Blacklists currently
 in use at OFTC are:
 * dnsbl.dronebl.org
+* rbl.efnetrbl.org
 
 We regularly evaluate new blacklists. The above list will be updated if the
 blacklist is permanently included after an evaluation period of 30 days.
@@ -62,7 +64,7 @@ please e-mail <a href="mail:support@oftc.net">support@oftc.net</a>.
 Specifically, you can ask OFTC which data we have stored about you, and you may
 demand this data be deleted.
 
-This policy was last updated on: 25 May 2018.
+This policy was last updated on: 29 March 2019.
 
 *This Privacy Policy was adapted from the freenode.net Privacy Policy
 (licensed under CC BY-SA-NC 4.0).*
