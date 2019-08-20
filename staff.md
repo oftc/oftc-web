@@ -26,9 +26,7 @@ When connected to our IRC network, staff are identifiable by their hostmasks:
 information see [UserCloaks](/UserCloaks).
 
 If you would like to join our staff or sponsor a server, please refer to our
-[Application](/Application) and send it via mail. All applications submitted and
-not withdrawn prior to consideration are made public with sensitive information
-removed.
+[Application](/Application) and send it via mail.
 
 ## Inquiries ##
 
