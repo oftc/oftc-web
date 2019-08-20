@@ -21,12 +21,8 @@ Please be aware that all applications will be reviewed by the Network
 Operations Committee and are subject to the NOC's approval or rejection. In
 addition, all OFTC staff may be consulted on your application. OFTC reserves
 the right to request further information from applicants before considering the
-application. OFTC also reserves the right to confirm the veracity of any
-information received.
-
-Your application will be kept as part of the network records. All applications
-will be posted to the OFTC web site, minus contact information and sensitive
-server details, if present, such as IP address and account information.
+application. Your application will be kept as part of the network records and
+OFTC reserves the right to confirm the veracity of any information received. 
 
 If any member of the Network Operations Committee approves the application,
 that member will present the application at the next meeting where the
