@@ -16,3 +16,4 @@ title: Documentation
  * [Constitution](/constitution/)
  * [Network Policy](/Network_Policy/)
  * [Privacy Policy](/Privacy_Policy/)
+ * [Website and Logo License](/license/)
