@@ -6,8 +6,7 @@ title: Documentation
 
  * [UserModes](/UserModes/)
  * [ChannelModes](/ChannelModes/)
- * [NickServ](/NickServ/)
- * [ChanServ](/ChanServ/)
+ * [NickServ](/NickServ/CertFP/)
  * [GroupServ](/GroupServ/)
  * [UserCloaks](/UserCloaks/)
 
