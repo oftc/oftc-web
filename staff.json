@@ -1,15 +1,15 @@
 {
   "staff":
   {
-    "Myon": {
-      "name": "Christoph Berg",
-      "nick": "Myon",
-      "roles": { "chair": true, "noc": true }
-    },
-
     "tomaw": {
       "name": "Tom Wesley",
       "nick": "tomaw",
+      "roles": { "chair": true, "noc": true }
+    },
+
+    "Myon": {
+      "name": "Christoph Berg",
+      "nick": "Myon",
       "roles": { "noc": true }
     },
     "sarnold": {
@@ -42,12 +42,12 @@
       "nick": "zobel",
       "roles": { "noc": true, "sponsor": true }
     },
+
     "pastly": {
       "name": "Matt Traudt",
       "nick": "pastly",
       "roles": { "netop": true }
     },
-
     "Maulkin": {
       "name": "Neil McGovern",
       "nick": "Maulkin",
@@ -61,16 +61,6 @@
     "Unit193": {
       "name": "Unit 193",
       "nick": "Unit193",
-      "roles": { "netop": true }
-    },
-    "Matt": {
-      "name": "Matt London",
-      "nick": "Matt",
-      "roles": { "netop": true, "sponsor": true }
-    },
-    "Hydroxide": {
-      "name": "Jimmy Kaplowitz",
-      "nick": "Hydroxide",
       "roles": { "netop": true }
     },
     "formorer": {
@@ -88,21 +78,31 @@
       "nick": "youam",
       "roles": { "netop": true }
     },
-    "mwalling": {
-      "name": "Mark Walling",
-      "nick": "mwalling",
+    "RichiH": {
+      "name": "Richard Hartmann",
+      "nick": "RichiH",
       "roles": { "netop": true }
     },
 
+    "mwalling": {
+      "name": "Mark Walling",
+      "nick": "mwalling",
+      "roles": { "netrep": true }
+    },
+    "Matt": {
+      "name": "Matt London",
+      "nick": "Matt",
+      "roles": { "netrep": true, "sponsor": true }
+    },
+    "Hydroxide": {
+      "name": "Jimmy Kaplowitz",
+      "nick": "Hydroxide",
+      "roles": { "netrep": true }
+    },
     "avelardi": {
       "name": "Anthony Velardi",
       "nick": "avelardi",
       "roles": { "netrep": true, "sponsor": true }
-    },
-    "RichiH": {
-      "name": "Richard Hartmann",
-      "nick": "RichiH",
-      "roles": { "netrep": true }
     },
     "mc": {
       "name": "Rico Gloeckner",

@@ -40,7 +40,7 @@ responsible for chairing [Network Operations Committee](/Network Operations
 Committee) meetings and other communications, calling elections, and assigning
 or reassigning responsibilities to other members of the Committee.
 
- * Chair - Christoph Berg (Myon) <chair -at- oftc.net>
+ * Chair - Tom Wesley (tomaw) <chair -at- oftc.net>
 
 ## Ombudsman ##
 
@@ -61,7 +61,6 @@ approving of new staff members or of servers.
  * Joerg Jaspert (Ganneff)
  * Richie McIntosh (mcintosh)
  * Christoph Berg (Myon)
- * Matt Traudt (pastly)
  * Robert A. Nowak (rnowak)
  * Seth Arnold (sarnold)
  * Tom Wesley (tomaw)
@@ -85,15 +84,14 @@ assistance from any user of the Network.
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Operator).
 
- * Jimmy Kaplowitz (Hydroxide)
- * Matt London (Matt)
+ * Alexander Wirt (formorer)
  * Neil McGovern (Maulkin)
  * Michael Greb (mikegrb)
- * Mark Walling (mwalling)
+ * Matt Traudt (pastly)
+ * Richard Hartmann (RichiH)
  * Scott Bender (scott)
- * Alexander Wirt (formorer)
- * Uli Martens (youam)
  * Unit 193 (Unit193)
+ * Uli Martens (youam)
 
 ## Network Representatives ##
 
@@ -109,9 +107,11 @@ voted to this position, can be found [here](/Network_Representative).
  * Anthony Velardi (avelardi)
  * Bernd Zeimetz (bzed)
  * Rhosyn Celyn (cwningen)
+ * Jimmy Kaplowitz (Hydroxide)
  * Jonathan Frederickson (jfred)
+ * Matt London (Matt)
  * Rico Gloeckner (mc)
- * Richard Hartmann (RichiH)
+ * Mark Walling (mwalling)
  * Richard Rose (rik)
  * Tobias Wolter (towo)
  * Sean Glover (wladek)
