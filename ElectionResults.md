@@ -17,4 +17,5 @@ title: ElectionResults
 * [2016](/ElectionResults/2016)
 * [2017](/ElectionResults/2017)
 * [2018](/ElectionResults/2018)
+* [2019](/ElectionResults/2019)
 
