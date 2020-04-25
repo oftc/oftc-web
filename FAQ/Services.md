@@ -53,7 +53,7 @@ We require a minimum length of 2 characters for new nick registrations.
 
 People with CHANOP or MASTER access to the channel will be autooped, if AUTOOP
 is enabled for the channel.  To check the setting send "INFO <channel>" to
-[ChanServ](/ChanServ).  By default it will be off.  To enable it ask a MASTER to
+ChanServ.  By default it will be off.  To enable it ask a MASTER to
 "SET <channel> AUTOOP ON".
 
 The same applies for AUTOVOICE instead of AUTOOP.
@@ -61,7 +61,7 @@ The same applies for AUTOVOICE instead of AUTOOP.
 ## Why does ChanServ keep removing operator status of people in my channel? ##
 
 If you've given operator status to users in your channel who aren't on the
-access list of the channel or aren't identified with services, [ChanServ](/ChanServ)
+access list of the channel or aren't identified with services, ChanServ
 will remove operator status from those users. To prevent
 this from happening you may either add these users to the access list with
 CHANOP role, or ```/msg ChanServ SET #channel LEAVEOPS on```. This has the side
@@ -71,7 +71,7 @@ operator status by the IRCd and services won't remove it.
 
 ## How do I get ChanServ to join my channel? ##
 
-[ChanServ](/ChanServ) can carry out all its functions without being permanently in your
+ChanServ can carry out all its functions without being permanently in your
 channel.  For the rare occasion when it does need to join your channel, it will
 join and leave your channel automatically.
 
