@@ -247,7 +247,7 @@ In older version of emacs (23, 24, 25) you could set up the "tls-program" variab
 (setq tls-program '("gnutls-cli --priority secure256 --x509certfile ~/.ssl/nick.pem --x509keyfile ~/.ssl/nick.key
 {% endhighlight %}
 
-More Emacs 26/27 onwards disregard all of the above and just use the snippet of code for your respective Emacs version found at [the
+On Emacs 26/27 onwards disregard all of the above and just use the snippet of code for your respective Emacs version found at [the
 EmacsWiki](http://www.emacswiki.org/emacs/ErcSSL).
 
 Then call "M-x erc-tls" and connect to irc.oftc.net, port 6697.
