@@ -244,7 +244,7 @@ In older version of emacs (23, 24, 25) you could set up the "tls-program" variab
 {% endhighlight %}
 
 {% highlight text %}
-(setq tls-program '("gnutls-cli --priority secure256 --x509certfile ~/.ssl/nick.pem --x509keyfile ~/.ssl/nick.key
+(setq tls-program '("gnutls-cli --priority secure256 --x509certfile ~/.ssl/nick.pem --x509keyfile ~/.ssl/nick.key -p %p %h"))
 {% endhighlight %}
 
 On Emacs 26/27 onwards disregard all of the above and just use the snippet of code for your respective Emacs version found at [the
