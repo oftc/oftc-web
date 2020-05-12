@@ -235,27 +235,22 @@ Move the certificate you created:
 
 {% highlight text %}
 % mv nick.pem ~/.ssl/
+% mv nick.key ~/.ssl/
 {% endhighlight %}
 
-Now start up Emacs and customize the tls-program variable (e.g. by calling "M-x
-customize-variable" and entering "tls-program").
-
-In order to connect with gnutls-cli, add the following entry:
+In older version of emacs (23, 24, 25) you could set up the "tls-program" variable with either one of this two options:
+{% highlight text %}
+(setq tls-program '("openssl s_client -connect %h:%p -tls1 -ign_eof -cert ~/priv/nick.pem"))
+{% endhighlight %}
 
 {% highlight text %}
-gnutls-cli --priority SECURE256 --x509certfile ~/.ssl/erc_nick.pem -p %p %h
+(setq tls-program '("gnutls-cli --priority secure256 --x509certfile ~/.ssl/nick.pem --x509keyfile ~/.ssl/nick.key
 {% endhighlight %}
 
-In order to connect with openssl, add the following entry:
-
-{% highlight text %}
-openssl s_client -connect %h:%p -no_ssl2 -ign_eof -cert ~/.ssl/erc_nick.pem 
-{% endhighlight %}
+More Emacs 26/27 onwards disregard all of the above and just use the snippet of code for your respective Emacs version found at [the
+EmacsWiki](http://www.emacswiki.org/emacs/ErcSSL).
 
 Then call "M-x erc-tls" and connect to irc.oftc.net, port 6697.
-
-More info on using SSL in ERC can be found at [the
-EmacsWiki](http://www.emacswiki.org/emacs/ErcSSL).
 
 To continue please scroll down to [read how to add your certificates fingerprint
 to NickServ.](#AddCertFPtoNS)
