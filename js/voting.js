@@ -197,6 +197,7 @@ $(document).ready(function() {
   {
     $.get('/ballot', function(tmpl)
     {
+      staff['count'] = Object.keys(staff['staff']).length;
       $.each(staff['staff'], function(i, item)
       {
         item['rank'] = formatField('rank', '');
@@ -219,6 +220,7 @@ $(document).ready(function() {
   $('#submit').click(function()
   {
     // Section 1
+    staff['count'] = Object.keys(staff['staff']).length;
     $('#members tr.item').each(function(i, row)
     {
       var key = $('span.nick', row).text();
