@@ -5,8 +5,7 @@ OFTC's Jekyll based website
 
 To deploy locally, do:
 
-    # apt-get install jekyll
-    On Jessie, also grab ruby-jekyll-feed from unstable and install it
+    $ sudo apt install jekyll ruby-jekyll-feed
     $ make
     $ x-www-browser _site/index.html
 
