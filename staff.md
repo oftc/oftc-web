@@ -64,7 +64,7 @@ approving of new staff members or of servers.
  * Robert A. Nowak (rnowak)
  * Seth Arnold (sarnold)
  * Tom Wesley (tomaw)
- * Martin Zobel-Helas (zobel)
+ * Unit 193 (Unit193)
 
 ## Department Heads ##
 
@@ -85,13 +85,13 @@ A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Operator).
 
  * Alexander Wirt (formorer)
+ * Jimmy Kaplowitz (Hydroxide)
+ * Matt London (Matt)
  * Neil McGovern (Maulkin)
- * Michael Greb (mikegrb)
  * Matt Traudt (pastly)
  * Richard Hartmann (RichiH)
  * Scott Bender (scott)
- * Unit 193 (Unit193)
- * Uli Martens (youam)
+ * Martin Zobel-Helas (zobel)
 
 ## Network Representatives ##
 
@@ -105,17 +105,14 @@ voted to this position, can be found [here](/Network_Representative).
 
  * Andre Guibert de Bruet (andy)
  * Anthony Velardi (avelardi)
- * Bernd Zeimetz (bzed)
  * Rhosyn Celyn (cwningen)
- * Jimmy Kaplowitz (Hydroxide)
  * Jonathan Frederickson (jfred)
- * Matt London (Matt)
  * Rico Gloeckner (mc)
+ * Michael Greb (mikegrb)
  * Mark Walling (mwalling)
  * Richard Rose (rik)
- * Tobias Wolter (towo)
- * Sean Glover (wladek)
  * Jan Prunk (yang)
+ * Uli Martens (youam)
 
 ## Advisors ##
 

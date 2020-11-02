@@ -37,12 +37,16 @@
       "nick": "mcintosh",
       "roles": { "noc": true }
     },
+    "Unit193": {
+      "name": "Unit 193",
+      "nick": "Unit193",
+      "roles": { "noc": true }
+    },
     "zobel": {
       "name": "Martin Zobel-Helas",
       "nick": "zobel",
-      "roles": { "noc": true, "sponsor": true }
+      "roles": { "netop": true, "sponsor": true }
     },
-
     "pastly": {
       "name": "Matt Traudt",
       "nick": "pastly",
@@ -58,24 +62,19 @@
       "nick": "scott",
       "roles": { "netop": true }
     },
-    "Unit193": {
-      "name": "Unit 193",
-      "nick": "Unit193",
-      "roles": { "netop": true }
-    },
     "formorer": {
       "name": "Alexander Wirt",
       "nick": "formorer",
       "roles": { "netop": true }
     },
-    "mikegrb": {
-      "name": "Michael Greb",
-      "nick": "mikegrb",
-      "roles": { "netop": true }
+    "Matt": {
+      "name": "Matt London",
+      "nick": "Matt",
+      "roles": { "netop": true, "sponsor": true }
     },
-    "youam": {
-      "name": "Uli Martens",
-      "nick": "youam",
+    "Hydroxide": {
+      "name": "Jimmy Kaplowitz",
+      "nick": "Hydroxide",
       "roles": { "netop": true }
     },
     "RichiH": {
@@ -83,20 +82,19 @@
       "nick": "RichiH",
       "roles": { "netop": true }
     },
-
+    "mikegrb": {
+      "name": "Michael Greb",
+      "nick": "mikegrb",
+      "roles": { "netrep": true }
+    },
+    "youam": {
+      "name": "Uli Martens",
+      "nick": "youam",
+      "roles": { "netrep": true }
+    },
     "mwalling": {
       "name": "Mark Walling",
       "nick": "mwalling",
-      "roles": { "netrep": true }
-    },
-    "Matt": {
-      "name": "Matt London",
-      "nick": "Matt",
-      "roles": { "netrep": true, "sponsor": true }
-    },
-    "Hydroxide": {
-      "name": "Jimmy Kaplowitz",
-      "nick": "Hydroxide",
       "roles": { "netrep": true }
     },
     "avelardi": {
@@ -114,16 +112,6 @@
       "nick": "jfred",
       "roles": { "netrep": true, "sponsor": true }
     },
-    "bzed": {
-      "name": "Bernd Zeimetz",
-      "nick": "bzed",
-      "roles": { "netrep": true }
-    },
-    "wladek": {
-      "name": "Sean Glover",
-      "nick": "wladek",
-      "roles": { "netrep": true }
-    },
     "andy": {
       "name": "Andre Guibert de Bruet",
       "nick": "andy",
@@ -133,11 +121,6 @@
       "name": "Rhosyn Celyn",
       "nick": "cwningen",
       "roles": { "netrep": true, "sponsor": true }
-    },
-    "towo": {
-      "name": "Tobias Wolter",
-      "nick": "towo",
-      "roles": { "netrep": true }
     },
     "rik": {
       "name": "Rik Rose",
