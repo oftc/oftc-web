@@ -21,23 +21,7 @@ with aid from users and staff.
 
 ## What services does OFTC provide? ##
 
-Currently, OFTC provides an IRC network for use. We expect to expand quickly
-into mailing lists, followed more slowly by web services and an NNTP server.
-Ultimately, we wish to also provide some form of source repository management,
-such as CVS.
-
-## Does this FAQ get updated? ##
-
-Yes. As more services are added, sections for each of those services will be
-added to this FAQ, and it may also be updated to reflect policy changes or
-simple corrections.
-
-## Why does OFTC exist? freenode already provides IRC for this community. ##
-
-OFTC aims to provide many services to the community, including but not limited
-to mailing lists, project web pages, NNTP, and ultimately CVS. IRC is a logical
-first step, since resource requirements are very low, and momentum can be gained
-with which to grow into a more complete project.
+Currently, OFTC provides an IRC network for use.
 
 ## Is OFTC a democracy? ##
 
@@ -71,13 +55,6 @@ oftc-user".
 The Ombudsman is in charge of dealing with all complaints against staff members
 or the Network as a whole. Contact the Ombudsman here. If you wish to complain
 about the Ombudsman, contact the network's Chair here.
-
-## The constitution mentions a Policy Document. Where can I find it? ##
-
-The policy document is a summary of all decisions made by the [Network
-Operations Committee](/Network Operations Committee), and will be released as
-soon as is possible. It involves going through well over ten thousand lines of
-conversation, and producing a readable document. It has not yet been completed.
 
 ## How is OFTC's constitution enforced? ##
 
