@@ -38,7 +38,7 @@ Email Address []:YOURMAIL@ADDRESS
 
 The fields you are asked to fill out here do not matter for connecting to OFTC
 so fill them out however you wish. (You can use other key sizes if you want, but
-the hash algorithm needs to be SHA-1.) You now have two files, the key in
+the fingerprint digest algorithm used below needs to be SHA-1.) You now have two files, the key in
 **nick.key** and the certificate in **nick.cer**. Remember to protect your key
 using chmod.
 
@@ -51,7 +51,7 @@ interested in the certificate fingerprint (CertFP). (This is not a required
 step, there are other ways to get the fingerprint.)
 
 {% highlight text %}
-% openssl x509 -noout -fingerprint -text < nick.cer
+% openssl x509 -noout -fingerprint -SHA1 -text < nick.cer
 {% endhighlight %}
 
 We now combine certificate and key to a single file **nick.pem** (Remember to
