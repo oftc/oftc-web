@@ -83,15 +83,15 @@ Nickserv confirmed your login (sometimes with the help of a script).
 
 ## Channels you joined
 Channels you joined are visible
-* if the channel has [Channelmode +s](ChannelModes/) set, to anyone
+* if the channel has [Channelmode +s](/ChannelModes/) set, to anyone
   who shares the channel with you,
-* to anyone, if [Channelmode +s](ChannelModes/) is not set.
+* to anyone, if [Channelmode +s](/ChannelModes/) is not set.
 
 ## Ircname value
 The *ircname* is a field you can set freely within your client. Many
 people set this to their realname, some channels may ask for this
 even. But the actual value set is entirely up to you, so put whatever
-you are comfortable with sharing (but don't forget the (Network Policy)[Network_Policy/]
+you are comfortable with sharing (but don't forget the [Network Policy](/Network_Policy/)).
 
 This policy was last updated on: 23 May 2021.
 
