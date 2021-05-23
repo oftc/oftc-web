@@ -69,13 +69,25 @@ Your usage of OFTC may disclose information to other users
 also using OFTC. That information may include:
 * Nickname
 * IP address/hostname
-* Channels you joined
+* Channels that you are currently present in
 * The value of your ircname
 * For registered nicks: Various account timestamps
+* The URL string, if you set one yourself using `/msg nickserv set url`
+
+If you have registered an account, the following information
+may also be visible:
+* Registration date and time
+* When you last authenticated yourself to the network
+* When you last disconnected from the network
+* The IP address/hostname you were using the last time you
+  disconnected from the network
 * Your last quit message, if any
-* The URL string you can set yourself using `/msg nickserv set url`
-* If your nick is verified or not
-* Your e-mail address **if** private is turned off.
+* Your e-mail address, if your account does not have the `PRIVATE`
+  flag turned on.
+* Whether you have verified your e-mail address
+
+It's possible to opt out from showing your IP address/hostname and
+your e-mail address to other people.
 
 ## IP address/hostname
 The IP address/hostname can be hidden by using a cloak, see `/msg
@@ -87,12 +99,12 @@ Additionally, many IRC clients are able to only join channels after
 Nickserv confirmed your login (sometimes with the help of a script).
 
 ## e-mail address
-Your e-mail address will be shown to other users, if you have **NOT**
-set *PRIVATE* to on.
+As of 2021-05-23, new accounts will have the flag *PRIVATE* turned
+**ON** by default. This means that the e-mail addresses of new
+accounts will no longer be shown to other people by default.
 
-Note that the default of this changed on 2021-05-23, any accounts
-created afterwards have the default **ON**, any account before are
-default **OFF**.
+If you have **NOT** set *PRIVATE* to on, your e-mail address **will**
+be shown to other users.
 
 To turn PRIVATE on / to update older registrations, issue `/msg
 NickServ SET PRIVATE ON`.
