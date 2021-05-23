@@ -75,6 +75,7 @@ also using OFTC services. That information may include:
 * Your last quit message, if any
 * The URL string you can set yourself using `/msg nickserv set url`
 * If your nick is verified or not
+* Your e-mail address **if** private is turned off.
 
 ## IP address/hostname
 The IP address/hostname can be hidden by using a cloak, see `/msg
@@ -84,6 +85,13 @@ where your host is visible. Consider using
 [**CertFP**](/NickServ/CertFP/) to keep that time as small as possible.
 Additionally, many IRC clients are able to only join channels after
 Nickserv confirmed your login (sometimes with the help of a script).
+
+## e-mail address
+Your e-mail address will be shown to other users, if you have **NOT**
+set *PRIVATE* to on. Use `/msg nickserv set private on` to do so.
+Note that the default of this changed on 2021-05-23, any accounts
+created afterwards have the default **ON**, any account before are
+default **OFF**.
 
 ## Channels you joined
 Channels you joined are visible
