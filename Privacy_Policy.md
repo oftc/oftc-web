@@ -88,12 +88,14 @@ Nickserv confirmed your login (sometimes with the help of a script).
 
 ## e-mail address
 Your e-mail address will be shown to other users, if you have **NOT**
-set *PRIVATE* to on. Use `/msg nickserv set private on` to do so.
+set *PRIVATE* to on.
 
 Note that the default of this changed on 2021-05-23, any accounts
 created afterwards have the default **ON**, any account before are
-default **OFF**. Issue `/msg NickServ SET PRIVATE ON` to update older
-registrations.
+default **OFF**.
+
+To turn PRIVATE on / to update older registrations, issue `/msg
+NickServ SET PRIVATE ON`.
 
 ## Channels you joined
 Channels you joined are visible in `/whois <yournick>` output
