@@ -71,6 +71,10 @@ also using OFTC services. That information may include:
 * IP address/hostname
 * Channels you joined
 * The value of your ircname
+* For registered nicks: Various account timestamps
+* Your last quit message, if any
+* The URL string you can set yourself using `/msg nickserv set url`
+* If your nick is verified or not
 
 ## IP address/hostname
 The IP address/hostname can be hidden by using a cloak, see `/msg
@@ -92,6 +96,17 @@ The *ircname* is a field you can set freely within your client. Many
 people set this to their realname, some channels may ask for this
 even. But the actual value set is entirely up to you, so put whatever
 you are comfortable with sharing (but don't forget the [Network Policy](/Network_Policy/)).
+
+## Account timestamps
+When you register (and later identify) to your account, Nickserv keeps
+timestamps of those actions. These are visible to other users, and
+are:
+* **Time registered** - When you registered the nick
+* **Nickname last seen** - Last time you have been online and
+  identified to services
+* **Account last quit** - (Not if you are connected) When you last
+  left the network.
+
 
 This policy was last updated on: 23 May 2021.
 
