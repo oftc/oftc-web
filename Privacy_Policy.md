@@ -77,7 +77,7 @@ The IP address/hostname can be hidden by using a cloak, see `/msg
 nickserv help set cloak`, but please be aware that a cloak only
 applies after successful nickserv login, so there may be a time frame
 where your host is visible. Consider using
-[**CertFP**](NickServ/CertFP/) to keep that time as small as possible.
+[**CertFP**](/NickServ/CertFP/) to keep that time as small as possible.
 Additionally, many IRC clients are able to only join channels after
 Nickserv confirmed your login (sometimes with the help of a script).
 
