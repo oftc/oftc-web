@@ -64,7 +64,36 @@ please e-mail <a href="mail:support@oftc.net">support@oftc.net</a>.
 Specifically, you can ask OFTC which data we have stored about you, and you may
 demand this data be deleted.
 
-This policy was last updated on: 29 March 2019.
+# Data visible to other users
+Your usage of OFTC services may disclose information to other users
+also using OFTC services. That information may include:
+* Nickname
+* IP address/hostname
+* Channels you joined
+* The value of your ircname
+
+## IP address/hostname
+The IP address/hostname can be hidden by using a cloak, see `/msg
+nickserv help set cloak`, but please be aware that a cloak only
+applies after successful nickserv login, so there may be a time frame
+where your host is visible. Consider using
+[**CertFP**](NickServ/CertFP/) to keep that time as small as possible.
+Additionally, many IRC clients are able to only join channels after
+Nickserv confirmed your login (sometimes with the help of a script).
+
+## Channels you joined
+Channels you joined are visible
+* if the channel has [Channelmode +s](ChannelModes/) set, to anyone
+  who shares the channel with you,
+* to anyone, if [Channelmode +s](ChannelModes/) is not set.
+
+## Ircname value
+The *ircname* is a field you can set freely within your client. Many
+people set this to their realname, some channels may ask for this
+even. But the actual value set is entirely up to you, so put whatever
+you are comfortable with sharing (but don't forget the (Network Policy)[Network_Policy/]
+
+This policy was last updated on: 23 May 2021.
 
 *This Privacy Policy was adapted from the freenode.net Privacy Policy
 (licensed under CC BY-SA-NC 4.0).*
