@@ -65,8 +65,8 @@ Specifically, you can ask OFTC which data we have stored about you, and you may
 demand this data be deleted.
 
 # Data visible to other users
-Your usage of OFTC services may disclose information to other users
-also using OFTC services. That information may include:
+Your usage of OFTC may disclose information to other users
+also using OFTC. That information may include:
 * Nickname
 * IP address/hostname
 * Channels you joined
@@ -89,12 +89,14 @@ Nickserv confirmed your login (sometimes with the help of a script).
 ## e-mail address
 Your e-mail address will be shown to other users, if you have **NOT**
 set *PRIVATE* to on. Use `/msg nickserv set private on` to do so.
+
 Note that the default of this changed on 2021-05-23, any accounts
 created afterwards have the default **ON**, any account before are
-default **OFF**.
+default **OFF**. Issue `/msg NickServ SET PRIVATE ON` to update older
+registrations.
 
 ## Channels you joined
-Channels you joined are visible
+Channels you joined are visible in `/whois <yournick>` output
 * if the channel has [Channelmode +s](/ChannelModes/) set, to anyone
   who shares the channel with you,
 * to anyone, if [Channelmode +s](/ChannelModes/) is not set.
