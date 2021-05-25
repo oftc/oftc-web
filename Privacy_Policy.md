@@ -78,8 +78,6 @@ may also be visible:
 * Various account timestamps (see [Account
   timestamps](#account-timestamps) further down) including
   registration date and time.
-* When you last authenticated yourself to the network
-* When you last disconnected from the network
 * The URL string, if you set one yourself using `/msg nickserv set url`
 * The IP address/hostname you were using the last time you
   disconnected from the network
