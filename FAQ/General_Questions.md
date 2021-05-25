@@ -52,7 +52,7 @@ oftc-user".
 
 ## I wish to complain about a staff member or the network. Who do I talk to? ##
 
-The Ombudsman is in charge of dealing with all complaints against staff members
+The [Ombudsman](/staff#ombudsman) is in charge of dealing with all complaints against staff members
 or the Network as a whole. Contact the Ombudsman here. If you wish to complain
 about the Ombudsman, contact the network's Chair here.
 

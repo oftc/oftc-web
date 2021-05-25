@@ -44,7 +44,7 @@ or reassigning responsibilities to other members of the Committee.
 
 ## Ombudsman ##
 
-The [Ombudsman](/Ombudsman) is the judicial system of the Network and is
+The Ombudsman is the judicial system of the Network and is
 responsible for hearing and acting upon complaints brought against any member of
 the staff or against the network itself.
 
