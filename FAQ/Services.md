@@ -30,6 +30,12 @@ different authentication methods used for nickserv, access lists vs.
 password/cert.)
 
 
+## Do you provide SASL? ##
+
+Not yet, please use CertFP as described below.
+SASL is on the Roadmap though.
+
+
 ## How do I identify automatically to NickServ? ##
 
 The best way is to connect using SSL and provide a client certificate. See
