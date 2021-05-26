@@ -11,7 +11,7 @@ The Network Staff are responsible for the maintenance and well-being of the
 Network and its users. Many staff members have multiple roles, and not all roles
 are listed here. These are the people you should seek for assistance.
 
-Staff are assigned to their roles during annual staff-wide elections from the
+Staff are assigned to their roles during annual staff-wide [elections](/ElectionResults/) from the
 8th to the 11th of every October. Between elections, staff may be promoted,
 demoted, added, or removed by the Network Operations Committee,
 as outlined in the Network's
