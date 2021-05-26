@@ -32,8 +32,8 @@ password/cert.)
 
 ## I receive an error message saying i need to be identified and verified ##
 
-To identify, use `/msg nickserv identify <password> [nick]`. If you are identified and still receiving the error,
-you need to verify your account via https://services.oftc.net.
+To identify, use `/msg NickServ IDENTIFY <password> [nick]`. If you are identified and still receiving the error,
+you need to verify your account via [https://services.oftc.net](https://services.oftc.net).
 
 
 ## Do you provide SASL? ##
@@ -64,9 +64,8 @@ We require a minimum length of 2 characters for new nick registrations.
 ## I am not getting autoopped/autovoiced ##
 
 People with CHANOP or MASTER access to the channel will be autooped, if AUTOOP
-is enabled for the channel.  To check the setting send "INFO <channel>" to
-ChanServ.  By default it will be off.  To enable it ask a MASTER to
-"SET <channel> AUTOOP ON".
+is enabled for the channel.  To check the setting send `/msg ChanServ INFO <channel>`.
+By default it will be off.  To enable it ask a MASTER to `/msg ChanServ SET <channel> AUTOOP ON`.
 
 The same applies for AUTOVOICE instead of AUTOOP.
 
@@ -76,7 +75,7 @@ If you've given operator status to users in your channel who aren't on the
 access list of the channel or aren't identified with services, ChanServ
 will remove operator status from those users. To prevent
 this from happening you may either add these users to the access list with
-CHANOP role, or ```/msg ChanServ SET #channel LEAVEOPS on```. This has the side
+CHANOP role, or `/msg ChanServ SET #channel LEAVEOPS on`. This has the side
 effect that if no one is in your channel when a new user joins he will be given
 operator status by the IRCd and services won't remove it.
 
