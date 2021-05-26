@@ -1,0 +1,388 @@
+Section 0. Submitting your ballot
+
+Please fill out this ballot and return it to votes@oftc.net.
+
+It will be returned to you. If there are no problems with it, you
+do not need to do anything further. If the ballot returned to you
+was not submitted by you, please email votes@oftc.net with the correct
+ballot and a note indicating the previous one (include it in the message)
+is void.
+
+In order to verify the authenticity of the ballots, they must be sent from
+the address where you received this email.
+
+The election period is from October 8th at UTC midnight until October 11th
+at UTC 23:59:59. Please return your ballots by then to have them counted.
+
+Please state your real name: __________
+
+Please state the nick you use on IRC: ___________
+
+Thank you
+
+-------------------
+
+Section 1. The General Election
+
+The following people are OFTC staff members. Please rank them in order of
+preference from 1 (best) to 32 (worst). The following is the breakdown of
+the total results.
+
+1st place = Chair (Coordinator)
+1st-8th places = Network Operations Committee
+9th-16th places = Network Operators
+17th-27rd places = Network Representatives/Sponsors
+
+The people in the last five positions will be removed from staff. If they
+are sponsers, their servers will be delinked. Please keep this in mind.
+
+Notes:
+- Candidates will be listed in alphabetical order by nickname.
+- Voting for yourself will be required.
+- Using any number twice will void your ballot.
+- Please remember that sponsors contribute without necessarily being active
+  participants on the staff. It is recommended that they be treated more
+    leniently.
+- You must use every number. (Not voting for someone gives them "0" which
+  will skew the results.)
+
+Rank    Nick            Name            Role at last election   Now
+
+__      andy            Andre Guibert de Bruet  NetOp           NetOp
+__      Austin          Austin Hair             No role         NetRep
+__      brw             Branden R Williams      NetOp           NetOp
+__      cdlu            David Graham            Chair           Chair
+__      cpufreak        Andrew Mulholland       No role         NetOp
+__      cryogen         Stuart Walsh            NetRep          NOC
+__      dopey           Matt Hope               No role         NetRep
+__      driz            David Friedman          NetOp           Sponsor
+__      ElectricElf     David Harris            Ombudsman       NOC
+__      gcc             Phillip Cockrell        NOC             NOC
+__      hajvan          Haris Sehic             No role         Sponsor
+__      irq             Dan Parsons             No role         NetOp
+__      jabea           Philippe Levesque       NetRep          NetOp
+__      JALH            Mark Zealey             NOC             NOC
+__      Joy             Josip Rodin             No role         Sponsor
+__      JT              Jon Teh                 NetRep          NetOp
+__      lang            Thomas Kjaer            No role         NetRep
+__      lolo            Florion Lohoff          No role         Sponsor
+__      Lord_Striker    Striker Stormbringer    NetOp           NetOp
+__      Matt            Matt London             NOC             Ombudsman
+__      miro            Michael Roemer          NOC             NOC
+__      noel            Noel Koethe             No role         Sponsor
+__      riel            Rik van Riel            No role         Sponsor
+__      rik             Richard Rose            NetRep          NetOp
+__      robster         Rob Bradford            No role         Sponsor
+__      ruler           Bill Fread              No role         Sponsor
+__      scoop           Patrick Lenz            No role         Sponsor
+__      Sir_Ahzz        Brian Wolfe             NOC             Sponsor
+__      spice           Gary Allpike            No role         Sponsor
+__      warewolf        Richard Harman          No role         Sponsor
+__      _deepfire       Serge Kosyrev           NetRep          NetRep
+__      _RainMkr_       Richard DeRoo           No role         Sponsor
+
+-------------------
+
+Section 2. Advisor Roles
+
+Please state whether you would like the following people to continue as
+Advisors to OFTC with a "Yes" or "No" (No answer will be counted as a "Yes).
+
+___     Luca Filipozzi (luca)
+___     Martin Schulze (Joey)
+        (Advisor from Software in the Public Interest (SPI))
+
+-------------------
+
+Section 3. Relationship with SPI
+
+Do you believe OFTC should remain a member project of Software in the Public
+Interest (No answer will be counted as a "Yes")? [Yes No] ________
+
+-------------------
+
+Section 4. The Role of Ombudsman
+
+Please write the name and/or nickname of the member of Staff you believe
+should be the Project's Ombudsman:
+
+_______________________________________
+
+-------------------
+
+Section 5. Constitutional Amendments
+
+Please read the following carefully, it has changes from the original
+constitution in nearly every paragraph, and then answer whether or not
+this constitution is acceptable to you. If this constitution is not
+approved, a discussion will take place on oftc-staff mailing list and
+necessary changes will be made during the election of April, 2003.
+
+Please answer with "Yes" or "No". No answer will be counted as a "Yes".
+
+___     This constitution is appropriate for OFTC.
+
+Constitution of the Open and Free Technology Community
+
+1. Mission Statement
+
+   The Open and Free Technology Community (henceforth referred to as
+"OFTC" or "the Project") was founded at the end of 2001 by a group of
+experienced members of the Open Source and Free Software communities
+aiming to provide these communities with better communication,
+development, and support infrastructure. Our goal is to provide stable
+services to members of the community in any part of the world, while
+listening closely to their needs and desires.
+
+2. Administrative Structure
+
+   Any action that any Staff member takes in the performance of their duties
+shall be recorded in the Project's records as completely as is possible.
+
+   The following outlines all Staff positions.
+
+2a. Project Administration Committee
+
+   The Project Administration Committee (henceforth referred to as "the PAC")
+will consist of no fewer than six members. The PAC is responsible for deciding
+the policies of the Project as a whole.
+
+   i) PAC Coordinator
+
+     The Coordinator is responsible for calling and chairing PAC meetings.
+The Coordinator is also responsible for the appointment of Department Heads.
+Department Heads are to be selected from willing and able members of the PAC.
+
+     The Coordinator is responsible for announcing and coordinating elections,
+as described below.
+
+   ii) Department Heads
+
+
+     The responsiblitiess of Department Heads are set by the Coordinator at
+the time of their appointment, as explicitly as is reasonable. Department
+Heads are strongly encouraged to recruit Department Staff from among Staff and
+users willing to assist them in their duties.
+
+2b. Project Ombudsman
+
+     The Ombudsman is responsible for hearing and acting on complaints
+received by users or Staff, when is about a member of Staff or about the
+Project as a whole.
+
+     The Ombudsman has the power to issue Reprimands against any Staff member
+for violating any Project policy, any part of this constitution, or for
+abusing any of their privileges. This reprimand may be turned over by a
+three-quarters majority vote of the PAC. The Ombudsman may also recommend that
+further action be taken against the Staff member in question.
+
+     Reprimands against Staff only take effect after the following PAC
+meeting.
+
+     In order for the PAC to issue a reprimand, it must file a complaint with
+the Ombudsman.
+
+     The Ombudsman is also responsible for issuing Commendations to Staff
+members and volounteers who are performing exemplary service to the Project.
+This commendation will be reflected in the Project's records.
+
+2c. Project Administrator (Admins)
+
+   Project Administrators (henceforth referred to as "Admins") are to enforce
+the Project policies set forth by the PAC. They are also responsible for
+helping any and all users of the Project in any way possible, without
+prejudice.
+
+   Any further responsibilities, and all privileges, are defined in the
+Project Policy document.
+
+2d. Sponsors
+
+   Sponsors are responsible for maintaining the hardware, connectivity, and
+operating system installation upon which our software runs.
+
+2e. Project Representatives (Reps)
+
+   The duties of a Project Representative include assisting users in any way
+possible, and reporting any problems to the Admins, the PAC, or the Ombudsman.
+They need only be reported when the problem cannot be solved without
+privileged intervention.
+
+2f. Active and Inactive Staff
+
+   A Staff member who has not logged any activity in seven days will be
+
+considered inactive.
+
+   An Active Staff member is any Staff member who is not Inactive.
+
+2g. Inter-Election Staff Changes
+
+   A Staff member who is inactive for sixty days, without notice, will be
+removed from Staff. Any Staff member who announces their resignation will have
+their privileges and any access they may have removed.
+
+   Any vacancies in Staff are filled at the earliest possible time by the PAC,
+based on candidates put forward by PAC members or Administrators. Candidates
+who are volounteers or who are already on Staff, and candidates who have
+Commendations, will be favoured to fill any vacancies.
+
+   The PAC may appoint new Staff members, promote Staff members, create new
+Staff roles, or remove Staff members who are detrimental to the Project.
+For Staff removals, the Ombudsman must consent.
+
+2h. Impeachment
+
+   In the event that any PAC member or the Ombudsman is performing poorly or
+in a manner detrimental to the Project, it is the duty of the Admins and the
+rest of the PAC to bring about a vote of no confidence.
+
+   Following a public discussion, in order for a vote of no confidence to be
+passed, a minimum of three quarters of all active Admins and three quarters of
+all PAC members must agree. After this two-part agreement, the impeached
+member will be stripped of all Staff positions, privileges, and access.
+
+   The vote of no confidence must be completed within seven days of the
+original call for an impeachment.
+
+2i. Vacancy at the level of either Coordinator or Ombudsman
+
+   In the event that the Coordinator should, for any reason, cease to be
+the Coordinator, the PAC will elect an interim Coordinator from among Staff.
+
+   In the event that the Ombudsman should, for any reason, cease to be the
+Ombudsman, the PAC will select a new Ombudsman from willing and able Staff
+members.
+
+2j. Reprimands
+
+   How members of Staff behave in public reflects upon the Project as a
+whole. Therefore, any action which misrepresents Project policy may result in
+the Reprimand or dismissal of the Staff member in question. Any Reprimands or
+dismissals, and the reasons therefor, shall be explained in Project records.
+
+   A Reprimand carries the following weight:
+
+     * 1 Active Reprimand: 7 day suspension from Staff.
+
+     * 2 Active Reprimands: 30 day suspension from Staff.
+
+     * 3 Active Reprimands: Dismissal from Staff.
+
+   Appeals shall be handled by the PAC on a case-by-case basis. The
+Ombudsman who issued the reprimand may only serve as a witness to these
+proceedings; they may not participate.
+
+   Reprimands cease being active after a period set by the Ombudsman, not
+to exceed 180 days.
+
+   Staff members often go above and beyond the call of duty. For this
+reason, the Ombudsman may award a Staff member a Commendation and announce
+this fact to the Project.
+
+3. Voting
+
+3a. Eligibility and Candidates
+
+   Voters in elections shall be limited to Staff members, as defined by this
+Constitution.
+
+   No new Staff members may join during a thirty-day period before an
+election.
+
+   A member of Staff may only be eligible if they have received no more
+than one reprimand since the previous election.
+
+   All voters shall also be candidates. There are no nominations. Any
+voter may elect any other voter for any position. A voter must also vote
+themselves into some position.
+
+   In the event that an active Staff member can not vote during the
+scheduled voting window, provisions must be made to allow them to vote in
+advance.
+
+3b. Announcement of Elections
+
+   Elections are announced by the Coordinator, one month in advance.
+
+3c. Election Dates
+
+   Elections are held every nine months, beginning October 8th, 2002.
+
+3d. Vote Counting
+
+   Software in the Public Interest is responsible for counting and announcing
+the results of elections. No members of staff will know who the counters are
+until the results are released. The votes themselves must be anonymised before
+being sent to Software in the Public Interest.
+
+3e. Election Structure
+
+   Elections and election results are to be handled in the following manner:
+
+        * Any outstanding issues which need to be voted on will be listed
+on the ballot.
+
+        * Each voter assigns a list of numbers, starting at 1 and ending at
+the total number of candidates, to all candidates. No number may be assigned
+more than once, and all numbers must be used.
+
+        * The individual with the lowest cumulative ranking will be the
+PAC Coordinator. The first- through eighth-lowest will be the Project
+Administration Committee.
+
+        * The individuals with the ninth- through sixteenth-lowest ratings
+will be Project Administrators.
+
+        * Those ten percent of candidates with the highest cumulative ratings
+will be removed.
+
+        * All remaining candidates will be Project Representatives.
+
+        * The Ombudsman is selected by a write-in ballot; that Staff member
+whose name appears most oftenwill be the Ombudsman.
+
+        * In the event of a tie which affects the roles of two or more
+different Staff members, a run-off vote will be held. The run-off vote will
+only contain the names of those candidates affected. If the candidates reach
+an agreement within 48 hours of the election results being announced, no
+run-off vote will be held.
+
+3f. Forced Elections
+
+   If the PAC shrinks to below six members for more than thirty days, a
+new election must be held if none is scheduled within the following thirty
+days.
+
+4. Project Policy
+
+   In addition to this Constitution, there also exists a Project Policy
+document. The purpose of this document is to decide the day-to-day
+operations of the Project. It may not conflict with any articles in this
+Constitution.
+
+   Any Policy enacted in the Project Policy document shall have the same
+weight as any article in this Constitution. The Project Policy document
+may be altered by any standard PAC vote.
+
+5. Amendments
+
+   Amendments to this document must be approved by two thirds of all
+active Project Staff.
+
+   Software in the Public Interest (SPI) may veto any amendments or
+changes to this constitution within 15 days of the Staff's vote.
+
+-------------------
+
+Section 6. Comments
+
+Feel free to write comments to be given anonymously to the new Network
+Operations Committee as feedback for the direction of the new
+administration.
+
+
+-------------------
+
+Please return this ballot to votes@oftc.net when it is complete.
+
