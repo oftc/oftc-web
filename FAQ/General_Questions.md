@@ -46,9 +46,9 @@ email at support.
 
 ## Is there a mailing list on which users can discuss the network? ##
 
-OFTC provides a mailing list open to all members at `oftc-user@lists.oftc.net`.
-To subscribe, email `oftc-user-request@lists.oftc.net` with the subject "subscribe
-oftc-user".
+As of May 2021 the mailing list that had been available to users has been shut down
+as it saw no use for a long time. Please stop by `#oftc` or email `support@oftc.net` 
+for inquiries.
 
 ## I wish to complain about a staff member or the network. Who do I talk to? ##
 
