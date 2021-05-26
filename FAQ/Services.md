@@ -30,6 +30,12 @@ different authentication methods used for nickserv, access lists vs.
 password/cert.)
 
 
+## I receive an error message saying i need to be identified and verified ##
+
+To identify, use `/msg nickserv identify <password> [nick]`. If you are identified and still receiving the error,
+you need to verify your account via https://services.oftc.net.
+
+
 ## Do you provide SASL? ##
 
 Not yet, please use CertFP as described below.
