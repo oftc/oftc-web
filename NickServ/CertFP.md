@@ -396,7 +396,9 @@ extend thew validity.
 This will first generate a CSR and then use that to reissue the
 certificate with the same data, and another 10 years of lifetime.
 
-Some dislike this, as it reuses the same private key.
+You should now [tell Nickserv about the new certificate fingerprint.](#AddCertFPtoNS)
+
+Note that some dislike this way, as it reuses the same private key.
 
 ### Last time I tried ssl connection to an IRC network I experienced a huge lag, is that still to be expected? ###
 
@@ -406,4 +408,3 @@ and reliable.  You wont see any difference to a connection without ssl (except
 having an encrypted connection, of course). All the network operators and lots
 of other people are using SSL connections to OFTC as their only way to access
 the network.
-
