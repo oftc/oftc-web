@@ -382,6 +382,22 @@ reasonably cryptographically strong. If you encounter problems connecting with
 SSL, ensure that your system's real-time clock is set properly, that your
 certificate issue date is in the past and that your certificate has not expired.
 
+### Renew expired certifcates ###
+
+If your certificate expired, you can simply create a new certificate
+and then tell Nickserv about it. If you want, you can also simply
+extend thew validity.
+
+{% highlight text %}
+% openssl x509 -x509toreq -in nick.cer -signkey nick.key -out nick.csr
+% openssl x509 -req -days 3650 -in nick.csr -signkey nick.key -out nick.cer
+{% endhighlight %}
+
+This will first generate a CSR and then use that to reissue the
+certificate with the same data, and another 10 years of lifetime.
+
+Some dislike this, as it reuses the same private key.
+
 ### Last time I tried ssl connection to an IRC network I experienced a huge lag, is that still to be expected? ###
 
 No. In the early days of supporting ssl connections there were a few problems,
