@@ -11,6 +11,8 @@ This page describes how to use SSL with a certificate fingerprint to
 automatically identify your registered nickname with NickServ on connect. You
 must have an IRC client that supports SSL with a client certificate.
 
+<a id="CreatingSelfSigned"></a>
+
 ## Creating a Self-signed Certificate ##
 
 First you need generate a self-signed certificate.  We will be using OpenSSL
@@ -384,9 +386,9 @@ certificate issue date is in the past and that your certificate has not expired.
 
 ### Renew expired certifcates ###
 
-If your certificate expired, you can simply create a new certificate
+If your certificate expired, you can simply [create a new certificate](#CreatingSelfsigned)
 and then tell Nickserv about it. If you want, you can also simply
-extend thew validity.
+extend the validity.
 
 {% highlight text %}
 % openssl x509 -x509toreq -in nick.cer -signkey nick.key -out nick.csr
