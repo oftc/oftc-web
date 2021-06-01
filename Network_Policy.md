@@ -30,3 +30,5 @@ the network without warning
 involved.
    - However a badly behaving user may quickly escalate to a network issue if
 they are subverting the ability for channel operators to maintain order.
+ * Discrimination based on faith, ethnicity, sexual orientation, sex or gender 
+expression, disability, or age is not permitted.
