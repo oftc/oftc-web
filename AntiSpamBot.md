@@ -83,3 +83,8 @@ The spam looked like this for a few weeks (multiple lines w/additional text):
 And we're starting to see spam like this now too:
 
    YOUR SHIT CHATS MAKE ME SO MAD I PUNCH HOLES IN MY WALL!!! THATS Y I MOVED 2 IRC.LIBERA.CHAT #MIDIPIX <imgur link redacted>
+
+## Is the spam still happening?
+
+As of June 21st, 2021, it seems to be done for now. AntiSpamBot is offline
+until needed again.
