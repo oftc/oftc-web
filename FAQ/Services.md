@@ -33,8 +33,8 @@ password/cert.)
 ## I receive an error message saying i need to be identified and verified ##
 
 To identify, use `/msg NickServ IDENTIFY <password> [nick]`. If you are identified and still receiving the error,
-you need to verify your account via [https://services.oftc.net](https://services.oftc.net).
-
+you need to verify your account via the link that you received from NickServ upon registration. Should the link
+have expired or you need a new one, use `/msg NickServ REVERIFY` while being identified.
 
 ## Do you provide SASL? ##
 
