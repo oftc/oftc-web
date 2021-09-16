@@ -32,8 +32,7 @@ network and chat directly from within your browser.
  * We offer a [**WebChat**](WebChat) service (also via the boxes at the top of this page).
  * Use of [Tor](/Tor) is permitted.
 
-We offer IRC services (NickServ, ChanServ) for nick and channel registration,
-and a web front end at [**services.oftc.net**](https://services.oftc.net/).
+We offer IRC services (NickServ, ChanServ) for nick and channel registration.
 
 If you have support requests regarding the operation of the network please stop
 by `#oftc` or email `support@oftc.net`. We welcome issues and pull requests on

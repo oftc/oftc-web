@@ -6,14 +6,14 @@ title: User Cloaks
 ## Cloaks
 
 Cloaks are provided via services; for any cloak to take effect you must identify
-with services first.  You can enable your cloak by **verifying your account** in our
-services web frontend at
+with services first.  You can enable your cloak once you are verified by issuing
+the following command:
 
-[**services.oftc.net**](https://services.oftc.net/)
+`/msg NickServ SET CLOAK ON`
 
-and issuing the following command:
+If are not verified yet, you can start the process by issuing:
 
-`/msg nickserv SET CLOAK ON`
+`/msg NickServ REVERIFY`
 
 If no [personalized](#Personalized) cloak has already been set, you will receive
 a cloak that is unique to your account with services and will be the same across
