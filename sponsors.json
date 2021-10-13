@@ -60,6 +60,18 @@
       "name": "Rob Bradford",
       "nick": "robster",
       "roles": { "sponsor": true }
+    },
+    "TiMOiD":
+    {
+      "name": "Tim",
+      "nick": "TiMOiD",
+      "roles": { "sponsor": true }
+    },
+    "dsx":
+    {
+      "name": "dsx",
+      "nick": "dsx",
+      "roles": { "sponsor": true }
     }
   }
 }
