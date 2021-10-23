@@ -27,6 +27,14 @@ client certificates. For more information about this feature please look at
 
 `/msg NickServ help` will give you an overview of other NickServ commands.
 
+### Verify your account ###
+
+When you register an account, NickServ will give you a link to a web page
+where you can verify your account. You will need to solve a CAPTCHA in
+order to verify your account. The link will expire after one hour, but
+you can ask for a new link with `/msg NickServ REVERIFY`. If you need any
+assistance, please ask for help from OFTC staff in #oftc or on support@oftc.net.
+
 ### Register your channel ###
 
 For channel registration, the ChanServ bot is provided. To register a channel
