@@ -30,8 +30,8 @@ If you would like to join our staff or sponsor a server, please refer to our
 
 ## Inquiries ##
 
-Please address all general inquiries, requests, and comments to support:
-support@oftc.net.
+Please address all general inquiries, requests, and comments to the
+`#oftc` channel or by email to support@oftc.net.
 
 ## Network Operations Committee Chair ##
 
