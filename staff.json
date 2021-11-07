@@ -62,11 +62,6 @@
       "nick": "scott",
       "roles": { "netop": true }
     },
-    "formorer": {
-      "name": "Alexander Wirt",
-      "nick": "formorer",
-      "roles": { "netop": true }
-    },
     "Matt": {
       "name": "Matt London",
       "nick": "Matt",
@@ -77,10 +72,25 @@
       "nick": "Hydroxide",
       "roles": { "netop": true }
     },
+    "mc": {
+      "name": "Rico Gloeckner",
+      "nick": "mc",
+      "roles": { "netop": true, "sponsor": true }
+    },
+    "cwningen": {
+      "name": "Rhosyn Celyn",
+      "nick": "cwningen",
+      "roles": { "netop": true, "sponsor": true }
+    },
+    "formorer": {
+      "name": "Alexander Wirt",
+      "nick": "formorer",
+      "roles": { "netrep": true }
+    },
     "RichiH": {
       "name": "Richard Hartmann",
       "nick": "RichiH",
-      "roles": { "netop": true }
+      "roles": { "netrep": true }
     },
     "mikegrb": {
       "name": "Michael Greb",
@@ -102,11 +112,6 @@
       "nick": "avelardi",
       "roles": { "netrep": true, "sponsor": true }
     },
-    "mc": {
-      "name": "Rico Gloeckner",
-      "nick": "mc",
-      "roles": { "netrep": true, "sponsor": true }
-    },
     "jfred": {
       "name": "Jonathan Frederickson",
       "nick": "jfred",
@@ -115,11 +120,6 @@
     "andy": {
       "name": "Andre Guibert de Bruet",
       "nick": "andy",
-      "roles": { "netrep": true, "sponsor": true }
-    },
-    "cwningen": {
-      "name": "Rhosyn Celyn",
-      "nick": "cwningen",
       "roles": { "netrep": true, "sponsor": true }
     },
     "rik": {

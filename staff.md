@@ -84,12 +84,12 @@ assistance from any user of the Network.
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Operator).
 
- * Alexander Wirt (formorer)
+ * Rhosyn Celyn (cwningen)
  * Jimmy Kaplowitz (Hydroxide)
  * Matt London (Matt)
  * Neil McGovern (Maulkin)
+ * Rico Gloeckner (mc)
  * Matt Traudt (pastly)
- * Richard Hartmann (RichiH)
  * Scott Bender (scott)
  * Martin Zobel-Helas (zobel)
 
@@ -105,11 +105,11 @@ voted to this position, can be found [here](/Network_Representative).
 
  * Andre Guibert de Bruet (andy)
  * Anthony Velardi (avelardi)
- * Rhosyn Celyn (cwningen)
+ * Alexander Wirt (formorer)
  * Jonathan Frederickson (jfred)
- * Rico Gloeckner (mc)
  * Michael Greb (mikegrb)
  * Mark Walling (mwalling)
+ * Richard Hartmann (RichiH)
  * Richard Rose (rik)
  * Jan Prunk (yang)
  * Uli Martens (youam)
