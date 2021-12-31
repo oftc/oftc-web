@@ -11,7 +11,7 @@ the following command:
 
 `/msg NickServ SET CLOAK ON`
 
-If are not verified yet, you can start the process by issuing:
+If you are not verified yet, you can start the process by issuing:
 
 `/msg NickServ REVERIFY`
 
