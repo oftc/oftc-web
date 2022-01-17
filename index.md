@@ -30,7 +30,8 @@ network and chat directly from within your browser.
  * See [**CertFP**](NickServ/CertFP/) for how to configure client certificate-based NickServ identification.
  * If you need to force IPv4, connect to [ircs://irc4.oftc.net:6697](ircs://irc4.oftc.net:6697).
  * We offer a [**WebChat**](WebChat) service (also via the boxes at the top of this page).
- * Use of [Tor](/Tor) is permitted.
+ * Use of [Tor](/Tor) is permitted though clearnet or our hidden service on
+   [ircs://oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion](ircs://oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion).
 
 We offer IRC services (NickServ, ChanServ) for nick and channel registration.
 
