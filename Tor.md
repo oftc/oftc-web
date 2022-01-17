@@ -23,7 +23,7 @@ To connect to OFTC via Tor, use either the
 
  * standard [**ircs://irc.oftc.net:6697**](ircs://irc.oftc.net:6697) IRC hostname, or
  * our hidden service on
-   [ircs://oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion](ircs://oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion).
+   [**ircs://oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion:6697**](ircs://oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion:6697).
 
 ## KLines
 
