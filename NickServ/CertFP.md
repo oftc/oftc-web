@@ -302,6 +302,19 @@ don't be surprised.)
 To continue please scroll down to [read how to add your certificates fingerprint
 to NickServ.](#AddCertFPtoNS)
 
+### AdiIRC
+
+Step 1 is to create a cert in the options dialog:
+
+![Step 1 is to create a cert in the options dialog](../adiirc-1.png)
+
+Step 2 is to use the client certificate for OFTC setup in your server list:
+
+![Step 2 is to use the client certificate for OFTC setup in your server list](../adiirc-2.png)
+
+To continue please scroll down to [read how to add your certificates fingerprint
+to NickServ.](#AddCertFPtoNS)
+
 <a id="AddCertFPtoNS"></a>
 
 ## Add your Certificate Fingerprint to your Nick in NickServ ##
