@@ -29,7 +29,7 @@ To connect to OFTC via Tor, use either the
 
 Take into consideration however that because of the "anonymous" nature of Tor
 it is often ripe for abuse. That is, spam emanating from or ban evasion by
-means of connecting via Tor. While we do our best to not adversely effect
+means of connecting via Tor. While we do our best to not adversely affect
 legitimate or at least civil users of Tor, from time to time an exit node may
 fall prey to a KLine while we work to mitigate abuse.
 
