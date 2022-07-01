@@ -41,7 +41,7 @@ speak on the channel
 
 #### Exemption from +R
 
-To allow a client to join a +R room from which they would otherwise be blocked,
+To allow a client to join a +R channel from which they would otherwise be blocked,
 use +I instead of +e.
 
 Both work, but using +e for this purpose is to be considered deprecated.
