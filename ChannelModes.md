@@ -33,7 +33,7 @@ channel
 speak on the channel
  * e - exempt this hostmaks from bans, quiets and mode +R(egistered only)
  * I - clients matching this hostmask may join channel even when the channel is
-+i(nvite only)
++i(nvite only) or +R(egistered only)
 
 ## Order of Mode Checks ##
 
@@ -46,4 +46,4 @@ use +I instead of +e.
 
 Both work, but using +e for this purpose is to be considered deprecated.
 (Solanum uses +I, and using +e for this purpose won't be added to it, so people
-should migrate to +I before we eventually migrate to Solanum.
+should migrate to +I before we eventually migrate to Solanum.)
