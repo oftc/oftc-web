@@ -21,9 +21,6 @@ connections to [OFTC](/).  Generic cloaks will appear as:
 
 `<uuid>.user.oftc.net`
 
-*Note:* accounts registered before 2016-11-08 do not need to complete the
-verification step and have already been marked as verified.
-
 ### (Not) Protecting Your Identity
 
 Cloaks on [OFTC](/) are not a secure means of protecting your identity, and
