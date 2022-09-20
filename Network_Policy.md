@@ -26,6 +26,7 @@ open source software.
 disruption to other network users and get minimal attention from OFTC staff
  * Illegal activity is strictly prohibited and offenders will be removed from
 the network without warning
+ * Hate speech is not permitted.
  * Channel disputes are the channel's problem, network staff will not get
 involved.
    - However a badly behaving user may quickly escalate to a network issue if
