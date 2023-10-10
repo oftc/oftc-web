@@ -67,10 +67,10 @@
       "nick": "Matt",
       "roles": { "netop": true, "sponsor": true }
     },
-    "Hydroxide": {
-      "name": "Jimmy Kaplowitz",
-      "nick": "Hydroxide",
-      "roles": { "netop": true }
+    "jfred": {
+      "name": "Jonathan Frederickson",
+      "nick": "jfred",
+      "roles": { "netop": true, "sponsor": true }
     },
     "mc": {
       "name": "Rico Gloeckner",
@@ -81,6 +81,11 @@
       "name": "Rhosyn Celyn",
       "nick": "cwningen",
       "roles": { "netop": true, "sponsor": true }
+    },
+    "Hydroxide": {
+      "name": "Jimmy Kaplowitz",
+      "nick": "Hydroxide",
+      "roles": { "netrep": true }
     },
     "formorer": {
       "name": "Alexander Wirt",
@@ -112,20 +117,10 @@
       "nick": "avelardi",
       "roles": { "netrep": true, "sponsor": true }
     },
-    "jfred": {
-      "name": "Jonathan Frederickson",
-      "nick": "jfred",
-      "roles": { "netrep": true, "sponsor": true }
-    },
     "andy": {
       "name": "Andre Guibert de Bruet",
       "nick": "andy",
       "roles": { "netrep": true, "sponsor": true }
-    },
-    "rik": {
-      "name": "Rik Rose",
-      "nick": "rik",
-      "roles": { "netrep": true }
     },
     "yang": {
       "name": "Jan Prunk",
