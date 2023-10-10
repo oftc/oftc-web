@@ -26,4 +26,5 @@ title: ElectionResults
 * [2019](/ElectionResults/2019)
 * [2020](/ElectionResults/2020)
 * [2021](/ElectionResults/2021)
+* [2022](/ElectionResults/2022)
 
