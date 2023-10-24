@@ -42,24 +42,9 @@
       "nick": "Unit193",
       "roles": { "noc": true }
     },
-    "zobel": {
-      "name": "Martin Zobel-Helas",
-      "nick": "zobel",
-      "roles": { "netop": true, "sponsor": true }
-    },
     "pastly": {
       "name": "Matt Traudt",
       "nick": "pastly",
-      "roles": { "netop": true }
-    },
-    "Maulkin": {
-      "name": "Neil McGovern",
-      "nick": "Maulkin",
-      "roles": { "netop": true }
-    },
-    "scott": {
-      "name": "Scott Bender",
-      "nick": "scott",
       "roles": { "netop": true }
     },
     "Matt": {
@@ -82,44 +67,9 @@
       "nick": "cwningen",
       "roles": { "netop": true, "sponsor": true }
     },
-    "Hydroxide": {
-      "name": "Jimmy Kaplowitz",
-      "nick": "Hydroxide",
-      "roles": { "netrep": true }
-    },
-    "formorer": {
-      "name": "Alexander Wirt",
-      "nick": "formorer",
-      "roles": { "netrep": true }
-    },
-    "RichiH": {
-      "name": "Richard Hartmann",
-      "nick": "RichiH",
-      "roles": { "netrep": true }
-    },
-    "mikegrb": {
-      "name": "Michael Greb",
-      "nick": "mikegrb",
-      "roles": { "netrep": true }
-    },
-    "youam": {
-      "name": "Uli Martens",
-      "nick": "youam",
-      "roles": { "netrep": true }
-    },
-    "mwalling": {
-      "name": "Mark Walling",
-      "nick": "mwalling",
-      "roles": { "netrep": true }
-    },
     "avelardi": {
       "name": "Anthony Velardi",
       "nick": "avelardi",
-      "roles": { "netrep": true, "sponsor": true }
-    },
-    "andy": {
-      "name": "Andre Guibert de Bruet",
-      "nick": "andy",
       "roles": { "netrep": true, "sponsor": true }
     },
     "yang": {

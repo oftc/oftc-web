@@ -87,11 +87,8 @@ voted to this position, can be found [here](/Network_Operator).
  * Rhosyn Celyn (cwningen)
  * Jonathan Frederickson (jfred)
  * Matt London (Matt)
- * Neil McGovern (Maulkin)
  * Rico Gloeckner (mc)
  * Matt Traudt (pastly)
- * Scott Bender (scott)
- * Martin Zobel-Helas (zobel)
 
 ## Network Representatives ##
 
@@ -103,15 +100,8 @@ where they can not.
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Representative).
 
- * Andre Guibert de Bruet (andy)
  * Anthony Velardi (avelardi)
- * Alexander Wirt (formorer)
- * Jimmy Kaplowitz (Hydroxide)
- * Michael Greb (mikegrb)
- * Mark Walling (mwalling)
- * Richard Hartmann (RichiH)
  * Jan Prunk (yang)
- * Uli Martens (youam)
 
 ## Advisors ##
 
