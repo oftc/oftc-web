@@ -257,21 +257,21 @@ to NickServ.](#AddCertFPtoNS)
 
 ### WeeChat
 
-Move the certificates you created somewhere safe, for example ~/.weechat/certs.
+Move the certificates you created somewhere safe, for example ~/.config/weechat/certs.
 
 {% highlight text %}
-% mkdir ~/.weechat/certs
-% mv nick.{key,cer,pem} ~/.weechat/certs
+% mkdir ~/.config/weechat/certs
+% mv nick.{key,cer,pem} ~/.config/weechat/certs
 {% endhighlight %}
 
-Now disconnect and remove the current server. Re-add it with the SSL flag, using
-your newly generated certificate. Note that we use the SSL port 6697 to connect.
+Now disconnect and remove the current server. Re-add it with the TLS flag, using
+your newly generated certificate. Note that we use the SSL/TLS port 6697 to connect.
 
 {% highlight text %}
 /disconnect OFTC
 /server del OFTC
-/server add OFTC irc.oftc.net/6697 -ssl -ssl_verify -autoconnect
-/set irc.server.OFTC.ssl_cert %h/certs/nick.pem
+/server add OFTC irc.oftc.net/6697 -tls -tls_verify -autoconnect
+/set irc.server.OFTC.tls_cert %h/certs/nick.pem
 {% endhighlight %}
 
 Exit WeeChat and connect back to the OFTC server.
