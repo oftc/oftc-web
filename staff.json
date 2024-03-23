@@ -70,12 +70,12 @@
     "avelardi": {
       "name": "Anthony Velardi",
       "nick": "avelardi",
-      "roles": { "netrep": true, "sponsor": true }
+      "roles": { "netop": true, "sponsor": true }
     },
     "yang": {
       "name": "Jan Prunk",
       "nick": "yang",
-      "roles": { "netrep": true }
+      "roles": { "netop": true }
     }
   }
 }

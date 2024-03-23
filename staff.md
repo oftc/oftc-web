@@ -84,11 +84,13 @@ assistance from any user of the Network.
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Operator).
 
+ * Anthony Velardi (avelardi)
  * Rhosyn Celyn (cwningen)
  * Jonathan Frederickson (jfred)
  * Matt London (Matt)
  * Rico Gloeckner (mc)
  * Matt Traudt (pastly)
+ * Jan Prunk (yang)
 
 ## Network Representatives ##
 
@@ -100,8 +102,7 @@ where they can not.
 A copy of the guidelines for this role, as they would be received by someone
 voted to this position, can be found [here](/Network_Representative).
 
- * Anthony Velardi (avelardi)
- * Jan Prunk (yang)
+ * None
 
 ## Advisors ##
 
