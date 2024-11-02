@@ -12,8 +12,7 @@
       "name": "Matt London",
       "nick": "Matt",
       "roles": {
-        "netop": true,
-        "sponsor": true
+        "netop": true
       }
     },
     "Myon": {
@@ -34,8 +33,7 @@
       "name": "Anthony Velardi",
       "nick": "avelardi",
       "roles": {
-        "netop": true,
-        "sponsor": true
+        "netop": true
       }
     },
     "cwningen": {
@@ -73,15 +71,15 @@
       "name": "Rico Gloeckner",
       "nick": "mc",
       "roles": {
-        "netop": true,
-        "sponsor": true
+        "netop": true
       }
     },
     "mcintosh": {
       "name": "Richie McIntosh",
       "nick": "mcintosh",
       "roles": {
-        "netop": true
+        "netop": true,
+        "sponsor": true
       }
     },
     "pastly": {

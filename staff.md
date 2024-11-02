@@ -128,21 +128,13 @@ Please note that we cannot guarantee that any specific server will be accessible
 at any specific time. Always use irc.oftc.net to connect, or irc6.oftc.net if
 you are using ipv6. This will take you to an active server.
 
- * Andre Guibert de Bruet (andy) (oxygen - Ann Arbor, MI, US)
- * Mendel Mobach (BugBlue) (galapagos - The Netherlands)
  * Joerg Jaspert (Ganneff) (reticulum - Berlin, DE)
- * Anton Lundin (glance) (solenoid - Umeå, Sweden)
  * Luca Filipozzi (luca) (graviton - Vancouver, BC, CA)
  * Mattias Wadenstein (maswan) (solenoid - Umeå, Sweden)
- * Rico Gloeckner (mc) (venus - Nuremberg, DE)
- * Rob Bradford (robster) (charon - London, United Kingdom)
- * Eric Evans (urandom) (osmotic - Grapevine, TX, USA)
  * Doug Winter (winjer) (kinetic - Brighton, UK)
- * Martin-Zobel Helas (zobel) (magnet - Darmstadt, DE)
  * AS6453 (reflection - Montréal, Quebec, CA)
  * [mythic beasts](https://www.mythic-beasts.com/) (charon - London, UK)
- * [Linode](http://www.linode.com/), Christopher S. Aker (caker)
-(strange, weber, resistance - Fremont, CA, US)
+ * [Linode](http://www.linode.com/)(strange, weber, resistance - Fremont, CA, US)
  * [OSUOSL](http://osuosl.org/) (larich - Corvalis, OR, US)
  * [RCS&RDS](https://www.digiromania.ro) (getic - Pitești, RO)
 
