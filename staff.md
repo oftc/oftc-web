@@ -40,7 +40,7 @@ responsible for chairing Network Operations Committee
 meetings and other communications, calling elections, and assigning
 or reassigning responsibilities to other members of the Committee.
 
- * Chair - Tom Wesley (tomaw) <chair -at- oftc.net>
+ * Chair - Doug Freed (dwfreed) <chair -at- oftc.net>
 
 ## Ombudsman ##
 
@@ -58,8 +58,8 @@ for making all decisions related to the operation of the network, including
 approving of new staff members or of servers.
 
  * Doug Freed (dwfreed)
+ * Melissa Draper (el)
  * Joerg Jaspert (Ganneff)
- * Richie McIntosh (mcintosh)
  * Christoph Berg (Myon)
  * Robert A. Nowak (rnowak)
  * Seth Arnold (sarnold)
@@ -89,6 +89,7 @@ voted to this position, can be found [here](/Network_Operator).
  * Jonathan Frederickson (jfred)
  * Matt London (Matt)
  * Rico Gloeckner (mc)
+ * Richie McIntosh (mcintosh)
  * Matt Traudt (pastly)
  * Jan Prunk (yang)
 
