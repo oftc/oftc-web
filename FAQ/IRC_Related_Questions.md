@@ -2,16 +2,21 @@
 layout: master
 title: FAQ/IRC_Related_Questions
 ---
-* This will be the TOC
+
+* toc
 {:toc}
 
 ## What IRC servers can I connect to? ##
 
-Please see the [OFTC](/), it lists the servers and ports you should use.
+The information provided on the [main page](/) should work fine under most
+circumstances.
+
+It is possible to force IPv4 (irc4.oftc.net) or IPv6 (irc6.oftc.net) if your
+network does not handle this gracefully.
 
 Do not connect to individual servers, always let the DNS rotation pick one for
-you. This employs GeoDNS to take you to a server nearby. It also allows us to do
-load-balancing on servers and take out servers that will go down for
+you. This employs GeoDNS to take you to a server nearby. It also allows us to
+do load-balancing on servers and take out servers that will go down for
 maintenance.
 
 ## What are "Services"? ##
@@ -40,12 +45,12 @@ services on connecting clients. Please just ignore connections from
 zombie-scan.oftc.net, the connects are harmless. (If you really don't like them,
 use a firewall.)
 
-## Who are all these users with the host-mask nick.something.oftc.net? ##
+## Who are all these users with the host-mask nickname.something.oftc.net? ##
 
- * `<nick>.<role>.oftc.net` is a [Staff](/staff) member, they have these masks
+ * `<nickname>.<role>.oftc.net` is a [Staff](/staff) member, they have these masks
 to be easily identified as to what role they play. A complete explanation is
 available at [Staff](/staff)
- * `<nick>.user.oftc.net` is a user cloak. Please see
+ * `<nickname>.user.oftc.net` is a user cloak. Please see
 [UserCloaks](/UserCloaks) for more information.
 
 ## How can I sponsor a server or join the project's staff? ##

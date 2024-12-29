@@ -3,6 +3,9 @@ layout: master
 title: User Cloaks
 ---
 
+* TOC
+{:toc}
+
 ## Cloaks
 
 Cloaks are provided via services; for any cloak to take effect you must identify

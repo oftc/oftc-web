@@ -5,136 +5,119 @@ title: Staff
 * toc
 {:toc}
 
-# Who to turn to for assistance #
+# Who are the OFTC Staff?
 
 The Network Staff are responsible for the maintenance and well-being of the
-Network and its users. Many staff members have multiple roles, and not all roles
-are listed here. These are the people you should seek for assistance.
+Network and its users.
 
-Staff are assigned to their roles during annual staff-wide [elections](/ElectionResults/) from the
-8th to the 11th of every October. Between elections, staff may be promoted,
-demoted, added, or removed by the Network Operations Committee,
-as outlined in the Network's
-[Constitution](/constitution), which also outlines the rules for the elections.
+When connected to our IRC network, staff are identifiable by their
+[cloaked](/UserCloaks) hostmasks: `<nickname>.<role>.oftc.net`.
+
+Staff are assigned to their roles during annual staff-wide 
+[elections](/ElectionResults/) from the 8th to the 11th of every October. 
+Between elections, staff may be promoted, demoted, added, or removed by the
+Network Operations Committee, as outlined in the Network's
+[Constitution](/constitution). The constitution also outlines the
+responsibilities of each staff role, and defines the rules for our elections. 
+
 OFTC's constitution is enforced by resolution
 [2002-07-02.iwj.5](http://www.spi-inc.org/corporate/resolutions/2002/2002-07-02.iwj.5/)
 of [Software in the Public Interest's](http://www.spi-inc.org/) Board of
 Directors.
 
-When connected to our IRC network, staff are identifiable by their hostmasks:
-`<staffmember>.<role>.oftc.net`. Users may also request a cloaked hostmask,for
-information see [UserCloaks](/UserCloaks).
-
 If you would like to join our staff or sponsor a server, please refer to our
 [Application](/Application) and send it via mail.
 
-## Inquiries ##
+## Staff roles
 
-Please address all general inquiries, requests, and comments to the
-`#oftc` channel or by email to support@oftc.net.
+These are the people you should seek for assistance.
 
-## Network Operations Committee Chair ##
+### Network Operations Committee Chair
 
-The Network Operations Committee Chair is
-responsible for chairing Network Operations Committee
-meetings and other communications, calling elections, and assigning
-or reassigning responsibilities to other members of the Committee.
+{% assign chair = site.data.staff | where: "roles.chair", true | first %}
+{% if chair.size == 0 %}
+ * No current Chair{% else %}
+{% if chair %}
+ * {{ chair.name }} ({{ chair.nick }}) <chair -at- oftc.net>{% endif %}{% endif %}
 
- * Chair - Doug Freed (dwfreed) <chair -at- oftc.net>
+### Ombudsman
 
-## Ombudsman ##
+{% assign ombudsman = site.data.staff | where: "roles.ombudsman", true | first %}
+{% if ombudsman.size == 0 %}
+ * No current Ombudsman{% else %}
+{% if ombudsman %}
+ * {{ ombudsman.name }} ({{ ombudsman.nick }}) <ombudsman -at- oftc.net>{% endif %}{% endif %}
 
-The Ombudsman is the judicial system of the Network and is
-responsible for hearing and acting upon complaints brought against any member of
-the staff or against the network itself.
+### Network Operations Committee
 
- * Ombudsman - Robert A. Nowak (rnowak) <ombudsman -at- oftc.net>
+{% assign noc = site.data.staff | where: "roles.noc", true %}
+{% if noc.size == 0 %}
+ * No current NOC members{% else %}
+{% for person in noc %}{% if person.name %}
+ * {{ person.name }} ({{ person.nick }}){% endif %}{% endfor %}{% endif %}
 
-## Network Operations Committee ##
+### Network Operators
 
-The Network Operations Committee (NOC) is the
-legislative body at the heart of the Network's administration and is responsible
-for making all decisions related to the operation of the network, including
-approving of new staff members or of servers.
+{% assign netop = site.data.staff | where: "roles.netop", true %}
+{% if netop.size == 0 %}
+ * No current NetOps{% else %}
+{% for person in netop %}{% if person.name %}
+ * {{ person.name }} ({{ person.nick }}){% endif %}{% endfor %}{% endif %}
 
- * Doug Freed (dwfreed)
- * Melissa Draper (el)
- * Joerg Jaspert (Ganneff)
- * Christoph Berg (Myon)
- * Robert A. Nowak (rnowak)
- * Seth Arnold (sarnold)
- * Tom Wesley (tomaw)
- * Unit 193 (Unit193)
+### Network Representatives
 
-## Department Heads ##
+{% assign netrep = site.data.staff | where: "roles.netrep", true %}
+{% if netrep.size == 0 %}
+ * No current NetReps{% else %}
+{% for person in netrep %}{% if person.name %}
+ * {{ person.name }} ({{ person.nick }}){% endif %}{% endfor %}{% endif %}
 
-The Chair reserves the right to assign and if necessary reassign
-departments to members of the Network Operations Committee
-to run different aspects of the network and its associated services.
-These departments may contain staff from among all members of the Network's
-staff.
+### Advisors
 
-## Network Operators ##
-
-[Network Operators](/Network_Operator) are responsible for the enforcement of
-policies set out by the Network Operations Committee
-and are responsible for responding to or forwarding requests for
-assistance from any user of the Network.
-
-A copy of the guidelines for this role, as they would be received by someone
-voted to this position, can be found [here](/Network_Operator).
-
- * Anthony Velardi (avelardi)
- * Rhosyn Celyn (cwningen)
- * Jonathan Frederickson (jfred)
- * Matt London (Matt)
- * Rico Gloeckner (mc)
- * Richie McIntosh (mcintosh)
- * Matt Traudt (pastly)
- * Jan Prunk (yang)
-
-## Network Representatives ##
-
-[Network Representatives](/Network_Representative) are responsible for helping
-users in any way they can, and requesting assistance from
-[NetOps](/Network_Operator) or NOC members
-where they can not.
-
-A copy of the guidelines for this role, as they would be received by someone
-voted to this position, can be found [here](/Network_Representative).
-
- * None
-
-## Advisors ##
-
-Being an [Advisor](/Advisor) is an honorary and not an administrative position.
-
-A copy of the guidelines for this role, as they would be received by someone
-voted to this position, can be found [here](/Advisor).
+Being an Advisor is an honorary and not an administrative position.
 
  * David Graham (cdlu)
  * Timothy J. Fontaine (tjfontaine)
 
-## Server Sponsors ##
+### Server Sponsors
 
-[Server Sponsors](/Server_Sponsor) are an integral part of the functioning of
-any network. Sponsors provide the network with the use of servers on which the
-Network may run irc daemons, or in some situations, other services.
+The most important role on OFTC! We sincerely appreciate the generosity of
+each of our sponsors. Not all sponsors or servers are mentioned here.
 
-A copy of the guidelines for this role, as they would be received by someone
-voted to this position, can be found [here](/Server_Sponsor).
+Please note that we cannot guarantee that any specific server will be 
+accessible at any specific time. Refer to [our connection FAQ](/FAQ/IRC_Related_Questions/#what-irc-servers-can-i-connect-to) for more
+information on connecting to OFTC.
 
-Please note that we cannot guarantee that any specific server will be accessible
-at any specific time. Always use irc.oftc.net to connect, or irc6.oftc.net if
-you are using ipv6. This will take you to an active server.
 
- * Joerg Jaspert (Ganneff) (reticulum - Berlin, DE)
- * Luca Filipozzi (luca) (graviton - Vancouver, BC, CA)
- * Mattias Wadenstein (maswan) (solenoid - Umeå, Sweden)
- * Doug Winter (winjer) (kinetic - Brighton, UK)
- * AS6453 (reflection - Montréal, Quebec, CA)
- * [mythic beasts](https://www.mythic-beasts.com/) (charon - London, UK)
- * [Linode](http://www.linode.com/)(strange, weber, resistance - Fremont, CA, US)
- * [OSUOSL](http://osuosl.org/) (larich - Corvalis, OR, US)
- * [RCS&RDS](https://www.digiromania.ro) (getic - Pitești, RO)
+<div class="row row-cols-1 row-cols-md-3 g-4">
+	{% assign sponsors = site.data.sponsors | sort: "company" -%}
+	{%- for sponsor in sponsors -%}
+		{%- assign repstring = "" -%}
+		{%- for contact in sponsor.contact -%}
+			{%- capture rep %}{{ contact.name }} ({{contact.nick}}){% endcapture -%}
+			{%- if repstring != "" %}{% assign repstring = repstring | append: ", " %}{% endif -%}
+			{%- assign repstring = repstring | append: rep -%}
+		{%- endfor %}
+	  <div class="col">
+		<div class="card sponsorcard h-100">
+		  <div class="card-header">
+			{% if sponsor.logoonly %}	
+				<h3 class="card-title text-center">{% if sponsor.url != "" %}<a href="{{sponsor.url}}"><img src="{{sponsor.logo}}" /></a>{% else %}<img src="{{sponsor.logo}}" />{% endif %}</h3>
+			{% else %}
+				<h3 class="card-title logoandname">{% if sponsor.logo != "" %}<img class="pe-2" src="{{sponsor.logo}}" />{% else %}<i class="bi bi-emoji-sunglasses-fill pe-2"></i>{% endif %}
+				{% if sponsor.url != "" %}<a href="{{sponsor.url}}">{{sponsor.company}}</a>{% else %}{{sponsor.company}}{% endif %}</h3>
+			{% endif %}
+	  </div>
+	  <div class="card-body">
+		{%- if repstring != "" %}<p>{{ repstring }}</p>{% endif -%}
+		<ul>
+			{% for server in sponsor.servers -%}
+					<li><code><strong>{{ server.host }}</strong></code> ({{ server.location }})</li>
+			{%- endfor %}
+		</ul>
+	  </div>
+	</div>
+</div>
+{%- endfor %}
+</div>
 

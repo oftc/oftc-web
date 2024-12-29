@@ -2,12 +2,15 @@
 layout: master
 title: Services
 ---
-The IRC services is a common name for our set of helper systems for managing
-your nicknames and channels. They can be used to provide you with access with
-certain privileges and protection.
 
 * TOC
 {:toc}
+
+# Services
+
+The IRC services is a common name for our set of helper systems for managing
+your nicknames and channels. They can be used to provide you with access with
+certain privileges and protection.
 
 ## How to use Services ##
 

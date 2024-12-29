@@ -1,0 +1,55 @@
+        <nav class="navbar navbar-expand-lg navbar-secondary bg-body-secondary">
+            <div class="container" id="back-to-top">
+
+				<div class="col smallhero">
+					<a class="logo me-0 navbar-brand" href="/" aria-label="Back to Home">
+						{% include logo.html %}<span class="herospan">OFTC</span>
+					</a>
+				</div>
+
+				<a class="p-1" id="skip-to-content" href="#jump-to-content" aria-label="Skip to content"><i role="presentation" class="bi bi-arrow-down-circle p-1"></i>Skip to content</a>
+
+                <button class="navbar-toggler" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="justify-content-lg-left col navbar-nav">
+						{% if page.url == "/" %}
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="#" aria-label="Back to Home">Home</a></li>
+						{% else %}
+						<li class="nav-item" ><a class="nav-link" href="/" aria-label="Back to Home">Home</a></li>
+						{% endif %}
+						{% if page.url == "/archive/" %}
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="/archives/" aria-label="News archives">News</a></li>
+						{% else %}
+						<li class="nav-item"><a class="nav-link" href="/archives/" aria-label="News archives">News</a></li>
+						{% endif %}
+						{% if page.url == "/staff/" %}
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="/staff/" aria-label="OFTC staff">Staff</a></li>
+						{% else %}
+						<li class="nav-item" ><a class="nav-link" href="/staff/" aria-label="OFTC staff">Staff</a></li>
+						{% endif %}
+						{% if page.url == "/documentation/" %}
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="/documentation/" aria-label="Documentation">Documentation</a></li>
+						{% else %}
+						<li class="nav-item"><a class="nav-link" href="/documentation/" aria-label="Documentation">Documentation</a></li>
+						{% endif %}
+						{% if page.url == "/FAQ/" %}
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="/FAQ/" aria-label="FAQ and help contacts">Help</a></li>
+						{% else %}
+						<li class="nav-item"><a class="nav-link" href="/FAQ/" aria-label="FAQ and help contacts">Help</a></li>
+						{% endif %}
+					</ul>
+					<div class="dark-mode-toggler navbar-form form-check form-switch d-lg-flex col justify-content-lg-center">
+						<i role="presentation" class='bi bi-sun light-mode-bi' title="Light mode"></i>
+						<input class="form-check-input" type="checkbox" id="darkModeSwitch" checked aria-label="Toggle dark mode" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Toggle dark mode" >
+						<i role="presentation" class='bi bi-moon dark-mode-bi' title="Dark mode"></i>
+					</div>
+					<div class="col align-self-end">
+						<form class="d-lg-flex justify-content-lg-end navbar-form" role="form" id="webchat" aria-label="Our webchat" action="//webchat.oftc.net" method="get" target="_blank">
+							<input class="form-control me-2" name="nick" type="text" placeholder="Nickname" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Enter your IRC nickname" aria-label="Enter your IRC nickname">
+							<input class="form-control me-2" name="channels" type="text" placeholder="#oftc, #moocows" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Enter comma seperated list of channels to join" aria-label="Enter comma seperated list of channels to join">
+							<button class="btn btn-primary" type="submit" role="button" aria-label="Go to web the client (in a new tab)">Chat!</button>
+						</form>
+					</div>
+                </div>
+            </div>
+        </nav>

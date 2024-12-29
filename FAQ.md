@@ -2,7 +2,14 @@
 layout: master
 title: FAQ
 ---
-# Frequently Asked Questions #
+
+# Frequently Asked Questions
+
+## How do I contact staff?
+
+{% include helplinks.html %}
+
+## Other questions grouped by topic
 
  * [General Questions](/FAQ/General_Questions) -- General questions about OFTC,
 including its structure, its purposes, and its goals

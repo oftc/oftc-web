@@ -76,7 +76,7 @@ $(document).ready(function() {
         var col = $('<td class="index">').appendTo(newRow);
         col.append(i + 1)
         col = $('<td>').appendTo(newRow);
-        col.append('<i class="handle icon-resize-vertical">');
+        col.append('<i class="handle bi-arrows-vertical">');
         AddCol(newRow, { value: item['name'].trim() });
         AddCol(newRow, { class: 'nick', value: item['nick'].trim() });
         AddCol(newRow, { type: 'checkbox', name: 'sponsor', checked: item['sponsor'].trim() !== '' ? 'checked' : null, disabled: 'disabled' });
@@ -95,9 +95,20 @@ $(document).ready(function() {
     .done(function(data)
     {
       sponsorsJSON = data;
+      sponsorsJSON['contacts']= {};
+
       $.each(sponsorsJSON['sponsors'], function(i, item)
       {
-        staff.sponsors.push(formatSponsors(item));
+		  $.each(item['contact'], function(i, item)
+		  {
+			if(staffJSON['staff'][i] === undefined) {
+				sponsorsJSON['contacts'][i] = item;
+			}
+		  });
+      });
+      $.each(sponsorsJSON['contacts'], function(i, item)
+      {
+		staff.sponsors.push(formatSponsors(item));
       });
 
       $.each(staff['sponsors'], function(i, item)
@@ -246,12 +257,12 @@ $(document).ready(function() {
       var key = $('span.nick', row).text();
       var remove = $('input.remove', row)[0].checked;
 
-      sponsorsJSON['sponsors'][key].remove = remove;
+      sponsorsJSON['contacts'][key].remove = remove;
     });
 
     staff.sponsors = [];
 
-    $.each(sponsorsJSON['sponsors'], function(i, item)
+    $.each(sponsorsJSON['contacts'], function(i, item)
     {
       staff.sponsors.push(formatSponsors(item));
     });

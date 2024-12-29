@@ -1,0 +1,59 @@
+			{% if page.url == "/" %}
+			<div class="container bg-body-tertiary p-5 pb-4 rounded-bottom">
+				<div class="row">
+					<div class="col-lg-3 hero d-none d-xl-block">
+						<div class="p-3 logo-xl">
+							{% include logo.html %}
+							<h1 class="pt-5">OFTC</h1>
+						</div>
+					</div>
+					<div class="col-lg-3 hero d-none d-lg-block d-xl-none">
+						<div class="p-3 logo-lg">
+							{% include logo.html %}
+							<h1 class="pt-4">OFTC</h1>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<p>The Open and Free Technology Community is a volunteer-run network that aims to provide stable and effective
+							collaboration services to members of the community in any part of the world,
+							while closely listening to their needs and desires.
+						</p>
+						<p>You can reach the OFTC IRC network by using a traditional <a href="https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients">IRC
+							Client</a> of choice, or by the
+							<a href="WebChat">WebChat</a> that we provide. The webchat enables you to connect to the
+							network and chat directly from within your browser.
+						</p>
+						<div class="row mb-3">
+							<div class="col-lg-12">
+								<div class="bg-body-secondary p-4 pb-1 h-100 rounded-3 text-center">
+									<p class="lead" role="heading" aria-level="2">Connect your client to <i role="presentation" class='bi bi-lock-fill' title="Connect with SSL/TLS"></i><a href="ircs://irc.oftc.net:6697" aria-label="Start an encrypted session with your IRC client"><code>ircs://irc.oftc.net:6697</code></a></p>
+								</div>
+							</div>
+						</div>
+						<div class="row mb-3">
+							<div class="col-lg-6">
+								<div class="bg-body-secondary p-4 pb-1 h-100 rounded-3">
+									<p><i role="presentation" class='bi bi-lock-fill' title="Connect with SSL/TLS"></i>
+									To connect securely, use ports 6697 or 9999.</p>
+									<p>TLS/SSL is supported on all servers. Our server certificates are signed by <a href="https://letsencrypt.org/">Let’s Encrypt</a>. We also publish DNSSEC-signed TLSA records: <code>dig _6697._tcp.irc.oftc.net tlsa</code>.</p>
+
+									<p>Both IPv4 and IPv6 are available.</p>
+								</div>
+							</div>
+							<div class="col-lg-6">	
+								<div class="bg-body-secondary p-4 pb-1 h-100 rounded-3">
+									<p><i role="presentation" class='bi bi-incognito' title="Connect over Tor"></i>
+									Use of <a href="/Tor">Tor</a> is permitted to the address above.</p>
+									<p>You can also connect to the onion service: <a href="ircs://oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion:6697" aria-label="Start a session over Tor with your IRC client">
+										<code>ircs://oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion:6697</code>
+									</a></p>
+								</div>
+							</div>
+						</div>
+						<p><i role="presentation" class='bi bi-unlock-fill' title="Connect over plain text"></i>
+								<strong>(Not recommended)</strong> To connect without TLS/SSL use ports 6668-6670 or 7000.</p>
+						<p>IRC services (NickServ, ChanServ) are available for nick and channel registration. See <a href="NickServ/CertFP/">CertFP</a> for how to configure client certificate-based NickServ identification.</p>
+					</div>
+				</div>
+			</div>
+			{% endif %}

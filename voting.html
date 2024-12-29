@@ -1,7 +1,7 @@
 ---
 layout: master
 title: Voting
-script_srcs: ['/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', '/js/voting.js']
+script_srcs: ['/js/jquery.min.js', '/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', '/js/voting.js']
 ---
 <style type="text/css">
   .userlist {
@@ -14,35 +14,35 @@ script_srcs: ['/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', 
   .handle {
     cursor: move;
   }
-  #overlay {
-    width: 60%;
-    min-height: 80%;
-    margin-left: -30%;
-  }
-  #overlay .modal-body {
-    position: absolute;
-    top: 48px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0;
-    max-height: none;
-  }
+
   #overlay .modal-body textarea {
     border: 0;
     margin: 0;
     padding: 0;
     font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
     font-size: 13px;
-    overflow-x: hidden;
     width: 100%;
-    height: 100%;
+	height:100% !important;
+    cursor: no-drop;
+
+  }
+
+  #overlay .modal-body {
+	height: 100vh;
+	overflow: hidden;
+	padding: 0;
+  }
+
+  #submit, .sect-h {
+	margin: 20px 0px 20px 0px;
   }
 </style>
 
-<input type="button" class="btn" id="rawballot" value="Get Raw Ballot" />
+<button type="button" class="btn btn-secondary" id="rawballot" data-bs-toggle="modal" data-bs-target="#overlay">
+	  Get Raw Ballot
+</button>
 
-<h3>Section 1: Staff Rankings</h3>
+<h3 class="sect-h">Section 1: Staff Rankings</h3>
 <table id="members" class="userlist">
   <thead>
     <tr>
@@ -59,7 +59,7 @@ script_srcs: ['/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', 
   </tbody>
 </table>
 
-<h3>Section 2: Sponsors</h3>
+<h3 class="sect-h">Section 2: Sponsors</h3>
 <table id="sponsors" class="userlist">
   <thead>
     <tr>
@@ -73,7 +73,7 @@ script_srcs: ['/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', 
   </tbody>
 </table>
 
-<h3>Section 3: Advisors</h3>
+<h3 class="sect-h">Section 3: Advisors</h3>
 <table id="advisors" class="userlist">
   <thead>
     <tr>
@@ -107,7 +107,7 @@ script_srcs: ['/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', 
   </tbody>
 </table>
 
-<h3>Section 4: Yes/No Questions</h3>
+<h3 class="sect-h">Section 4: Yes/No Questions</h3>
 <table id="questions" class="userlist">
   <thead>
     <tr>
@@ -130,13 +130,20 @@ script_srcs: ['/js/jquery-ui.min.js', '/js/hogan.min.js', '/js/sprintf.min.js', 
   </tbody>
 </table>
 
-<input type="button" class="btn" id="submit" value="Process" />
+<button type="button" class="btn btn-secondary" id="submit" data-bs-toggle="modal" data-bs-target="#overlay">
+	  Process
+</button>
 
-<div id="overlay" class="modal hide fade" aria-labelledby="myModalLabel">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-    <h3 id="myModalLabel">Your Ballot</h3>
-  </div>
-  <div id="overlay-content" class="modal-body">
-  </div>
+<div class="container-fluid">
+	<div class="modal fade" id="overlay" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg h-75 modal-dialog-scrollable modal-fullscreen-lg-down">
+		<div class="modal-content">
+		  <div class="modal-header"><h3 id="myModalLabel">Your Ballot</h3>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		  </div>
+		  <div id="overlay-content" class="modal-body">
+		  </div>
+		</div>
+	  </div>
+	</div>
 </div>

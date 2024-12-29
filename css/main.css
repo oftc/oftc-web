@@ -1,58 +1,108 @@
-body
-{
-  padding: 60px 10px 40px 10px;
+@charset "UTF-8";
+
+html, body { height: 100%;}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
 }
 
-.navbar-inner
-{
+.light-mode-bi {
+	margin-right: 50px;
+}
+.dark-mode-bi {
+	margin-left: 13px;
 }
 
-.navbar-form input[type="text"]
-{
-  padding-top: 2px;
-  padding-bottom: 2px;
+#skip-to-content{
+  color: var(--bs-nav-link-color);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding-right: 5px;
+  transform: translateY(-100%);
+  background: var(--bs-secondary-bg-subtle);
+  border-radius: 0 0 0 1em;
 }
 
-.navbar-form input
-{
-  margin-top: 7px;
+#skip-to-content:focus{
+	transform: translateY(0%);
 }
 
-.btn
-{
-  padding-top: 2px;
-  padding-bottom: 2px;
+
+@media only screen and (max-width: 992px) {
+	.dark-mode-toggler {
+		padding-left: 65px;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.light-mode-bi {
+		margin-left: -65px;
+	}
+	.dark-mode-bi {
+		margin-left: 0px;
+	}
+	.form-control{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.navbar-toggler {
+		margin-right: 25px !important;
+	}
+	.highlightbox {
+		margin-bottom: 20px;
+	}
+
 }
 
-h1
-{
-  font-size: 30px;
+.form-switch .form-check-input:focus {
+    border-color: rgba(0, 0, 0, 0.25);
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(0,0,0,0.25)'/></svg>");
+}
+.form-switch .form-check-input:checked {
+    background-color: grey;
+    border-color: grey;
+    border: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
 }
 
-h2
-{
-  font-size: 24px;
+.hero .logo-xl h1 {
+	font-size: 5rem;
+}
+.hero .logo-lg h1 {
+	font-size: 4rem;
 }
 
-h3
-{
-  font-size: 20px;
+.hero .logo-xl svg {
+	width: 200px;
 }
 
-.container,
-.navbar-static-top .container,
-.navbar-fixed-top .container,
-.navbar-fixed-bottom .container
-{
-  min-width: 835px;
-  max-width: 940px;
-  width: 100%;
+.hero .logo-lg svg {
+	width: 170px;
+}
+
+.hero svg path, .logo svg path {
+  fill: currentcolor;
+}
+
+.logo svg {
+	margin-right: 5px;
+	width: 30px;
 }
 
 #markdown-toc li
 {
   list-style-type: none;
-  margin-bottom: 4px;
+
+}
+
+#markdown-toc li a
+{
+  display: block;
+  padding-right: 10px;
+  margin-bottom:10px;
 }
 
 #markdown-toc ul
@@ -63,14 +113,14 @@ h3
   font-size: 0.80rem;
 }
 
-@media screen and (min-width: 1400px)
+@media screen and (min-width: 992px)
 {
   #markdown-toc
   {
-    position: fixed;
-    top: 124px;
-    max-width: 200px;
-    margin-left: -210px;
+    position: relative;
+    float: left;
+    max-width: 270px;
+    margin-left: -280px;
   }
 }
 
@@ -78,7 +128,85 @@ h3
 {
   #markdown-toc
   {
-    max-width: 270px;
-    margin-left: -280px;
+    position: relative;
+    float: left;
+    max-width: 340px;
+    margin-left: -350px;
   }
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+hr {
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.smallhero a {
+  text-decoration: none !important;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  text-decoration-thickness: 2px;
+}
+
+.navbar{
+  overflow: hidden;
+}
+
+.navbar a:link, .navbar a:visited, #markdown-toc a:link, #markdown-toc a:visited {
+  text-decoration: none;
+}
+
+.navbar a:hover, .navbar a:active, #markdown-toc a:hover, #markdown-toc a:active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+
+}
+
+.navbar input {
+	font-size: 1rem;
+}
+
+main .helplink{
+  margin-bottom: 0rem;
+}
+
+.sponsorcard .card-header {
+  min-height: 60px; 
+}
+
+.sponsorcard h3 {
+  margin-top:5px;
+}
+
+.sponsorcard img{
+  height: 25px;
+}
+
+.sponsorcard i{
+  position: relative;
+  top:2px;
+  display: inline-block;
+  height: 20px;
+}
+
+.footer .lead, .footer p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }

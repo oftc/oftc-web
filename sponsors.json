@@ -1,67 +1,187 @@
-{
-  "sponsors": {
-    "AS6453": {
-      "name": "AS6453",
-      "nick": "AS6453",
-      "roles": {
-        "sponsor": true
-      }
+[
+    {
+        "company": "Individual",
+        "url": "",
+        "logo": "",
+        "contact": [
+            {
+                "name": "Joerg Jaspert",
+                "nick": "Ganneff"
+            }
+        ],
+        "servers": [
+            {
+                "host": "non-ircd",
+                "location": "Helsinki, Finland"
+            },
+            {
+                "host": "reticulum",
+                "location": "Falkenstein, Germany"
+            }
+        ]
     },
-    "MIT CSAIL": {
-      "name": "MIT CSAIL",
-      "nick": "MIT CSAIL",
-      "roles": {
-        "sponsor": true
-      }
+    {
+        "company": "Linode",
+        "url": "https://linode.com",
+        "logo": "",
+        "contact": [],
+        "servers": [
+            {
+                "host": "singleton",
+                "location": "Singapore"
+            },
+            {
+                "host": "coulomb",
+                "location": "London, UK"
+            },
+            {
+                "host": "resistance",
+                "location": "Dallas, Texas, US"
+            },
+            {
+                "host": "non-ircd",
+                "location": "Fremont, California, US"
+            },
+            {
+                "host": "charm",
+                "location": "Fremont, California, US"
+            },
+            {
+                "host": "weber",
+                "location": "Newark, New Jersey, US"
+            }
+        ]
     },
-    "OSUOSL": {
-      "name": "OSUOSL",
-      "nick": "OSUOSL",
-      "roles": {
-        "sponsor": true
-      }
+    {
+        "company": "Individual",
+        "url": "",
+        "logo": "",
+        "contact": [
+            {
+                "name": "Tim Warnock",
+                "nick": "TiMOiD"
+            }
+        ],
+        "servers": [
+            {
+                "host": "nucleus",
+                "location": "Brisbane, Australia"
+            }
+        ]
     },
-    "RCS&RDS": {
-      "name": "RCS&RDS",
-      "nick": "RCS&RDS",
-      "roles": {
-        "sponsor": true
-      }
+    {
+        "company": "OSUOSL",
+        "url": "http://osuosl.org/",
+        "logo": "/img/sponsors/osuosl.png",
+        "contact": [],
+        "servers": [
+            {
+                "host": "larich",
+                "location": "Corvallis, Oregon, US"
+            }
+        ]
     },
-    "Swepipe": {
-      "name": "Swepipe",
-      "nick": "Swepipe",
-      "roles": {
-        "sponsor": true
-      }
+    {
+        "company": "AS6453",
+        "url": "",
+        "logo": "",
+        "contact": [],
+        "servers": [
+            {
+                "host": "reflection",
+                "location": "Montreal, Quebec, Canada"
+            },
+            {
+                "host": "coherence",
+                "location": "Tokyo, Japan"
+            }
+        ]
     },
-    "TiMOiD": {
-      "name": "Tim Warnock",
-      "nick": "TiMOiD",
-      "roles": {
-        "sponsor": true
-      }
+    {
+        "company": "RCS&RDS",
+        "url": "https://www.digiromania.ro/",
+        "logo": "",
+        "contact": [],
+        "servers": [
+            {
+                "host": "dacia",
+                "location": "Piteşti, Romania"
+            }
+        ]
     },
-    "luca": {
-      "name": "Luca Filipozzi",
-      "nick": "luca",
-      "roles": {
-        "sponsor": true
-      }
+    {
+        "company": "Individual",
+        "url": "",
+        "logo": "",
+        "contact": [
+            {
+                "name": "Doug Winter",
+                "nick": "winjer"
+            }
+        ],
+        "servers": [
+            {
+                "host": "kinetic",
+                "location": "London, UK"
+            }
+        ]
     },
-    "maswan": {
-      "name": "Mattias Wadenstein",
-      "nick": "maswan",
-      "roles": {
-        "sponsor": true
-      }
+    {
+        "company": "Swepipe",
+        "url": "https://www.swepipe.net",
+        "logo": "",
+        "contact": [],
+        "servers": [
+            {
+                "host": "liquid",
+                "location": "Stockholm, Sweden"
+            }
+        ]
     },
-    "winjer": {
-      "name": "Doug Winter",
-      "nick": "winjer",
-      "roles": {
-        "sponsor": true
-      }
+    {
+        "company": "Mythic Beasts",
+        "url": "https://www.mythic-beasts.com/",
+        "logo": "",
+        "contact": [
+            {
+                "name": "Rhosyn Celyn",
+                "nick": "cwningen"
+            }
+        ],
+        "servers": [
+            {
+                "host": "charon",
+                "location": "London, UK"
+            }
+        ]
+    },
+    {
+        "company": "ACC Umeå U",
+        "url": "https://www.accum.se",
+        "logo": "https://www.accum.se/images/logo/acclogo.svg",
+        "contact": [
+            {
+                "name": "Mattias Wadenstein",
+                "nick": "maswan"
+            }
+        ],
+        "servers": [
+            {
+                "host": "helix",
+                "location": "Umeå, Sweden"
+            }
+        ]
+    },
+    {
+        "company": "MIT CSAIL",
+        "url": "https://www.csail.mit.edu",
+        "logo": "",
+        "contact": [],
+        "servers": [
+            {
+                "host": "synthon",
+                "location": "Cambridge, Massachusetts, USA"
+            }
+        ]
     }
-  }
-}
+]

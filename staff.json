@@ -1,122 +1,120 @@
-{
-  "staff": {
-    "Ganneff": {
-      "name": "Joerg Jaspert",
-      "nick": "Ganneff",
-      "roles": {
-        "noc": true,
-        "sponsor": true
-      }
-    },
-    "Matt": {
-      "name": "Matt London",
-      "nick": "Matt",
-      "roles": {
-        "netop": true
-      }
-    },
-    "Myon": {
-      "name": "Christoph Berg",
-      "nick": "Myon",
-      "roles": {
-        "noc": true
-      }
-    },
-    "Unit193": {
-      "name": "Unit 193",
-      "nick": "Unit193",
-      "roles": {
-        "noc": true
-      }
-    },
-    "avelardi": {
+[
+    {
       "name": "Anthony Velardi",
       "nick": "avelardi",
-      "roles": {
-        "netop": true
-      }
+      "roles": { 
+			"netop": true
+		}
     },
-    "cwningen": {
+    {
       "name": "Rhosyn Celyn",
       "nick": "cwningen",
       "roles": {
-        "netop": true,
-        "sponsor": true
-      }
+			"netop": true,
+			"sponsor": true
+		}
     },
-    "dwfreed": {
+    {
       "name": "Doug Freed",
       "nick": "dwfreed",
       "roles": {
-        "chair": true,
-        "noc": true
-      }
+			"noc": true,
+			"chair": true
+		}
     },
-    "el": {
+    {
       "name": "Melissa Draper",
       "nick": "el",
       "roles": {
-        "noc": true
-      }
+			"noc": true
+		}
     },
-    "jfred": {
+    {
+      "name": "Joerg Jaspert",
+      "nick": "Ganneff",
+      "roles": {
+			"noc": true,
+			"sponsor": true
+		}
+    },
+    {
       "name": "Jonathan Frederickson",
       "nick": "jfred",
       "roles": {
-        "netop": true,
-        "sponsor": true
-      }
+			"netop": true,
+			"sponsor": true
+		}
     },
-    "mc": {
+    {
+      "name": "Matt London",
+      "nick": "Matt",
+      "roles": {
+			"netop": true
+		}
+    },
+    {
       "name": "Rico Gloeckner",
       "nick": "mc",
       "roles": {
-        "netop": true
-      }
+			"netop": true
+		}
     },
-    "mcintosh": {
+    {
       "name": "Richie McIntosh",
       "nick": "mcintosh",
       "roles": {
-        "netop": true,
-        "sponsor": true
-      }
+			"netop": true,
+			"sponsor": true
+		}
     },
-    "pastly": {
+    {
+      "name": "Christoph Berg",
+      "nick": "Myon",
+      "roles": {
+			"noc": true
+		}
+    },
+    {
       "name": "Matt Traudt",
       "nick": "pastly",
       "roles": {
-        "netop": true
-      }
+			"netop": true
+		}
     },
-    "rnowak": {
+    {
       "name": "Robert A. Nowak",
       "nick": "rnowak",
       "roles": {
-        "noc": true,
-        "ombudsman": true
-      }
+			"noc": true,
+			"ombudsman": true
+		}
     },
-    "sarnold": {
+    {
       "name": "Seth Arnold",
       "nick": "sarnold",
       "roles": {
-        "noc": true
-      }
+			"noc": true 
+		}
     },
-    "tomaw": {
+    {
       "name": "Tom Wesley",
       "nick": "tomaw",
       "roles": {
-        "noc": true
-      }
+			"noc": true
+		}
     },
-    "yang": {
+    {
+      "name": "Unit 193",
+      "nick": "Unit193",
+      "roles": {
+			"noc": true
+		}
+    },
+    {
       "name": "Jan Prunk",
       "nick": "yang",
       "roles": {
-        "netop": true
-      }
+			"netop": true
+		}
     }
-  }
-}
+]

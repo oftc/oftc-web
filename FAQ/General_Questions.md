@@ -2,7 +2,8 @@
 layout: master
 title: FAQ/General_Questions
 ---
-* TOC
+
+* toc
 {:toc}
 
 ## What prompted OFTC's creation? ##
@@ -70,4 +71,5 @@ be provided about them on our project web site.
 
 ## What happened to Mibbit's access to OFTC? ##
 
-Please refer to the [Mibbit document](/Mibbit) that we have prepared that outlines why access via Mibbit is no longer possible.
+Mibbit [announced that it would shut down](https://web.archive.org/web/20240801091256/https://mibbit.com/)
+in August 2024. OFTC had already [blocked Mibbit](/Mibbit) prior to this.
