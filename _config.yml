@@ -1,4 +1,5 @@
 #baseurl: http://www.oftc.net
+url: https://www.oftc.net
 markdown: kramdown
 permalink: pretty
 plugins:
