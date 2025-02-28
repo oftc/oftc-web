@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="OFTC">
+        <title>OFTC - {{ page.title }}</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+		<!-- bootstrap icons -->
+        <link rel="stylesheet" href="/css/bootstrap-icons.min.css">
+		<link href='/css/main.css' rel='stylesheet'>
+		<!-- FOUC avoidance -->
+		<script>0</script>
+		{% for script_src in page.script_srcs %}
+		<script src="{{script_src}}"></script>
+		{% endfor %}
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+		{% include navbar.html %}
+        <!-- Page content-->
+        <main id="jump-to-content">
+		{% include hero.html %}
+			<div class="container">
+				<div class="row pt-5 pb-5">
+					<div class="pl-2 col-lg-9">
+						<p class="lead" role="heading" aria-level="2">{{ page.date | date: "%B %d, %Y" }}</p>
+						{{ content }}
+						<a href="/archives/" aria-label="Back to the archives">Back to the archives</a></li>
+					</div>
+				</div>
+			</div>
+        </main>
+		{% include footer.html %}
+        <!-- Bootstrap core JS-->
+		<script src="/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/js/main.js"></script>
+        <!-- more FOUC avoidance -->
+        <noscript><style>body { visibility: visible; }</style></noscript>
+    </body>
+</html>
