@@ -13,7 +13,7 @@ title: News Archive
 <hr/>
 {% endif %}
 ## {{ post.date | date: "%Y" }}{% endifchanged %}
-### {{ post.date | date: "%B %d" }}
+### [{{ post.date | date: "%B %d" }}]({{ post.url }})
 {:.no_toc}
 {{ post.content }}
 {% endfor %}
