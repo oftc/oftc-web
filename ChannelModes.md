@@ -31,7 +31,7 @@ channel
  * b - ban this hostmask
  * q - quiet this hostmask. Anyone matching this hostmask will be unable to
 speak on the channel
- * e - exempt this hostmaks from bans, quiets and mode +R(egistered only)
+ * e - exempt this hostmask from bans, quiets and mode +R(egistered only)
  * I - clients matching this hostmask may join channel even when the channel is
 +i(nvite only) or +R(egistered only)
 
