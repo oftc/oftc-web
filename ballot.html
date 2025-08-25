@@ -10,70 +10,17 @@ Please return this ballot, GPG/PGP-signed, to
 
 between 00:00:00UTC on October 8th and 23:59:59UTC on October 20th.
 
-Section 1: Staff Rankings
+1. Please select exactly EIGHT (8) members to serve as the NOC.
 
-Please rank all staff from 1-{{count}}.
+2. Choose either ZERO (0) or ONE (1) member of staff to nominate for
+removal.
 
-- You may want to use https://www.oftc.net/voting/ to make it easier to
-  vote. If you don't, read the following rules:
-- Do NOT use the same number twice;
-- Either completely fill out the ranks or do not fill them out at all; a
-  partially filled ballot cannot be counted accurately and will be
-  discarded;
-- Check as many Ombudsman boxes as you would like. The individual with the
-  most checks will be the Ombudsman;
-- Check as many Remove boxes as you'd like. More than half of all votes
-  must have an individual's Remove box checked in order for that
-  individual to be dismissed;
-- (S) denotes people who sponsor servers among their roles;  Removing
-  a sponsor will mean we delink their servers also.
-- The breakdown of the results will be as follows:
-
-   1         Chair
-   1-8       NOC
-   9-16      Network Operators
-   17-{{count}}     Network Representatives
-
- Rank   Name                     Nick         Sponsor   Ombudsman   Remove
-------+------------------------+------------+---------+-----------+--------
+ Name                     Nick         NOC         Remove
+------------------------+------------+-----------+--------
 {{#staff}}
-{{rank}}    {{name}} {{nick}} {{sponsor}} {{ombudsman}} {{remove}}
+{{name}} {{nick}} {{noc}} {{remove}}
 {{/staff}}
 
-Section 2: Sponsors
-
-The following sponsors have not decided to compete for a staff position
-other than sponsor.  Should you want them removed from staff please
-indicate that by checking the remove box.
-
-- Check as many Remove boxes as you'd like. More than half of all votes
-  must have an individual's Remove box checked in order for that
-  individual to be dismissed;  Removing a sponsor will mean we delink
-  their servers.
-
-Rank    Name                     Nick         Sponsor   Remove
-------+------------------------+------------+---------+--------
-{{#sponsors}}
-        {{name}} {{nick}} {{sponsor}} {{remove}}
-{{/sponsors}}
-
-Section 3: Do you agree with the following people being Advisors?
-           Not answering will be counted as a "Yes". Please ensure that
-           if you object, you write "No".
-
-Yes/No    Name                   Nick         Role
---------+----------------------+------------+---------
-{{advisor0}}      David Graham           cdlu         Advisor
-{{advisor1}}      Timothy J. Fontaine    tjfontaine   Advisor
-
-
-Section 4: Yes/No questions. Unanswered questions will be counted as a
-          "Yes", so please ensure that if you object, you write "No".
-
-Yes/No     Issue
-{{spi}}        Should OFTC remain a member project of Software in the
-           Public Interest?
-
- -=-=-=-=-=-=-=-=-=-=- Do not delete this line -=-=-=-=-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=- Do not delete this line -=-=-=-=-=-=-=-=-=-=-
 </textarea>
 {% endraw %}
