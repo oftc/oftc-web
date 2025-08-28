@@ -2,6 +2,8 @@ var staffJSON = {};
 var staff = {
   'staff': [],
 };
+var noclimit = 8;
+var removelimit = 1;
 $(document).ready(function() {
   var templateFields = {
     'nick': '%-12s',
@@ -53,8 +55,8 @@ $(document).ready(function() {
 
         AddCol(newRow, { value: item['name'].trim() });
         AddCol(newRow, { class: 'nick', value: item['nick'].trim() });
-        AddCol(newRow, { class: 'noc', type: 'checkbox', name: 'noc' });
-        AddCol(newRow, { class: 'remove', type: 'checkbox', name: 'remove' });
+        AddCol(newRow, { class: 'noc', type: 'checkbox', name: 'noc', onclick: 'window.validateBallot()' });
+        AddCol(newRow, { class: 'remove', type: 'checkbox', name: 'remove', onclick: 'window.validateBallot()' });
       });
     });
   }
@@ -127,3 +129,37 @@ $(document).ready(function() {
     });
   });
 });
+function validateBallot() {
+  var className = "."+event.target.className;
+	var checkboxes = document.querySelectorAll(className);
+  console.log(event.target.className);
+	checkboxes.forEach(checkbox => {
+	  checkbox.addEventListener('change', function() {
+      var checkedCount = document.querySelectorAll(className+':checked').length;
+      switch(className) {
+        case ".noc":
+          var limit = noclimit;
+          if (checkedCount > limit) {
+            this.checked = false;
+            alert("Please choose only "+limit+" members to be NOC.");
+          } else if(checkedCount == limit) {
+             document.getElementById("submit").disabled = false;
+             document.getElementById("submit").innerHTML = "Process";
+          } else {
+             document.getElementById("submit").disabled = true;
+             document.getElementById("submit").innerHTML = "Choose "+(limit-checkedCount)+" NOC";
+
+          }
+          break;
+        case ".remove":
+          var limit = removelimit;
+          if (checkedCount > limit) {
+            this.checked = false;
+            alert("Please choose up to "+limit+" members to be removed.");
+          }
+          break;
+        default:
+      }
+	  });
+	});
+}

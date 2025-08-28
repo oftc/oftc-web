@@ -41,6 +41,14 @@ script_srcs: ['/js/jquery.min.js', '/js/jquery-ui.min.js', '/js/hogan.min.js', '
 <button type="button" class="btn btn-secondary" id="rawballot" data-bs-toggle="modal" data-bs-target="#overlay">
 	  Get Raw Ballot
 </button>
+<br/>
+<br/>
+<p>Please return this ballot, GPG/PGP-signed, to &lt;vote@oftc.net&gt; between 00:00:00UTC on October 8th and 23:59:59UTC on October 20th.
+
+<ol>
+<li> Please select exactly EIGHT (8) members to serve as the NOC.</li>
+<li> Choose either ZERO (0) or ONE (1) member of staff to nominate for removal.</li>
+</ol></p>
 
 <h3 class="sect-h">Selections</h3>
 <table id="members" class="userlist">
@@ -56,8 +64,8 @@ script_srcs: ['/js/jquery.min.js', '/js/jquery-ui.min.js', '/js/hogan.min.js', '
   </tbody>
 </table>
 
-<button type="button" class="btn btn-secondary" id="submit" data-bs-toggle="modal" data-bs-target="#overlay">
-	  Process
+<button type="button" class="btn btn-secondary" id="submit" data-bs-toggle="modal" data-bs-target="#overlay" disabled>
+	  Ballot incomplete
 </button>
 
 <div class="container-fluid">
