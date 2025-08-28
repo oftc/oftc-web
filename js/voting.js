@@ -132,7 +132,6 @@ $(document).ready(function() {
 function validateBallot() {
   var className = "."+event.target.className;
 	var checkboxes = document.querySelectorAll(className);
-  console.log(event.target.className);
 	checkboxes.forEach(checkbox => {
 	  checkbox.addEventListener('change', function() {
       var checkedCount = document.querySelectorAll(className+':checked').length;
