@@ -137,4 +137,3 @@ note that a network flood will still result in an AKILL
 ### MemoServ ###
 
  * No longer exists, this feature was rarely used under our old set of services.
-If you're looking to retrieve any data from it you may email support@oftc.net
