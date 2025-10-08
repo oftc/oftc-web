@@ -1,12 +1,5 @@
 [
     {
-      "name": "Anthony Velardi",
-      "nick": "avelardi",
-      "roles": { 
-			"netop": true
-		}
-    },
-    {
       "name": "Rhosyn Celyn",
       "nick": "cwningen",
       "roles": {
