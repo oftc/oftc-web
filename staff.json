@@ -64,7 +64,8 @@
       "name": "Christoph Berg",
       "nick": "Myon",
       "roles": {
-			"noc": true
+			"noc": true,
+			"ombudsman": true
 		}
     },
     {
@@ -78,8 +79,7 @@
       "name": "Robert A. Nowak",
       "nick": "rnowak",
       "roles": {
-			"noc": true,
-			"ombudsman": true
+			"noc": true
 		}
     },
     {
