@@ -223,6 +223,7 @@ to NickServ.](#AddCertFPtoNS)
   * This should not be confused with https://wiki.znc.in/Certauth which is
 used to authenticate your remote client to your instance of znc. You're trying
 to authenticate your znc instance with OFTC.
+ 1. Do not enable SASL. CertFP is just about a client certificate, not SASL auth.
 
 To continue please scroll down to [read how to add your certificates fingerprint
 to NickServ.](#AddCertFPtoNS)
